@@ -1,4 +1,4 @@
-## Chui Zeng's technical Portfolio
+## Chui Zeng's technical portfolio
 
 Based on a Minimal Jekyll theme for GitHub Pages [1].
 
