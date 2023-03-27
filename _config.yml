@@ -8,6 +8,6 @@ description: > # your text below (remove <br> elements if you don't need line br
  <br>
    <a href="https://www.linkedin.com/in/chzeng">LinkedIn Profile</a> 
  <br>
-show_downloads: true
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
