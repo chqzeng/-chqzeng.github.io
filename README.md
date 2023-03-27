@@ -1,4 +1,4 @@
-## Matt Chapman's data science and ML portfolio project
+## Chui Zeng's technical portfolio
 
 Based on a Minimal Jekyll theme for GitHub Pages [1].
 
