@@ -1,3 +1,4 @@
+[page under construction ... ]
 ## Machine learning
 
 ### satellite singal cross sensor validation
@@ -5,7 +6,7 @@ validate satellite signal cross 3 satellite sensors, to cover a time sereis of o
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/Tensorflow-white?logo=Tensorflow)](#) [![](https://img.shields.io/badge/Anaconda-white?logo=Anaconda)](#) 
 
-[View code on Colab](https://colab.research.google.com/drive/1d_q0vUpgwmbN7imUcdsbuDwJ61OuBjvO?usp=sharing)
+[View code on Colab](https://colab.research.google.com/drive/145aKxSOshllKkA4zKF8Ds9cQ2uoCY-A9?usp=share_link)
 
 [View Publication](https://www.mdpi.com/2072-4292/11/19/2306)
 
