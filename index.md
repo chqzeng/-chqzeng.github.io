@@ -1,4 +1,5 @@
 <a name="page_top"/>  
+
 **Shortcuts** 
 |     |    |    |
 | --- | ---| ---|
@@ -9,7 +10,7 @@
 
 ## Machine learning
 
-### 1.modisNN: a Dense Neural Network
+### 1. MODISNN: a dense neural network
 
 Satellite sensors have a liefspan and different configurations. How can we use machine learning to build a consistent product among multiple sensors and create a >20 years time-series dataset for climate change studies?
 
@@ -20,7 +21,7 @@ Satellite sensors have a liefspan and different configurations. How can we use m
     <img src="images/modisNN_abstract.png" width="2000">
   </td>
   <td>
-     Figure 2. An example of NN model validation at image level (left 2 columns: reference; right 2 columns: nerual network training result)
+     Figure 2. An example of NN model performance at image level (left 2 columns: reference; right 2 columns: nerual network training result)
     <img src="images/modisNN_rst.png?raw=true" width="2000"/>
   </td>
  </tr>
@@ -29,15 +30,15 @@ Satellite sensors have a liefspan and different configurations. How can we use m
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/Tensorflow-white?logo=Tensorflow)](#) [![](https://img.shields.io/badge/Anaconda-white?logo=Anaconda)](#) 
 
-[View GitHub Project](https://github.com/chqzeng/MODISNN){:target="_blank" rel="noopener"}  |  [View Publication](https://www.mdpi.com/2072-4292/11/19/2306){:target="_blank" rel="noopener"}
+[View GitHub Project](https://github.com/chqzeng/MODISNN)  |  [View Publication](https://www.mdpi.com/2072-4292/11/19/2306)  
 
 <!-- unused: https://pub.mdpi-res.com/remotesensing/remotesensing-13-03349/article_deploy/html/images/remotesensing-13-03349-ag.png?1630051208  the image from publication -->
 
-### 1.AlgaeDrive: machine learning models to determine dominant environmentl drives of algae growth
-Use continuous geographic, hydrological, climate, and meteorological datasets as input to train neural network(NN) and random forest(RF) models and determine the major drivers of algae growth in lakes.
-Use Google Cloud Platform (GCP) and its [Earth Engine Dataset](https://developers.google.com/earth-engine/datasets) to train further models
+### 2. AlgaeDrive: assess input features' importance to the output variable  
+Use continuous geographic, hydrological, climate, and meteorological datasets as input to train neural network(NN) and random forest(RF) models, to determine the major environmentl drivers of algae growth in lakes.  
+Use Google Cloud Platform (GCP) to extract relative data from its [Earth Engine Dataset](https://developers.google.com/earth-engine/datasets) and run further NN models
 
-[View code partially on Github](https://github.com/chqzeng/OpenWL/tree/main/S2MSI_LST8_chl) 
+[View code partially on Github](https://github.com/chqzeng/OpenWL/tree/main/S2MSI_LST8_chl)  
 [Back to Top](#page_top)
 
 ---
