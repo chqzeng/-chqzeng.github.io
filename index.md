@@ -1,12 +1,12 @@
 ##### **Table of Contents** 
 [1. Machine Learning](#MachineLearning)  
-[2. Computer Vision](#ComputerVision) 
-[3. Cloud Computing](#CloudComputing) 
-[4. Image Processing](#ImageProcessing) 
-[5. Geospatial Applications](#GeospatialApp) 
-[6. Drone/UAV sensing](#Drone) 
+[2. Computer Vision](#ComputerVision)  
+[3. Cloud Computing](#CloudComputing)  
+[4. Image Processing](#ImageProcessing)  
+[5. Geospatial Applications](#GeospatialApp)  
+[6. Drone/UAV sensing](#Drone)  
 
-<a name="MachineLearning"/> 
+<a name="MachineLearning"/>  
 ## Machine learning
 
 ### modisNN: a Dense Neural Network
@@ -31,7 +31,7 @@ Use Google Cloud Platform (GCP) and its [Earth Engine Dataset](https://developer
 [View code partially on Github](https://github.com/chqzeng/OpenWL/tree/main/S2MSI_LST8_chl)
 
 ---
-<a name="ComputerVision"/> 
+<a name="ComputerVision"/>  
 ## Computer Vision
 
 ### detect buildings from high-resolution imagery
@@ -50,7 +50,7 @@ systhese two or more imagery into a single imagery with minimal "cost"
 [View Code]() 
 
 ---
-<a name="CloudComputing"/> 
+<a name="CloudComputing"/>  
 ## Cloud computing
 
 ### High perofmrance computering cluster (HPC) development
