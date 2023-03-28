@@ -74,13 +74,15 @@ maintain and optimize the Azure web portal: mostly maintain the Blob /COG imager
 [View the website](https://eolakewatch-staging.azurewebsites.net/)
 
 <details>
- ![<img src="images/EOLakeWatch_webapp.png?raw=true"/>](https://eolakewatch-staging.azurewebsites.net/webapp/)
-
+ <summary>Click Image below to explore EOLakeWatch</summary>
+[![EOLakeWatch](images/EOLakeWatch_webapp.png)](https://eolakewatch-staging.azurewebsites.net/webapp/)   
 </details>
 
 
 <!-- <iframe src="https://public.tableau.com/views/EOLakeWatchAttentionLacsOTEN/EOLakeWatch-AttentionLacsOT?:toolbar=n&amp;:display_count=y&amp;:origin=viz_share_link?:embed=y&amp;:display_count=yes&amp;:showVizHome=no" width="100%" height="600px"></iframe>
 -->
+<!-- <img src="images/EOLakeWatch_webapp.png?raw=true"/>  
+[Explore EOLakeWatch](https://eolakewatch-staging.azurewebsites.net/webapp/)   -->
 
 ---
 <a name="ImageProcessing"/> 
