@@ -1,4 +1,4 @@
-**Table of Contents** 
+##### **Table of Contents** 
 [1. Machine Learning](#MachineLearning)  
 [2. Computer Vision](#ComputerVision) 
 [3. Cloud Computing](#CloudComputing)
