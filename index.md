@@ -73,9 +73,11 @@ develop and deploy massive data processing (>100TB) of satellite imagery process
 maintain and optimize the Azure web portal: mostly maintain the Blob /COG imagery and PostgreSQL database optimization.
 [View the website](https://eolakewatch-staging.azurewebsites.net/)
 
-<details>
- <summary>Click Image below to explore EOLakeWatch</summary>
+<details open>
+ <summary>Click Image below to explore EOLakeWatch</summary>  
+ 
 [![EOLakeWatch](images/EOLakeWatch_webapp.png)](https://eolakewatch-staging.azurewebsites.net/webapp/)   
+ 
 </details>
 
 
