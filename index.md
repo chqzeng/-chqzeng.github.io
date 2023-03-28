@@ -2,13 +2,17 @@
 ## Machine learning
 
 ### satellite singal cross sensor validation
+
 validate satellite signal cross 3 satellite sensors, to cover a time sereis of over 20 years for climate change study
+<!-- [](https://pub.mdpi-res.com/remotesensing/remotesensing-13-03349/article_deploy/html/images/remotesensing-13-03349-ag.png?1630051208)   the image from publication -->
+the illustration of the nerual network to fill satellite observation gap in 2012-2015 (red question mark)
+<img src="images/modisNN_abstract.png?raw=true" />
+An example of validation at image level (left 2 columns: reference;  right 2 columns: nerual network training result)
+<img src="images/modisNN_rst.png?raw=true" />
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/Tensorflow-white?logo=Tensorflow)](#) [![](https://img.shields.io/badge/Anaconda-white?logo=Anaconda)](#) 
 
-[View code on Colab](https://colab.research.google.com/drive/145aKxSOshllKkA4zKF8Ds9cQ2uoCY-A9?usp=share_link)
-
-[View Publication](https://www.mdpi.com/2072-4292/11/19/2306)
+[View GitHub Project](https://github.com/chqzeng/MODISNN)  |  [View Publication](https://www.mdpi.com/2072-4292/11/19/2306)
 
 ### environmentl drives to determine the algae growth
 use daily climate and meterological dataset connection to algae growth in lakes and dertminer which environment variable impacts the algae growth in lakes the most
