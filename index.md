@@ -8,27 +8,31 @@
 
 ## Machine learning
 
-### modisNN: a Dense Neural Network
+### 1.modisNN: a Dense Neural Network
 
-Satellite sensors have different configurations. How can we use machine learning to build a consistent product among multiple sensors and create a >20 years time-series dataset for climate change studies?
+Satellite sensors have a liefspan and different configurations. How can we use machine learning to build a consistent product among multiple sensors and create a >20 years time-series dataset for climate change studies?
 
 <table border="0">
  <tr>
-    <td>Figure 1. The illustration of using nerual network to fill satellite observation gap in 2012-2015 (red question mark)
-    <img src="images/modisNN_abstract.png?raw=true"  /></td>
-    <td>Figure 2. An example of NN model validation at image level (left 2 columns: reference; right 2 columns: nerual network training result)
-    <img src="images/modisNN_rst.png?raw=true" width="1000"/></td>
+  <td>
+     Figure 1. The illustration of using nerual network to fill satellite observation gap in 2012-2015 (red question mark)
+    <img src="images/modisNN_abstract.png" width="2000">
+  </td>
+  <td>
+     Figure 2. An example of NN model validation at image level (left 2 columns: reference; right 2 columns: nerual network training result)
+    <img src="images/modisNN_rst.png?raw=true" width="2000"/>
+  </td>
  </tr>
 </table>
 
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/Tensorflow-white?logo=Tensorflow)](#) [![](https://img.shields.io/badge/Anaconda-white?logo=Anaconda)](#) 
 
-[View GitHub Project](https://github.com/chqzeng/MODISNN)  |  [View Publication](https://www.mdpi.com/2072-4292/11/19/2306)
+[View GitHub Project](https://github.com/chqzeng/MODISNN){:target="_blank" rel="noopener"}  |  [View Publication](https://www.mdpi.com/2072-4292/11/19/2306){:target="_blank" rel="noopener"}
 
 <!-- unused: https://pub.mdpi-res.com/remotesensing/remotesensing-13-03349/article_deploy/html/images/remotesensing-13-03349-ag.png?1630051208  the image from publication -->
 
-### AlgaeDrive: machine learning models to determine dominant environmentl drives of algae growth
+### 1.AlgaeDrive: machine learning models to determine dominant environmentl drives of algae growth
 Use continuous geographic, hydrological, climate, and meteorological datasets as input to train neural network(NN) and random forest(RF) models and determine the major drivers of algae growth in lakes.
 Use Google Cloud Platform (GCP) and its [Earth Engine Dataset](https://developers.google.com/earth-engine/datasets) to train further models
 
