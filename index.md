@@ -1,27 +1,36 @@
 [page under construction ... ]
+##### Table of Contents  
+[1. Machine Learning](#MachineLearning)  
+[2. Computer Vision](#ComputerVision) 
+
 ## Machine learning
+<a name="MachineLearning"/>
 
-### satellite singal cross sensor validation
+### modisNN: a Dense Neural Network
 
-validate satellite signal cross 3 satellite sensors, to cover a time sereis of over 20 years for climate change study
-<!-- [](https://pub.mdpi-res.com/remotesensing/remotesensing-13-03349/article_deploy/html/images/remotesensing-13-03349-ag.png?1630051208)   the image from publication -->
-the illustration of the nerual network to fill satellite observation gap in 2012-2015 (red question mark)
+Satellite sensors have a lifespan. How can we use machine learning to build a consistent product among multiple sensors and create a >20 years time-series dataset for climate change studies?
+<!-- https://pub.mdpi-res.com/remotesensing/remotesensing-13-03349/article_deploy/html/images/remotesensing-13-03349-ag.png?1630051208  the image from publication -->
+
+Figure 1. The illustration of using nerual network to fill satellite observation gap in 2012-2015 (red question mark)
 <img src="images/modisNN_abstract.png?raw=true" />
-An example of validation at image level (left 2 columns: reference;  right 2 columns: nerual network training result)
-<img src="images/modisNN_rst.png?raw=true" />
+
+Figure 2. An example of NN model validation at image level (left 2 columns: reference; right 2 columns: nerual network training result)
+<img src="images/modisNN_rst.png?raw=true" width="1000"/>
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/Tensorflow-white?logo=Tensorflow)](#) [![](https://img.shields.io/badge/Anaconda-white?logo=Anaconda)](#) 
 
 [View GitHub Project](https://github.com/chqzeng/MODISNN)  |  [View Publication](https://www.mdpi.com/2072-4292/11/19/2306)
 
-### environmentl drives to determine the algae growth
-use daily climate and meterological dataset connection to algae growth in lakes and dertminer which environment variable impacts the algae growth in lakes the most
+### AlgaeDrive: machine learning models to determine dominant environmentl drives of algae growth
+Use continuous geographic, hydrological, climate, and meteorological datasets as input to train neural network(NN) and random forest(RF) models and determine the major drivers of algae growth in lakes.
+Use Google Cloud Platform (GCP) and its [Earth Engine Dataset](https://developers.google.com/earth-engine/datasets) to train further models
 
-[View code on Colab](https://drive.google.com/drive/u/0/folders/1vuPTJzWgfwJro4NiEzBwJcTDiH6BsWsV)
+[View code partially on Github](https://github.com/chqzeng/OpenWL/tree/main/S2MSI_LST8_chl)
 
 ---
 
 ## Computer Vision
+<a name="ComputerVision"/>
 ### detect buildings from high-resolution imagery
 from a high resolution (<1m) satellite imagery or aerial photo, detect buildings of varied conditions.
 
