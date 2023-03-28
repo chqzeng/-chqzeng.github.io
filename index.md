@@ -1,22 +1,8 @@
-##### **Table of Contents** 
-
-|         |            |  |
-|:-------------|:------------------|
-|[1. Machine Learning](#MachineLearning) | [2. Computer Vision](#ComputerVision)  |
-| [3. Cloud Computing](#CloudComputing)   | good and plenty   |
-
- 
-[1. Machine Learning](#MachineLearning)    
-
-[2. Computer Vision](#ComputerVision)    
-
-[3. Cloud Computing](#CloudComputing)    
-
-[4. Image Processing](#ImageProcessing)  
-[5. Geospatial Applications](#GeospatialApp)  
-
-[6. Drone/UAV sensing](#Drone)  
-
+**Shortcuts** 
+|     |    |    |
+| --- | ---| ---|
+| [1. Machine Learning](#MachineLearning) | [2. Computer Vision](#ComputerVision)| [3. Cloud Computing](#CloudComputing) 
+| [4. Image Processing](#ImageProcessing) | [5. Geospatial Applications](#GeospatialApp)  | [6. Drone/UAV sensing](#Drone) 
 
 <a name="MachineLearning"/>  
 
@@ -24,18 +10,23 @@
 
 ### modisNN: a Dense Neural Network
 
-Satellite sensors have a lifespan. How can we use machine learning to build a consistent product among multiple sensors and create a >20 years time-series dataset for climate change studies?
-<!-- https://pub.mdpi-res.com/remotesensing/remotesensing-13-03349/article_deploy/html/images/remotesensing-13-03349-ag.png?1630051208  the image from publication -->
+Satellite sensors have different configurations. How can we use machine learning to build a consistent product among multiple sensors and create a >20 years time-series dataset for climate change studies?
 
-Figure 1. The illustration of using nerual network to fill satellite observation gap in 2012-2015 (red question mark)
-<img src="images/modisNN_abstract.png?raw=true" />
+<table border="0">
+ <tr>
+    <td>Figure 1. The illustration of using nerual network to fill satellite observation gap in 2012-2015 (red question mark)
+    <img src="images/modisNN_abstract.png?raw=true"  /></td>
+    <td>Figure 2. An example of NN model validation at image level (left 2 columns: reference; right 2 columns: nerual network training result)
+    <img src="images/modisNN_rst.png?raw=true" width="1000"/></td>
+ </tr>
+</table>
 
-Figure 2. An example of NN model validation at image level (left 2 columns: reference; right 2 columns: nerual network training result)
-<img src="images/modisNN_rst.png?raw=true" width="1000"/>
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/Tensorflow-white?logo=Tensorflow)](#) [![](https://img.shields.io/badge/Anaconda-white?logo=Anaconda)](#) 
 
 [View GitHub Project](https://github.com/chqzeng/MODISNN)  |  [View Publication](https://www.mdpi.com/2072-4292/11/19/2306)
+
+<!-- unused: https://pub.mdpi-res.com/remotesensing/remotesensing-13-03349/article_deploy/html/images/remotesensing-13-03349-ag.png?1630051208  the image from publication -->
 
 ### AlgaeDrive: machine learning models to determine dominant environmentl drives of algae growth
 Use continuous geographic, hydrological, climate, and meteorological datasets as input to train neural network(NN) and random forest(RF) models and determine the major drivers of algae growth in lakes.
@@ -75,6 +66,9 @@ develop and deploy massive data processing (>100TB) of satellite imagery process
 maintain and optimize the Azure web portal: mostly maintain the Blob /COG imagery and PostgreSQL database optimization.
 [View the website](https://eolakewatch-staging.azurewebsites.net/)
 
+<details>
+ <iframe src="https://public.tableau.com/views/EOLakeWatchAttentionLacsOTEN/EOLakeWatch-AttentionLacsOT?:toolbar=n&amp;:display_count=y&amp;:origin=viz_share_link?:embed=y&amp;:display_count=yes&amp;:showVizHome=no" width="100%" height="600px"></iframe>
+</details> 
 ---
 <a name="ImageProcessing"/> 
 
