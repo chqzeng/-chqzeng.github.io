@@ -1,4 +1,6 @@
 ##### **Table of Contents** 
+
+|         |            |  |
 |:-------------|:------------------|
 |[1. Machine Learning](#MachineLearning) | [2. Computer Vision](#ComputerVision)  |
 | [3. Cloud Computing](#CloudComputing)   | good and plenty   |
@@ -11,7 +13,6 @@
 [3. Cloud Computing](#CloudComputing)    
 
 [4. Image Processing](#ImageProcessing)  
-
 [5. Geospatial Applications](#GeospatialApp)  
 
 [6. Drone/UAV sensing](#Drone)  
