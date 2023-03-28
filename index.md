@@ -1,9 +1,14 @@
 ##### **Table of Contents** 
-[1. Machine Learning](#MachineLearning)  
+|:-------------|:------------------|
+|[1. Machine Learning](#MachineLearning) | [2. Computer Vision](#ComputerVision)  |
+| [3. Cloud Computing](#CloudComputing)   | good and plenty   |
 
-[2. Computer Vision](#ComputerVision)  
+ 
+[1. Machine Learning](#MachineLearning)    
 
-[3. Cloud Computing](#CloudComputing)  
+[2. Computer Vision](#ComputerVision)    
+
+[3. Cloud Computing](#CloudComputing)    
 
 [4. Image Processing](#ImageProcessing)  
 
@@ -95,3 +100,5 @@ Given an administrative boundary and its total population, how to determine the 
 Raspebery PI as the control unit to connect multiple sensors on board the quad-rotatory drones
 
 ### UAV sensing for water application
+
+[back](./)
