@@ -39,7 +39,9 @@ Use continuous geographic, hydrological, climate, and meteorological datasets as
 Use Google Cloud Platform (GCP) to extract relative data from its [Earth Engine Dataset](https://developers.google.com/earth-engine/datasets) and run further NN models
 
 [View code partially on Github](https://github.com/chqzeng/OpenWL/blob/main/AlgaeDrive/AlgaeDrive.ipynb)  
-  
+Figure 1. The illustration of machine learning model input and output varialbes
+<img src="images/AlgaeDrivers.png.png?raw=true" width="2000"/>  
+
 [Back to Top](#page_top)
 
 ---
