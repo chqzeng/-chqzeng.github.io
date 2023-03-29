@@ -3,7 +3,7 @@
 **Shortcuts** 
 |     |    |    |
 | --- | ---| ---|
-| [1. Machine Learning](#MachineLearning) | [2. Computer Vision](#ComputerVision)| [3. Cloud Computing](#CloudComputing) 
+| [![](https://img.shields.io/badge/ML-black?logo=tensorflow)](#) [1. Machine Learning](#MachineLearning) | [2. Computer Vision](#ComputerVision)| [3. Cloud Computing](#CloudComputing) 
 | [4. Image Processing](#ImageProcessing) | [5. Geospatial Applications](#GeospatialApp)  | [6. Drone/UAV sensing](#Drone) 
 
 <a name="MachineLearning"/>  
@@ -38,7 +38,8 @@ Satellite sensors have a liefspan and different configurations. How can we use m
 Use continuous geographic, hydrological, climate, and meteorological datasets as input to train neural network(NN) and random forest(RF) models, to determine the major environmentl drivers of algae growth in lakes.  
 Use Google Cloud Platform (GCP) to extract relative data from its [Earth Engine Dataset](https://developers.google.com/earth-engine/datasets) and run further NN models
 
-[View code partially on Github](https://github.com/chqzeng/OpenWL/tree/main/S2MSI_LST8_chl)  
+[View code partially on Github](https://github.com/chqzeng/OpenWL/blob/main/AlgaeDrive/AlgaeDrive.ipynb)  
+  
 [Back to Top](#page_top)
 
 ---
