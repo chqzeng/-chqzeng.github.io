@@ -3,8 +3,8 @@
 **Shortcuts** 
 |     |    |    |
 | --- | ---| ---|
-| [![](https://img.shields.io/badge/ML-black?logo=tensorflow)](#) [1. Machine Learning](#MachineLearning) | [2. Computer Vision](#ComputerVision)| [3. Cloud Computing](#CloudComputing) 
-| [4. Image Processing](#ImageProcessing) | [5. Geospatial Applications](#GeospatialApp)  | [6. Drone/UAV sensing](#Drone) 
+| [![](https://img.shields.io/badge/ML-grey?logo=tensorflow)](#) [1. Machine Learning](#MachineLearning) | [![](https://img.shields.io/badge/CV-grey?logo=opencv)](#) [2. Computer Vision](#ComputerVision)| [![](https://img.shields.io/badge/Cloud-grey?logo=googlecloud)](#) [3. Cloud Computing](#CloudComputing) 
+| [![](https://img.shields.io/badge/Image-grey?logo=atom)](#) [4. Image Processing](#ImageProcessing) | [![](https://img.shields.io/badge/Geo-grey?logo=PyG)](#) [5. Geospatial Applications](#GeospatialApp)  | [![](https://img.shields.io/badge/Drone-grey?logo=Drone)](#) [6. Drone/UAV sensing](#Drone) 
 
 <a name="MachineLearning"/>  
 
