@@ -27,7 +27,7 @@ Satellite sensors have a liefspan and different configurations. How can we use m
  </tr>
 </table>
 
-[![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/Tensorflow-white?logo=Tensorflow)](#) [![](https://img.shields.io/badge/Anaconda-white?logo=Anaconda)](#) 
+[![](https://img.shields.io/badge/Python-grey?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-grey?logo=Jupyter)](#) [![](https://img.shields.io/badge/Tensorflow-grey?logo=Tensorflow)](#) [![](https://img.shields.io/badge/Anaconda-grey?logo=Anaconda)](#) 
 
 [View GitHub Project](https://github.com/chqzeng/MODISNN)  |  [View Publication](https://www.mdpi.com/2072-4292/13/17/3349#)  
 
@@ -48,23 +48,23 @@ Figure 1. The illustration of machine learning model input and output varialbes
 
 ## Computer Vision
 
-### 1. Detect urban objects from high-resolution imagery
+### 1. Detect urban objects from high-resolution imagery (2010-2013 work)  
 From a high resolution (<1m) satellite imagery or aerial photo, detect buildings of varied conditions.
 
 <table border="0">
  <tr>
   <td>
-     Figure 1. The illustration of using nerual network to fill satellite observation gap in 2012-2015 (red question mark)
-    <img src="images/modisNN_abstract.png" width="2000">
+     Figure 1. An illustration of urban building detection from aerial photos
+    <img src="images/modisNN_abstract.png" width="1000">
   </td>
   <td>
-     An illustration of buildings and trees extracted from aerial photos (2010 work)  
-     <img src="materials/3Dcampus_UWO_small.gif" height="350" />
+     Figure 2. An illustration of buildings and trees extracted from aerial photos 
+     <img src="materials/3Dcampus_UWO_small.gif" height="500" />
   </td>
  </tr>
 </table>
 
-
+[![](https://img.shields.io/badge/Python-grey?logo=Python)](#)   [![](https://img.shields.io/badge/Matlab-grey?logo=Octave)](#)
 
 [Ph.D Dissertation](https://ir.lib.uwo.ca/etd/2076/): "Automated Building Information Extraction and Evaluation from High-resolution Remotely Sensed Data"
 
