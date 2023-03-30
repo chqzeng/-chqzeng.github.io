@@ -27,7 +27,6 @@ Satellite sensors have a liefspan and different configurations. How can we use m
  </tr>
 </table>
 
-
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/Tensorflow-white?logo=Tensorflow)](#) [![](https://img.shields.io/badge/Anaconda-white?logo=Anaconda)](#) 
 
 [View GitHub Project](https://github.com/chqzeng/MODISNN)  |  [View Publication](https://www.mdpi.com/2072-4292/13/17/3349#)  
@@ -49,10 +48,25 @@ Figure 1. The illustration of machine learning model input and output varialbes
 
 ## Computer Vision
 
-### detect buildings from high-resolution imagery
-from a high resolution (<1m) satellite imagery or aerial photo, detect buildings of varied conditions.
+### 1. Detect urban objects from high-resolution imagery
+From a high resolution (<1m) satellite imagery or aerial photo, detect buildings of varied conditions.
 
-[Automated Building Information Extraction and Evaluation from High-resolution Remotely Sensed Data](https://ir.lib.uwo.ca/etd/2076/)
+<table border="0">
+ <tr>
+  <td>
+     Figure 1. The illustration of using nerual network to fill satellite observation gap in 2012-2015 (red question mark)
+    <img src="images/modisNN_abstract.png" width="2000">
+  </td>
+  <td>
+     An illustration of buildings and trees extracted from aerial photos (2010 work)  
+     <img src="materials/3Dcampus_UWO_small.gif" height="350" />
+  </td>
+ </tr>
+</table>
+
+
+
+[Ph.D Dissertation](https://ir.lib.uwo.ca/etd/2076/): "Automated Building Information Extraction and Evaluation from High-resolution Remotely Sensed Data"
 
 
 ### esitmate image depth and 3D model from mutli-view imagery
@@ -62,8 +76,10 @@ from a high resolution (<1m) satellite imagery or aerial photo, detect buildings
 
 ### Image systhesis
 systhese two or more imagery into a single imagery with minimal "cost" 
-[View Code]() 
+[View Code](#) 
 
+
+[Back to Top](#page_top) 
 ---
 <a name="CloudComputing"/>  
 
