@@ -40,7 +40,7 @@ Figure 1. The illustration of machine learning model input and output varialbes
 <img src="images/AlgaeDrivers.png" height="400" />  
 [View code partially on Github](https://github.com/chqzeng/OpenWL/blob/main/AlgaeDrive/AlgaeDrive.ipynb)  
 
-[![](https://img.shields.io/badge/Python-grey?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-grey?logo=Jupyter)](#) [![](https://img.shields.io/badge/Tensorflow-grey?logo=Tensorflow)](#) [![](https://img.shields.io/badge/GoogleCloud-grey?logo=GoogleCloud)](#) [![](https://img.shields.io/badge/GoogleEarth-grey?logo=GEE)](#) 
+[![](https://img.shields.io/badge/Python-grey?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-grey?logo=Jupyter)](#) [![](https://img.shields.io/badge/Tensorflow-grey?logo=Tensorflow)](#) [![](https://img.shields.io/badge/GoogleCloud-grey?logo=GoogleCloud)](#) [![](https://img.shields.io/badge/GEE-grey?logo=googleearth)](#) 
 
 [Back to Top](#page_top)
 
@@ -55,8 +55,8 @@ From a high resolution (<1m) satellite imagery or aerial photo, detect buildings
 <table border="0">
  <tr>
   <td>
-     Figure 1. An illustration of urban building detection from aerial photos
-    <img src="images/modisNN_abstract.png" width="1000">
+     Figure 1. An illustration of urban building detection from aerial photos derived point clouds
+    <img src="materials/building_detection.png" width="1500">
   </td>
   <td>
      Figure 2. An illustration of buildings and trees extracted from aerial photos 
@@ -65,7 +65,7 @@ From a high resolution (<1m) satellite imagery or aerial photo, detect buildings
  </tr>
 </table>
 
-[![](https://img.shields.io/badge/Python-grey?logo=Python)](#)   [![](https://img.shields.io/badge/Matlab-grey?logo=Octave)](#)
+[<img src="images/Matlab_Logo_grey.png" width="22" />![](https://img.shields.io/badge/Matlab-grey)](#)  [![](https://img.shields.io/badge/OpenCV-grey?logo=OpenCV)](#) [![](https://img.shields.io/badge/3Dmodel-grey?logo=Sketchup)](#) 
 
 [Ph.D Dissertation](https://ir.lib.uwo.ca/etd/2076/): "Automated Building Information Extraction and Evaluation from High-resolution Remotely Sensed Data"
 
