@@ -60,7 +60,7 @@ From a high resolution (<1m) satellite imagery or aerial photo, detect buildings
   </td>
   <td>
      Figure 2. An illustration of buildings and trees extracted from aerial photos 
-     <img src="materials/3Dcampus_UWO_small.gif" height="500" />
+     <img src="materials/3Dcampus_UWO_small.gif" width="500" />
   </td>
  </tr>
 </table>
