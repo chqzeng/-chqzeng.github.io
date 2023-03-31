@@ -40,6 +40,7 @@ Figure 1. The illustration of machine learning model input and output varialbes
 <img src="images/AlgaeDrivers.png" height="400" />  
 [View code partially on Github](https://github.com/chqzeng/OpenWL/blob/main/AlgaeDrive/AlgaeDrive.ipynb)  
 
+[![](https://img.shields.io/badge/Python-grey?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-grey?logo=Jupyter)](#) [![](https://img.shields.io/badge/Tensorflow-grey?logo=Tensorflow)](#) [![](https://img.shields.io/badge/GoogleCloud-grey?logo=GoogleCloud)](#) [![](https://img.shields.io/badge/GoogleEarth-grey?logo=GEE)](#) 
 
 [Back to Top](#page_top)
 
