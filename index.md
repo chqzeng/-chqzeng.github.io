@@ -51,24 +51,24 @@ Figure 1. The illustration of machine learning model input and output varialbes
 
 ### 1. Detect urban objects from high-resolution imagery (2010-2013 work)  
 From a high resolution (<1m) satellite imagery or aerial photo, detect buildings of varied conditions.
-
+<img src="images/river_detection2011.png" height="300">
 <table border="0">
  <tr>
   <td>
      Figure 1. An illustration of urban building detection from aerial photos derived point clouds
-    <img src="materials/building_detection.png" width="1500">
+    <img src="images/building_detection.png" width="2000">
   </td>
   <td>
      Figure 2. An illustration of buildings and trees extracted from aerial photos 
      <img src="materials/3Dcampus_UWO_small.gif" width="500" />
   </td>
  </tr>
-</table>
+</table>  
+
+[Ph.D Dissertation](https://ir.lib.uwo.ca/etd/2076/): "Automated Building Information Extraction and Evaluation from High-resolution Remotely Sensed Data"  
+
 
 [<img src="images/Matlab_Logo_grey.png" width="22" />![](https://img.shields.io/badge/Matlab-grey)](#)  [![](https://img.shields.io/badge/OpenCV-grey?logo=OpenCV)](#) [![](https://img.shields.io/badge/3Dmodel-grey?logo=Sketchup)](#) 
-
-[Ph.D Dissertation](https://ir.lib.uwo.ca/etd/2076/): "Automated Building Information Extraction and Evaluation from High-resolution Remotely Sensed Data"
-
 
 ### esitmate image depth and 3D model from mutli-view imagery
 
@@ -77,10 +77,10 @@ From a high resolution (<1m) satellite imagery or aerial photo, detect buildings
 
 ### Image systhesis
 systhese two or more imagery into a single imagery with minimal "cost" 
-[View Code](#) 
+[View Code](#)  
 
+[Back to Top](#page_top)   
 
-[Back to Top](#page_top) 
 ---
 <a name="CloudComputing"/>  
 
