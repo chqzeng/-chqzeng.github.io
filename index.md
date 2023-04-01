@@ -36,11 +36,18 @@ Satellite sensors have a liefspan and different configurations. How can we use m
 ### 2. AlgaeDriver: assess input features' importance to the output variable  
 Use continuous geographic, hydrological, climate, and meteorological datasets as input to train neural network(NN) and random forest(RF) models, to determine the major environmentl drivers of algae growth in lakes.  
 Use Google Cloud Platform (GCP) to extract relative data from its [Earth Engine Dataset](https://developers.google.com/earth-engine/datasets) and run further NN models    
-Figure 1. The illustration of machine learning model input and output varialbes  
-<img src="images/AlgaeDrivers.png" height="400" />  
+Figure 1. The illustration of machine learning model input and output varialbes   
+<img src="images/AlgaeDrivers.png" height="400" />   
 [View code partially on Github](https://github.com/chqzeng/OpenWL/blob/main/AlgaeDrive/AlgaeDrive.ipynb)  
 
 [![](https://img.shields.io/badge/Python-grey?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-grey?logo=Jupyter)](#) [![](https://img.shields.io/badge/Tensorflow-grey?logo=Tensorflow)](#) [![](https://img.shields.io/badge/GoogleCloud-grey?logo=GoogleCloud)](#) [![](https://img.shields.io/badge/GEE-grey?logo=googleearth)](#) 
+
+### 3. ![Machine Learning Coursera Certificate](https://www.coursera.org/account/accomplishments/certificate/DL9CTNZK3T6P)
+<details open>
+ <summary>View Certificate</summary>  
+ 
+<img src="materials/Coursera_DL9CTNZK3T6P.png" height="200" />   
+</details>
 
 [Back to Top](#page_top)
 
