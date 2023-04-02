@@ -89,7 +89,7 @@ From a high resolution (<1m) satellite imagery or aerial photo, detect buildings
   </td>
   <td>
      Figure 2. The reconstructed 3D buildings and trees 
-     <img src="materials/3Dcampus_UWO_small.gif" width="600" />
+     <img src="materials/campus_3d_buildings.gif" width="600" />
   </td>
  </tr>
 </table>  
