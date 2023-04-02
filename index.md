@@ -42,11 +42,12 @@ Figure 1. The illustration of machine learning model input and output varialbes
 
 [![](https://img.shields.io/badge/Python-grey?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-grey?logo=Jupyter)](#) [![](https://img.shields.io/badge/Tensorflow-grey?logo=Tensorflow)](#) [![](https://img.shields.io/badge/GoogleCloud-grey?logo=GoogleCloud)](#) [![](https://img.shields.io/badge/GEE-grey?logo=googleearth)](#) 
 
-### 3. ![Machine Learning Coursera Certificate](https://www.coursera.org/account/accomplishments/certificate/DL9CTNZK3T6P)
-<details open>
- <summary>View Certificate</summary>  
- 
-<img src="materials/Coursera_DL9CTNZK3T6P.png" height="200" />   
+### 3. Coursera Course: "Machine Learning"
+<details open >
+<summary> View Certificate </summary>   
+
+<img src="materials/Coursera_DL9CTNZK3T6P.png" height="200" />  [view on coursera.org](https://www.coursera.org/account/accomplishments/certificate/DL9CTNZK3T6P)  
+
 </details>
 
 [Back to Top](#page_top)
