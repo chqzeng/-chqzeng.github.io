@@ -84,12 +84,12 @@ From a high resolution (<1m) satellite imagery or aerial photo, detect buildings
 <table border="0">
  <tr>
   <td>
-     Figure 1. An illustration of urban building detection from aerial photos and LiDAR point clouds
-    <img src="materials/building_detection.gif" width="300">
+     Figure 1. An illustration of urban building detection from aerial photos and LiDAR point clouds  
+    <img src="materials/building_detection.gif" height="500">
   </td>
   <td>
-     Figure 2. The reconstructed 3D buildings and trees 
-     <img src="materials/campus_3d_buildings.gif" width="500" />
+     Figure 2. The reconstructed 3D buildings and trees   
+     <img src="materials/campus_3d_buildings.gif" height="500" />
   </td>
  </tr>
 </table>  
