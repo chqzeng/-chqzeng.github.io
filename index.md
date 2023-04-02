@@ -57,7 +57,7 @@ Figure 1. The illustration of machine learning model input and output varialbes
 
 ## Computer Vision
 
-### 1. Detect urban objects from high-resolution imagery (2014-2015 work)  
+### 1. Detect urban objects from high-resolution imagery (2014 work)  
 
 #### A) River channel detection from optical and SAR imagery
 Integrated Optical and radar imagery are combined for unsuprevised image classification and then a decision tree to refine the result with unique attributes to sense water.
@@ -75,9 +75,10 @@ Integrated Optical and radar imagery are combined for unsuprevised image classif
  </tr>
 </table>  
 
+[View project code on Github](https://github.com/chqzeng/NRBC)
 
 
-#### B) Building and tree detection from aerial photo and LiDAR point clouds (2010-2013 work)
+#### B) Building and tree detection from aerial photo and LiDAR point clouds (2010 work)
 From a high resolution (<1m) satellite imagery or aerial photo, detect buildings of varied conditions.
 
 <table border="0">
@@ -87,23 +88,23 @@ From a high resolution (<1m) satellite imagery or aerial photo, detect buildings
     <img src="materials/building_detection.gif" width="300">
   </td>
   <td>
-     Figure 2. An illustration of buildings and trees extracted from aerial photos 
+     Figure 2. The reconstructed 3D buildings and trees 
      <img src="materials/3Dcampus_UWO_small.gif" width="600" />
   </td>
  </tr>
 </table>  
 
-[Ph.D Dissertation](https://ir.lib.uwo.ca/etd/2076/): "Automated Building Information Extraction and Evaluation from High-resolution Remotely Sensed Data"  
+[Ph.D Dissertation](https://ir.lib.uwo.ca/etd/2076/): "Automated Building Information Extraction and Evaluation from High-resolution Remotely Sensed Data" 
 
 
 [<img src="images/Matlab_Logo_grey.png" width="22" />![](https://img.shields.io/badge/Matlab-grey)](#)  [![](https://img.shields.io/badge/OpenCV-grey?logo=OpenCV)](#) [![](https://img.shields.io/badge/3Dmodel-grey?logo=Sketchup)](#) 
 
-### esitmate image depth and 3D model from mutli-view imagery
+### C) Esitmate image depth and 3D model from mutli-view imagery (2015 work)
 
 [Multi-view image matching to reconstruct the 3D Earth surface](https://www.taylorfrancis.com/chapters/edit/10.1201/9780429470196-5/multiview-image-matching-3d-earth-surface-reconstruction-chuiqing-zeng-jinfei-wang)
 [A Stereo Image Matching Method to Improve the DSM Accuracy inside Building Boundaries](http://pubs.casi.ca/doi/abs/10.5589/m13-039)
 
-### Image systhesis
+### D) Image systhesis (2008 work)
 systhese two or more imagery into a single imagery with minimal "cost" 
 [View Code](#)  
 
