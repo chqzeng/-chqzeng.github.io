@@ -9,7 +9,8 @@
 <a name="MachineLearning"/>  
 
 ## Machine learning
-
+<details open >  
+ 
 ### 1. MODISNN: a dense neural network
 
 Satellite sensors have a liefspan and different configurations. How can we use machine learning to build a consistent product among multiple sensors and create a >20 years time-series dataset for climate change studies?
@@ -50,12 +51,18 @@ Figure 1. The illustration of machine learning model input and output varialbes
 
 </details>
 
+ </details>  
+ </br>  
+ 
 [Back to Top](#page_top)
+
 
 ---
 <a name="ComputerVision"/>  
 
 ## Computer Vision
+
+<details open >  
 
 ### 1. Detect urban objects from high-resolution imagery (2014 work)  
 
@@ -136,12 +143,17 @@ seamless synthesis is the process of generate a larger image / longer video base
 
 [Windows Program written in C++](materials/Image_syn_demo.zip)  
 
-[Back to Top](#page_top)   
+</details>  
+
+</br>  
+
+[Back to Top](#page_top) 
 
 ---
 <a name="CloudComputing"/>  
 
 ## Cloud computing
+<details open >  
 
 ### High perofmrance computering cluster (HPC) development
 develop and deploy massive data processing (>100TB) of satellite imagery processing on the HPC system.
@@ -163,31 +175,59 @@ maintain and optimize the Azure web portal: mostly maintain the Blob /COG imager
 <!-- <img src="images/EOLakeWatch_webapp.png?raw=true"/>  
 [Explore EOLakeWatch](https://eolakewatch-staging.azurewebsites.net/webapp/)   -->
 
+</details>  
+
+<br/>   
+
+[Back to Top](#page_top)   
+
 ---
 <a name="ImageProcessing"/> 
 
 ## Image processing
+
+<details open >  
+
 ### Raster to Vector and topological correction
 [A Natural-Rule-Based-Connection (NRBC) Method for River Network Extraction from High-resolution Imagery](http://www.mdpi.com/2072-4292/7/10/14055/html)
 
 
+</details>  
+
+<br/>   
+
+[Back to Top](#page_top)  
+
 ---
 <a name="GeospatialApp"/> 
 
-## Geospatial Application
+## Geospatial Application  
+<details>  
+ 
 ### populatoin spatialization
 Given an administrative boundary and its total population, how to determine the population spatial distribution within that admin boundary?
 [Population spatialization in china based on night-time imagery and land use data](http://www.tandfonline.com/doi/abs/10.1080/01431161.2011.569581)
 
+</details>  
 
+<br/>  
+
+[Back to Top](#page_top)  
 
 --- 
 <a name="Drone"/> 
 
-## Drone/UAV sensing development
+## Drone/UAV sensing development  
+
+<details>  
+
 ### UAV sensing for agriculture application
 Raspebery PI as the control unit to connect multiple sensors on board the quad-rotatory drones
 
 ### UAV sensing for water application
 
-[back](./)
+</details>  
+
+<br/>  
+
+[Back to Top](#page_top)  
