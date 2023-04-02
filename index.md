@@ -107,7 +107,7 @@ From a high resolution (<1m) satellite imagery or aerial photo, detect buildings
   </td>
   <td>
      Figure 2. How intensity and edge match can improve the stero matching reliability <BR>    
-     <img src="images/The matching rates for a sample building.png" >
+     <img src="images/The matching rates for a sample building.png" width="400" />
   </td>
  </tr>
 </table>  
@@ -115,9 +115,26 @@ From a high resolution (<1m) satellite imagery or aerial photo, detect buildings
 [Code in IDL / Matlab](materials/Image_matching.zip)  |  [Journal Paper](https://www.tandfonline.com/doi/abs/10.5589/m13-039)  |  [Book Chapter](https://www.taylorfrancis.com/chapters/edit/10.1201/9780429470196-5/multiview-image-matching-3d-earth-surface-reconstruction-chuiqing-zeng-jinfei-wang)
 
 
-### D) Image systhesis (2008 work)
-systhese two or more imagery into a single imagery with minimal "cost" 
-[View Code](#)  
+### D) Seamless image/video systhesis (2008 work)
+seamless synthesis is the process of generate a larger image / longer video based on small images/videos with textures, including single image texture synthesis (2-D), multi-image interactive synthesis(2-D) and video synthesis (3-D). The main idea is minize the "cost" at edges when connection different images (frames for videos).
+<table border="0">
+ <tr>
+  <td width="400">
+     An example of single image texture synthesis to create a larger image  <BR> 
+    <img src="materials/single_image_syns.jpg" />
+  </td>
+  <td width="400">
+     An example of multi-image interactive synthesis <BR>    
+     <img src="materials/river.gif"  />
+  </td> 
+  <td width="400">
+     Another example of multi-image interactive synthesis <BR>    
+     <img src="materials/flowers.gif"  />
+  </td>
+ </tr>
+</table>   
+
+[Windows Program written in C++](materials/Image_syn_demo.zip)  
 
 [Back to Top](#page_top)   
 
