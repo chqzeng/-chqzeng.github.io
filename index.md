@@ -59,7 +59,7 @@ Figure 1. The illustration of machine learning model input and output varialbes
 
 ### 1. Detect urban objects from high-resolution imagery (2014 work)  
 
-#### A) River channel detection from optical and SAR imagery
+#### A) River detection from optical and SAR imagery
 Integrated Optical and radar imagery are combined for unsuprevised image classification and then a decision tree to refine the result with unique attributes to sense water.
 <table border="0">
  <tr>
@@ -78,31 +78,42 @@ Integrated Optical and radar imagery are combined for unsuprevised image classif
 [View project code on Github](https://github.com/chqzeng/NRBC)
 
 
-#### B) Building and tree detection from aerial photo and LiDAR point clouds (2010 work)
+#### B) Building detection from aerial photo and LiDAR point clouds (2010 work)
 From a high resolution (<1m) satellite imagery or aerial photo, detect buildings of varied conditions.
 
 <table border="0">
  <tr>
   <td>
-     Figure 1. An illustration of urban building detection from aerial photos and LiDAR point clouds  
+    Figure 1. An illustration of urban building detection from aerial photos and LiDAR point clouds  <BR> 
     <img src="materials/building_detection.gif" height="500">
   </td>
   <td>
-     Figure 2. The reconstructed 3D buildings and trees   
-     <img src="materials/campus_3d_buildings.gif" height="500" />
+     Figure 2. The reconstructed 3D buildings and trees   <BR> 
+     <img src="materials/campus_3d_buildings.gif" />
   </td>
  </tr>
 </table>  
 
 [Ph.D Dissertation](https://ir.lib.uwo.ca/etd/2076/): "Automated Building Information Extraction and Evaluation from High-resolution Remotely Sensed Data" 
 
-
 [<img src="images/Matlab_Logo_grey.png" width="22" />![](https://img.shields.io/badge/Matlab-grey)](#)  [![](https://img.shields.io/badge/OpenCV-grey?logo=OpenCV)](#) [![](https://img.shields.io/badge/3Dmodel-grey?logo=Sketchup)](#) 
 
 ### C) Esitmate image depth and 3D model from mutli-view imagery (2015 work)
+<table border="0">
+ <tr>
+  <td>
+     Figure 1. An illustration of image matching using edges as constrains<BR>   
+    <img src="images/An example of the stereo image matching process.png" width="400" />
+  </td>
+  <td>
+     Figure 2. How intensity and edge match can improve the stero matching reliability <BR>    
+     <img src="images/The matching rates for a sample building.png" >
+  </td>
+ </tr>
+</table>  
 
-[Multi-view image matching to reconstruct the 3D Earth surface](https://www.taylorfrancis.com/chapters/edit/10.1201/9780429470196-5/multiview-image-matching-3d-earth-surface-reconstruction-chuiqing-zeng-jinfei-wang)
-[A Stereo Image Matching Method to Improve the DSM Accuracy inside Building Boundaries](http://pubs.casi.ca/doi/abs/10.5589/m13-039)
+[Code in IDL / Matlab](materials/Image_matching.zip)  |  [Journal Paper](http://pubs.casi.ca/doi/abs/10.5589/m13-039)  |  [Book Chapter](https://www.taylorfrancis.com/chapters/edit/10.1201/9780429470196-5/multiview-image-matching-3d-earth-surface-reconstruction-chuiqing-zeng-jinfei-wang)
+
 
 ### D) Image systhesis (2008 work)
 systhese two or more imagery into a single imagery with minimal "cost" 
