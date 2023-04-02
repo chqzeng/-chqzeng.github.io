@@ -57,10 +57,10 @@ Figure 1. The illustration of machine learning model input and output varialbes
 
 ## Computer Vision
 
-### 1. Detect urban objects from high-resolution imagery (2010-2013 work)  
+### 1. Detect urban objects from high-resolution imagery (2014-2015 work)  
 
-#### A) river channel detection from optical and SAR imagery
-Optical and radar imagery are combined for unsuprevised image classification and then a decision tree to refine the result with unique attributes to sense water.
+#### A) River channel detection from optical and SAR imagery
+Integrated Optical and radar imagery are combined for unsuprevised image classification and then a decision tree to refine the result with unique attributes to sense water.
 <table border="0">
  <tr>
   <td>
@@ -77,18 +77,18 @@ Optical and radar imagery are combined for unsuprevised image classification and
 
 
 
-#### B) building and tree detection from aerial photo and LiDAR point clouds
+#### B) Building and tree detection from aerial photo and LiDAR point clouds (2010-2013 work)
 From a high resolution (<1m) satellite imagery or aerial photo, detect buildings of varied conditions.
 
 <table border="0">
  <tr>
   <td>
-     Figure 1. An illustration of urban building detection from aerial photos derived point clouds
-    <img src="images/building_detection.png" width="2000">
+     Figure 1. An illustration of urban building detection from aerial photos and LiDAR point clouds
+    <img src="materials/building_detection.gif" width="300">
   </td>
   <td>
      Figure 2. An illustration of buildings and trees extracted from aerial photos 
-     <img src="materials/3Dcampus_UWO_small.gif" width="500" />
+     <img src="materials/3Dcampus_UWO_small.gif" width="600" />
   </td>
  </tr>
 </table>  
