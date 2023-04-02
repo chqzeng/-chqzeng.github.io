@@ -112,7 +112,7 @@ From a high resolution (<1m) satellite imagery or aerial photo, detect buildings
  </tr>
 </table>  
 
-[Code in IDL / Matlab](materials/Image_matching.zip)  |  [Journal Paper](http://pubs.casi.ca/doi/abs/10.5589/m13-039)  |  [Book Chapter](https://www.taylorfrancis.com/chapters/edit/10.1201/9780429470196-5/multiview-image-matching-3d-earth-surface-reconstruction-chuiqing-zeng-jinfei-wang)
+[Code in IDL / Matlab](materials/Image_matching.zip)  |  [Journal Paper](https://www.tandfonline.com/doi/abs/10.5589/m13-039)  |  [Book Chapter](https://www.taylorfrancis.com/chapters/edit/10.1201/9780429470196-5/multiview-image-matching-3d-earth-surface-reconstruction-chuiqing-zeng-jinfei-wang)
 
 
 ### D) Image systhesis (2008 work)
