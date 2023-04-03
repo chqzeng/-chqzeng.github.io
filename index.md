@@ -155,12 +155,18 @@ seamless synthesis is the process of generate a larger image / longer video base
 ## Cloud computing
 <details open >  
 
-### High perofmrance computering cluster (HPC) development
-develop and deploy massive data processing (>100TB) of satellite imagery processing on the HPC system.
+### High perofmrance computering cluster (HPC) 
+with the Government of Canada newest [HPC](https://www.canada.ca/en/shared-services/corporate/data-centre-consolidation/high-performance-computing.html) system, develop and deploy massive data (>100TB) of satellite imagery processing pipeline
 
-### Azure webportal optimization
-maintain and optimize the Azure web portal: mostly maintain the Blob /COG imagery and PostgreSQL database optimization.
+### Microsoft Azure 
+use Azure to maintain and optimize our environment mornitoring web portal: mostly maintain the Blob /COG imagery and PostgreSQL database optimization.
 [View the website](https://eolakewatch-staging.azurewebsites.net/)
+ 
+### CREODIAS / Cloudferro 
+use CREODIAS Earth Observation data portal for 20+ years time series Earth Observation data access and direct processing without download using virtual machines.
+ 
+### Google Cloud Platform (GCP) 
+collect various enviornment and climate data to study 
 
 <details open>
  <summary>Click Image below to explore EOLakeWatch</summary>  
