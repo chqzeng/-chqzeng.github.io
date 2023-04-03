@@ -1,6 +1,6 @@
 <a name="page_top"/>  
 
-**Shortcuts** 
+**Page Navigation** 
 |     |    |    |
 | --- | ---| ---|
 | [![](https://img.shields.io/badge/ML-grey?logo=tensorflow)](#) [1. Machine Learning](#MachineLearning) | [![](https://img.shields.io/badge/CV-grey?logo=opencv)](#) [2. Computer Vision](#ComputerVision)| [![](https://img.shields.io/badge/Cloud-grey?logo=googlecloud)](#) [3. Cloud Computing](#CloudComputing) 
