@@ -206,8 +206,32 @@ collect various enviornment and climate data to study Algae growth in lakes. mor
 ### populatoin spatialization
 Given an administrative boundary and its total population, how to determine the population spatial distribution within that admin boundary?
 [Population spatialization in china based on night-time imagery and land use data](http://www.tandfonline.com/doi/abs/10.1080/01431161.2011.569581)
-use [nighttime light](https://ngdc.noaa.gov/eog/download.html) and [land use] (https://forobs.jrc.ec.europa.eu/products/glc2000/glc2000.php) dataset to determine the spatial distribution of population.
+use [nighttime light](https://ngdc.noaa.gov/eog/download.html) and [land use](https://forobs.jrc.ec.europa.eu/products/glc2000/glc2000.php) dataset to determine the spatial distribution of population.
  
+<table border="0">
+ <tr>
+  <td width="600">
+     input data 1: land use land cover <BR> 
+    <img src="images/landuse_glc2000.png" />
+  </td>
+  <td width="600">
+     input data 2: nighttime light <BR>    
+     <img src="images/nightime_ligh_2006nov.png"  />
+  </td> 
+  </tr>
+ 
+ <tr>
+  <td width="600">
+     input data 3: population in administrative boundaries <BR>    
+     <img src="images/pop_grid_2008_census.png"  />
+  </td>
+   <td width="600">
+     output data: population in 1km grids <BR>    
+     <img src="images/pop_grid_2000_spatialized.png"  />
+  </td>
+ </tr>
+ 
+</table>   
  
 </details>  
 
