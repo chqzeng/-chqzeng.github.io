@@ -34,6 +34,8 @@ Satellite sensors have a liefspan and different configurations. How can we use m
 
 <!-- unused: https://pub.mdpi-res.com/remotesensing/remotesensing-13-03349/article_deploy/html/images/remotesensing-13-03349-ag.png?1630051208  the image from publication -->
 
+ <a name="AlgaeDriver"/>  
+ 
 ### 2. AlgaeDriver: assess input features' importance to the output variable  
 Use continuous geographic, hydrological, climate, and meteorological datasets as input to train neural network(NN) and random forest(RF) models, to determine the major environmentl drivers of algae growth in lakes.  
 Use Google Cloud Platform (GCP) to extract relative data from its [Earth Engine Dataset](https://developers.google.com/earth-engine/datasets) and run further NN models    
@@ -156,30 +158,21 @@ seamless synthesis is the process of generate a larger image / longer video base
 <details open >  
 
 ### High perofmrance computering cluster (HPC) 
-with the Government of Canada newest [HPC](https://www.canada.ca/en/shared-services/corporate/data-centre-consolidation/high-performance-computing.html) system, develop and deploy massive data (>100TB) of satellite imagery processing pipeline
+with the Government of Canada newest [HPC](https://www.canada.ca/en/shared-services/corporate/data-centre-consolidation/high-performance-computing.html) system, develop and deploy massive data (>100TB) of satellite imagery processing pipeline.
+It is the backend processing for the following EOLakewatch webportal
 
 ### Microsoft Azure 
-use Azure to maintain and optimize our environment mornitoring web portal: mostly maintain the Blob /COG imagery and PostgreSQL database optimization.
-[View the website](https://eolakewatch-staging.azurewebsites.net/)
+use Azure to maintain and optimize our environment mornitoring webportal,EOLakewatch. I mostly maintain the Blob storage/COG imagery and optimize the PostgreSQL database with billions of records.
+[View the website](https://eolakewatch-staging.azurewebsites.net/)  
+<img src="images/EOLakeWatch_webapp.png" height=300 />
  
 ### CREODIAS / Cloudferro 
-use CREODIAS Earth Observation data portal for 20+ years time series Earth Observation data access and direct processing without download using virtual machines.
+use CREODIAS Earth Observation data portal for 20+ years time series Earth Observation data access and direct processing without download using virtual machines.  
+ 
+<img src="images/CREODIAS-graph.png" height=250 />
  
 ### Google Cloud Platform (GCP) 
-collect various enviornment and climate data to study 
-
-<details open>
- <summary>Click Image below to explore EOLakeWatch</summary>  
- 
-[![EOLakeWatch](images/EOLakeWatch_webapp.png)](https://eolakewatch-staging.azurewebsites.net/webapp/)   
- 
-</details>
-
-
-<!-- <iframe src="https://public.tableau.com/views/EOLakeWatchAttentionLacsOTEN/EOLakeWatch-AttentionLacsOT?:toolbar=n&amp;:display_count=y&amp;:origin=viz_share_link?:embed=y&amp;:display_count=yes&amp;:showVizHome=no" width="100%" height="600px"></iframe>
--->
-<!-- <img src="images/EOLakeWatch_webapp.png?raw=true"/>  
-[Explore EOLakeWatch](https://eolakewatch-staging.azurewebsites.net/webapp/)   -->
+collect various enviornment and climate data to study Algae growth in lakes. more details in above [AlgaeDriver](#AlgaeDriver)
 
 </details>  
 
@@ -237,3 +230,16 @@ Raspebery PI as the control unit to connect multiple sensors on board the quad-r
 <br/>  
 
 [Back to Top](#page_top)  
+
+
+<!--  left over
+
+<details open>
+<summary>Click Image below to explore EOLakeWatch</summary>  
+[![EOLakeWatch](images/EOLakeWatch_webapp.png)](https://eolakewatch-staging.azurewebsites.net/webapp/)   
+</details>
+-->
+<!-- <iframe src="https://public.tableau.com/views/EOLakeWatchAttentionLacsOTEN/EOLakeWatch-AttentionLacsOT?:toolbar=n&amp;:display_count=y&amp;:origin=viz_share_link?:embed=y&amp;:display_count=yes&amp;:showVizHome=no" width="100%" height="600px"></iframe>
+-->
+<!-- <img src="images/EOLakeWatch_webapp.png?raw=true"/>  
+[Explore EOLakeWatch](https://eolakewatch-staging.azurewebsites.net/webapp/)   -->
