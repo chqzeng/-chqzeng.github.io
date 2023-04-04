@@ -18,7 +18,7 @@ Satellite sensors have a liefspan and different configurations. How can we use m
 <table border="0">
  <tr>
   <td>
-     Figure 1. The illustration of using nerual network to fill satellite observation gap in 2012-2015 (red question mark)
+     Figure 1. The illustration of using nerual network to fill satellite observation gap in 2012-2015 (red)
     <img src="images/MODISNN_illustration.png" width="2000">
   </td>
   <td>
@@ -107,7 +107,7 @@ From a high resolution (<1m) satellite imagery or aerial photo, detect buildings
 
 [<img src="images/Matlab_Logo_grey.png" width="22" />![](https://img.shields.io/badge/Matlab-grey)](#)  [![](https://img.shields.io/badge/OpenCV-grey?logo=OpenCV)](#) [![](https://img.shields.io/badge/3Dmodel-grey?logo=Sketchup)](#) 
 
-### C) Esitmate image depth and 3D model from mutli-view imagery (2015 work)
+#### C) Esitmate image depth and 3D model from mutli-view imagery (2015 work)
 <table border="0">
  <tr>
   <td>
@@ -124,8 +124,8 @@ From a high resolution (<1m) satellite imagery or aerial photo, detect buildings
 [Code in IDL / Matlab](materials/Image_matching.zip)  |  [Journal Paper](https://www.tandfonline.com/doi/abs/10.5589/m13-039)  |  [Book Chapter](https://www.taylorfrancis.com/chapters/edit/10.1201/9780429470196-5/multiview-image-matching-3d-earth-surface-reconstruction-chuiqing-zeng-jinfei-wang)
 
 
-### D) Seamless image/video systhesis (2008 work)
-seamless synthesis is the process of generate a larger image / longer video based on small images/videos with textures, including single image texture synthesis (2-D), multi-image interactive synthesis(2-D) and video synthesis (3-D). The main idea is minize the "cost" at edges when connection different images (frames for videos).
+#### D) Seamless image/video systhesis (2008 work)
+seamless synthesis is the process of generate a larger image / longer video based on small images/videos with textures, including single image texture synthesis (2-D), multi-image interactive synthesis(2-D) and video synthesis (3-D). <BR> The main idea was to minimize the energy function at the connection when synthesizing multiple images/frames together.
 <table border="0">
  <tr>
   <td width="400">
@@ -143,7 +143,7 @@ seamless synthesis is the process of generate a larger image / longer video base
  </tr>
 </table>   
 
-[Windows Program written in C++](materials/Image_syn_demo.zip)  
+[View C++ codes and files](materials/Image_syn_demo.zip)  
 
 </details>  
 
@@ -158,22 +158,20 @@ seamless synthesis is the process of generate a larger image / longer video base
 <details open >  
 
 ### High perofmrance computering cluster (HPC) 
-with the Government of Canada newest [HPC](https://www.canada.ca/en/shared-services/corporate/data-centre-consolidation/high-performance-computing.html) system, develop and deploy massive data (>100TB) of satellite imagery processing pipeline.
-It is the backend processing for the following EOLakewatch webportal
+with the recent [HPC](https://www.canada.ca/en/shared-services/corporate/data-centre-consolidation/high-performance-computing.html) deployed in the Federal Government, I developed and maintain pipeline to process massive data (>100TB) satellite images in real-time. It feeds time-series data to the following Microsoft Azure webportal
 
 ### Microsoft Azure 
-use Azure to maintain and optimize our environment mornitoring webportal,EOLakewatch. I mostly maintain the Blob storage/COG imagery and optimize the PostgreSQL database with billions of records.
-[View the website](https://eolakewatch-staging.azurewebsites.net/)  
+with an environment mornitoring webportal [EOLakewatch](https://eolakewatch-staging.azurewebsites.net/) deployed on Azure, I maintain the Blob storage/COG imagery and optimize the PostgreSQL database with billions of records.
 <img src="images/EOLakeWatch_webapp.png" height=300 />
  
 ### CREODIAS / Cloudferro 
-use CREODIAS Earth Observation data portal for 20+ years time series Earth Observation data access and direct processing without download using virtual machines.  
+use CREODIAS Earth Observation (EO) data portal to access 20+ years time series Earth Observation data and direct process without download using Linux virtual machines (VM).  
  
 <img src="images/CREODIAS-graph.png" height=250 />
  
 ### Google Cloud Platform (GCP) 
-collect various enviornment and climate data to study Algae growth in lakes. more details in above [AlgaeDriver](#AlgaeDriver)
-
+collect various meteriological and climate data to study Algae growth in lakes using APIs for massive data download from [GEE](https://developers.google.com/earth-engine/datasets/catalog) and [CDS](https://cds.climate.copernicus.eu/cdsapp#!/search?type=dataset). run the processing with GCP virtual machine and manage data in bucket and postprocess to be ready for further machine learning models.   
+more details in above [AlgaeDriver](#AlgaeDriver)
 </details>  
 
 <br/>   
@@ -236,6 +234,10 @@ use [nighttime light](https://ngdc.noaa.gov/eog/download.html) and [land use](ht
 </details>  
 
 <br/>  
+
+[![](https://img.shields.io/badge/SQL-grey?logo=microsoftsqlserver)](#) [<img src="images/Matlab_Logo_grey.png" width="22" />![](https://img.shields.io/badge/Matlab-grey)](#) [![](https://img.shields.io/badge/ExcelVBA-grey?logo=microsoftexcel)](#)  [![](https://img.shields.io/badge/ArcGIS-grey?logo=QGIS)](#)    
+
+[view partial codes](materials/Pop_spatialization.zip)
 
 [Back to Top](#page_top)  
 
