@@ -241,19 +241,19 @@ use [nighttime light](https://ngdc.noaa.gov/eog/download.html) and [land use](ht
 [view partial codes](materials/Pop_spatialization.zip)
 
 
-### Vehicle-based POI collection system
-develop a light system that can point of interest (POI) collection and update, with vehicle top-mounted cameras and GPS-devices, to integrate with existing POI database for quick survey and street-view map update.
+### Vehicle-based POI collection system 
+develop a light platform that can collect and update points of interest (POIs) with vehicle top-mounted cameras and GPS-receiver, to update existing POI database and collect street-view map like Google Street View.
 <table border="0">
  <tr>
+    <td width="600">
+      the illustration of the survey platform <BR>    
+     <img src="images/survey_system_illustration.png"  />
+  </td> 
+     
   <td width="600">
-     the survey platform interface GUI <BR> 
+     the survey platform interface with loaded POIs <BR> 
     <img src="images/Interface0.png" />
   </td>
-  <td width="600">
-     the survey platform interface with loaded POIs <BR>    
-     <img src="images/Interface1.png"  />
-  </td> 
-
   <td width="600">
      image extracted from vehicle top-mounted camera videos <BR>    
      <img src="images/Camera.png"  />
