@@ -187,8 +187,16 @@ more details in above [AlgaeDriver](#AlgaeDriver)
 ## Image processing
 
 <details >  
-
-To Be Continue
+### Image fusion
+ with two datasets: one covers spatial details but only have 6 bands/"colors", another measure ground points but have 100+ bands, how can we estimate a dataset with spatial details and 100+ bands at the same time?  
+ 
+ <table border="0">
+ <tr>
+    <td width="500">
+      the illustration of fusion mutlspectral and spectrometer datasets <BR>    
+     <img src="images/Zeng_Ag_UAV_hyperdata_fusion.png"  />
+  </td> 
+     
 <!-- ### Raster to Vector and topological correction
 [A Natural-Rule-Based-Connection (NRBC) Method for River Network Extraction from High-resolution Imagery](http://www.mdpi.com/2072-4292/7/10/14055/html)  
 -->
@@ -277,16 +285,16 @@ develop a light platform that can collect and update points of interest (POIs) w
 
 ## Drone/UAV sensing development  
 
-<details>  
+<details open>  
 
 ### UAV sensing over land
 Raspebery PI as the control unit to connect multiple sensors on board the quad-rotatory drones
 
  <table border="0">
  <tr>
-    <td width="500">
-      the illustration of the drone/UAV hyperspectral <BR>    
-     <img src="images/Zeng_Ag_UAV_hyperdata_fusion.png"  />
+    <td width="600">
+      the illustration of the drone/UAV hardware setup <BR>    
+     <img src="images/illustration_drone_work.png"  />
   </td> 
      
   <td width="300">
@@ -302,17 +310,12 @@ With the flexibility of drone platform, to measure and validate different water 
  
 <table border="0">
  <tr>
-   <td width="500">
-     the illustration of the drone/UAV hardware setup <BR>    
-     <img src="images/illustration_drone_work.png"  />
-  </td> 
-     
-  <td width="500">
+  <td width="600">
      an example of UAV flight planning over water<BR> 
     <img src="images/Drone_flight_illustration.png" />
   </td>
    
- <td width="500">
+ <td width="600">
      an example of water spectra at different scenarios<BR> 
     <img src="images/drone_water_views2.png" />
   </td>
