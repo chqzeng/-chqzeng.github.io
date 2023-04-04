@@ -199,10 +199,14 @@ A: use bayesian missing data impemutation approach
       the illustration of fusion mutlspectral and spectrometer datasets <BR>    
      <img src="images/Zeng_Ag_UAV_hyperdata_fusion.png"  />
   </td> 
+     <td width="300">
+      an example of the output hyperspectral dataset <BR>    
+     <img src="images/tomatofield_hyper_image_cube.png"  />
+  </td> 
  </tr>
 </table>  
  
-[See codes in Matlab (Generate_Hyperspectral_Image.m)](materials/ImageFusion_MSI.zip)
+[See codes in Matlab (Generate_Hyperspectral_Image.m)](materials/ImageFusion_MSI.zip)  
  
 <!-- ### Raster to Vector and topological correction
 [A Natural-Rule-Based-Connection (NRBC) Method for River Network Extraction from High-resolution Imagery](http://www.mdpi.com/2072-4292/7/10/14055/html)  
@@ -310,7 +314,7 @@ Raspebery PI as the control unit to connect multiple sensors on board the quad-r
   </td>
  </tr>
 </table>
-  
+[Toolbox on Github](https://github.com/chqzeng/AWM2CSV)  
  
 ### UAV sensing over water  
 With the flexibility of drone platform, to measure and validate different water optical measurements.  
