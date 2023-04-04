@@ -282,7 +282,22 @@ develop a light platform that can collect and update points of interest (POIs) w
 ### UAV sensing for agriculture application
 Raspebery PI as the control unit to connect multiple sensors on board the quad-rotatory drones
 
+ <table border="0">
+ <tr>
+    <td width="600">
+      the illustration of the drone/UAV hardware setup <BR>    
+     <img src="images/illustration_drone_work.png"  />
+  </td> 
+     
+  <td width="600">
+     an example of UAV flight planning over water<BR> 
+    <img src="images/Drone_flight_illustration.png" />
+  </td>
+ </tr>
+  
+ 
 ### UAV sensing for water application
+ 
 
 </details>  
 
