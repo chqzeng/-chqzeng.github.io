@@ -233,10 +233,9 @@ use [nighttime light](https://ngdc.noaa.gov/eog/download.html) and [land use](ht
 </table>   
  
 
-
 <br/>  
 
-[![](https://img.shields.io/badge/SQL-grey?logo=microsoftsqlserver)](#) [<img src="images/Matlab_Logo_grey.png" width="22" />![](https://img.shields.io/badge/Matlab-grey)](#) [![](https://img.shields.io/badge/ExcelVBA-grey?logo=microsoftexcel)](#)  [![](https://img.shields.io/badge/ArcGIS-grey?logo=QGIS)](#)    
+[![](https://img.shields.io/badge/SQL-grey?logo=microsoftsqlserver)](#) [<img src="images/Matlab_Logo_grey.png" width="22" />![](https://img.shields.io/badge/Matlab-grey)](#) [![](https://img.shields.io/badge/ExcelVBA-grey?logo=microsoftexcel)](#)  [![](https://img.shields.io/badge/ArcGIS-grey)](#)    
 
 [view partial codes](materials/Pop_spatialization.zip)
 
@@ -262,7 +261,7 @@ develop a light platform that can collect and update points of interest (POIs) w
  
 </table>  
  
-[![](https://img.shields.io/badge/SQL-grey?logo=microsoftsqlserver)](#)  [![](https://img.shields.io/badge/CSharp-grey?logo=CSharp)](#) [![](https://img.shields.io/badge/VisualStudio-grey?logo=visualstudio)](#)     
+[![](https://img.shields.io/badge/SQL-grey?logo=microsoftsqlserver)](#)  [![](https://img.shields.io/badge/CSharp-grey?logo=CSharp)](#) [![](https://img.shields.io/badge/VisualStudio-grey?logo=visualstudio)](#) [![](https://img.shields.io/badge/GPS-grey)](#)        
  
 [view partial codes](materials/Vehicle_based_POI_collection.zip)
 
