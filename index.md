@@ -19,7 +19,7 @@ Satellite sensors have a liefspan and different configurations. How can we use m
  <tr>
   <td>
      Figure 1. The illustration of using nerual network to fill satellite observation gap in 2012-2015 (red question mark)
-    <img src="images/modisNN_abstract.png" width="2000">
+    <img src="images/MODISNN_illustration.png" width="2000">
   </td>
   <td>
      Figure 2. An example of NN model performance at image level (left 2 columns: reference; right 2 columns: nerual network training result)
@@ -94,7 +94,7 @@ From a high resolution (<1m) satellite imagery or aerial photo, detect buildings
  <tr>
   <td>
     Figure 1. An illustration of urban building detection from aerial photos and LiDAR point clouds  <BR> 
-    <img src="materials/building_detection.gif" height="500">
+    <img src="materials/building_detection.gif" height='500'>
   </td>
   <td>
      Figure 2. The reconstructed 3D buildings and trees   <BR> 
