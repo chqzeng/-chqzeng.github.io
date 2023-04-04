@@ -183,11 +183,12 @@ more details in above [AlgaeDriver](#AlgaeDriver)
 
 ## Image processing
 
-<details open >  
+<details >  
 
-### Raster to Vector and topological correction
-[A Natural-Rule-Based-Connection (NRBC) Method for River Network Extraction from High-resolution Imagery](http://www.mdpi.com/2072-4292/7/10/14055/html)
-
+To Be Continue
+<!-- ### Raster to Vector and topological correction
+[A Natural-Rule-Based-Connection (NRBC) Method for River Network Extraction from High-resolution Imagery](http://www.mdpi.com/2072-4292/7/10/14055/html)  
+-->
 
 </details>  
 
@@ -199,7 +200,7 @@ more details in above [AlgaeDriver](#AlgaeDriver)
 <a name="GeospatialApp"/> 
 
 ## Geospatial Application  
-<details>  
+<details open>  
  
 ### populatoin spatialization
 Given an administrative boundary and its total population, how to determine the population spatial distribution within that admin boundary?
@@ -231,13 +232,47 @@ use [nighttime light](https://ngdc.noaa.gov/eog/download.html) and [land use](ht
  
 </table>   
  
-</details>  
+
 
 <br/>  
 
 [![](https://img.shields.io/badge/SQL-grey?logo=microsoftsqlserver)](#) [<img src="images/Matlab_Logo_grey.png" width="22" />![](https://img.shields.io/badge/Matlab-grey)](#) [![](https://img.shields.io/badge/ExcelVBA-grey?logo=microsoftexcel)](#)  [![](https://img.shields.io/badge/ArcGIS-grey?logo=QGIS)](#)    
 
 [view partial codes](materials/Pop_spatialization.zip)
+
+
+### Vehicle-based POI collection system
+develop a light system that can point of interest (POI) collection and update, with vehicle top-mounted cameras and GPS-devices, to integrate with existing POI database for quick survey and street-view map update.
+<table border="0">
+ <tr>
+  <td width="600">
+     input data 1: land use land cover <BR> 
+    <img src="images/landuse_glc2000.png" />
+  </td>
+  <td width="600">
+     input data 2: nighttime light <BR>    
+     <img src="images/nightime_ligh_2006nov.png"  />
+  </td> 
+  </tr>
+ 
+ <tr>
+  <td width="600">
+     input data 3: population in administrative boundaries <BR>    
+     <img src="images/pop_grid_2008_census.png"  />
+  </td>
+   <td width="600">
+     output data: population in 1km grids <BR>    
+     <img src="images/pop_grid_2000_spatialized.png"  />
+  </td>
+ </tr>
+ 
+</table>  
+ 
+[![](https://img.shields.io/badge/SQL-grey?logo=microsoftsqlserver)](#)  [![](https://img.shields.io/badge/CSharp-grey?logo=CSharp)](#) [![](https://img.shields.io/badge/VisualStudio-grey?logo=visualstudio)](#)     
+ 
+[view partial codes](materials/Vehicle_based_POI_collection.zip)
+
+</details>  
 
 [Back to Top](#page_top)  
 
