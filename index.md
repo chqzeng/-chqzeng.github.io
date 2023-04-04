@@ -159,9 +159,12 @@ seamless synthesis is the process of generate a larger image / longer video base
 
 ### High perofmrance computering cluster (HPC) 
 with the recent [HPC](https://www.canada.ca/en/shared-services/corporate/data-centre-consolidation/high-performance-computing.html) deployed in the Federal Government, I developed and maintain pipeline to process massive data (>100TB) satellite images in real-time. It feeds time-series data to the following Microsoft Azure webportal
+ An illustration of HPC structure and major tools used for the data processing pipeline  
+<img src="images/HPC_infrastructure.png" height=300 />
 
 ### Microsoft Azure 
-with an environment mornitoring webportal [EOLakewatch](https://eolakewatch-staging.azurewebsites.net/) deployed on Azure, I maintain the Blob storage/COG imagery and optimize the PostgreSQL database with billions of records.
+with an environment mornitoring webportal [EOLakewatch](https://eolakewatch-staging.azurewebsites.net/) deployed on Azure, I maintain the Blob storage/COG imagery and optimize the PostgreSQL database with billions of records.  
+ 
 <img src="images/EOLakeWatch_webapp.png" height=300 />
  
 ### CREODIAS / Cloudferro 
