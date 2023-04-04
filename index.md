@@ -186,7 +186,8 @@ more details in above [AlgaeDriver](#AlgaeDriver)
 
 ## Image processing
 
-<details >  
+<details > 
+
 ### Image fusion  
  
 Q: with two datasets: one covers spatial details but only have 6 bands/"colors", another measure ground points but have 100+ bands, how can we estimate a dataset with spatial details and 100+ bands at the same time?  
@@ -199,8 +200,9 @@ A: use bayesian missing data impemutation approach
      <img src="images/Zeng_Ag_UAV_hyperdata_fusion.png"  />
   </td> 
  </tr>
-</table>
-[See codes in Matlab](#)
+</table>  
+ 
+[See codes in Matlab](#page_top)
  
 <!-- ### Raster to Vector and topological correction
 [A Natural-Rule-Based-Connection (NRBC) Method for River Network Extraction from High-resolution Imagery](http://www.mdpi.com/2072-4292/7/10/14055/html)  
