@@ -246,23 +246,17 @@ develop a light system that can point of interest (POI) collection and update, w
 <table border="0">
  <tr>
   <td width="600">
-     input data 1: land use land cover <BR> 
-    <img src="images/landuse_glc2000.png" />
+     the survey platform interface GUI <BR> 
+    <img src="images/Interface0.png" />
   </td>
   <td width="600">
-     input data 2: nighttime light <BR>    
-     <img src="images/nightime_ligh_2006nov.png"  />
+     the survey platform interface with loaded POIs <BR>    
+     <img src="images/Interface1.png"  />
   </td> 
-  </tr>
- 
- <tr>
+
   <td width="600">
-     input data 3: population in administrative boundaries <BR>    
-     <img src="images/pop_grid_2008_census.png"  />
-  </td>
-   <td width="600">
-     output data: population in 1km grids <BR>    
-     <img src="images/pop_grid_2000_spatialized.png"  />
+     image extracted from vehicle top-mounted camera videos <BR>    
+     <img src="images/Camera.png"  />
   </td>
  </tr>
  
