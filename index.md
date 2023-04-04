@@ -279,25 +279,46 @@ develop a light platform that can collect and update points of interest (POIs) w
 
 <details>  
 
-### UAV sensing for agriculture application
+### UAV sensing over land
 Raspebery PI as the control unit to connect multiple sensors on board the quad-rotatory drones
 
  <table border="0">
  <tr>
-    <td width="600">
-      the illustration of the drone/UAV hardware setup <BR>    
+    <td width="500">
+      the illustration of the drone/UAV hyperspectral <BR>    
+     <img src="images/Zeng_Ag_UAV_hyperdata_fusion.png"  />
+  </td> 
+     
+  <td width="300">
+     an example of multi-view drone sensing image matching to generate 3D surface<BR> 
+    <img src="images/Image_Mosiac_photoscan_view.png" height="300"/>
+  </td>
+ </tr>
+</table>
+  
+ 
+### UAV sensing over water  
+With the flexibility of drone platform, to measure and validate different water optical measurements.  
+ 
+<table border="0">
+ <tr>
+   <td width="500">
+     the illustration of the drone/UAV hardware setup <BR>    
      <img src="images/illustration_drone_work.png"  />
   </td> 
      
-  <td width="600">
+  <td width="500">
      an example of UAV flight planning over water<BR> 
     <img src="images/Drone_flight_illustration.png" />
   </td>
+   
+ <td width="500">
+     an example of water spectra at different scenarios<BR> 
+    <img src="images/drone_water_views2.png" />
+  </td>
+     
  </tr>
-  
- 
-### UAV sensing for water application
- 
+</table> 
 
 </details>  
 
