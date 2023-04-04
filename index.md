@@ -202,7 +202,7 @@ A: use bayesian missing data impemutation approach
  </tr>
 </table>  
  
-[See codes in Matlab](#page_top)
+[See codes in Matlab (Generate_Hyperspectral_Image.m)](materials/ImageFusion_MSI.zip)
  
 <!-- ### Raster to Vector and topological correction
 [A Natural-Rule-Based-Connection (NRBC) Method for River Network Extraction from High-resolution Imagery](http://www.mdpi.com/2072-4292/7/10/14055/html)  
