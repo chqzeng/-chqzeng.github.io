@@ -91,12 +91,12 @@ Exploit the unique attributes of water in optical and radar/SAR images by first 
  </tr>
 </table>  
 
-[<img src="images/Matlab_Logo_grey.png" width="22" />![](https://img.shields.io/badge/Matlab-grey)](#)  [![](https://img.shields.io/badge/OpenCV-grey?logo=OpenCV)](#) [![](https://img.shields.io/badge/ArcGIS-grey)](#) [![](https://img.shields.io/badge/Erdas-grey)](#)  
+[<img src="images/Matlab_Logo_grey.png" width="22" />![](https://img.shields.io/badge/Matlab-grey)](#)  [![](https://img.shields.io/badge/OpenCV-grey?logo=OpenCV)](#) [![](https://img.shields.io/badge/ArcGIS-grey)](#) [![](https://img.shields.io/badge/eCognition-grey)](#)  
 
 [View project code on Github](https://github.com/chqzeng/NRBC)
 
 
-#### B) Building detection from aerial photos and LiDAR point clouds
+#### B) Building detection from aerial photos and LiDAR point clouds (2012)
 Detect buildings under varied scenarios from high-resolution (<1m) satellite images or aerial photos.
 
 <table border="0">
@@ -114,9 +114,9 @@ Detect buildings under varied scenarios from high-resolution (<1m) satellite ima
 
 [Ph.D Dissertation](https://ir.lib.uwo.ca/etd/2076/): "Automated Building Information Extraction and Evaluation from High-resolution Remotely Sensed Data" 
 
-[<img src="images/Matlab_Logo_grey.png" width="22" />![](https://img.shields.io/badge/Matlab-grey)](#)  [![](https://img.shields.io/badge/OpenCV-grey?logo=OpenCV)](#) [![](https://img.shields.io/badge/C++-grey)](#) [![](https://img.shields.io/badge/3Dmodel-grey?logo=Sketchup)](#) 
+[<img src="images/Matlab_Logo_grey.png" width="22" />![](https://img.shields.io/badge/Matlab-grey)](#)  [![](https://img.shields.io/badge/OpenCV-grey?logo=OpenCV)](#) [![](https://img.shields.io/badge/C++-grey)](#) [![](https://img.shields.io/badge/eCognition-grey)](#) [![](https://img.shields.io/badge/3Dmodel-grey?logo=Sketchup)](#) 
 
-#### C) Esitmate image depth and 3D model from mutli-view imagery (2015 work)
+#### C) Esitmate image depth and 3D model from mutli-view imagery (2015)
 <table border="0">
  <tr>
   <td>  
@@ -130,24 +130,27 @@ Detect buildings under varied scenarios from high-resolution (<1m) satellite ima
  </tr>
 </table>  
 
-[Code in IDL / Matlab](materials/Image_matching.zip)  |  [Journal Paper](https://www.tandfonline.com/doi/abs/10.5589/m13-039)  |  [Book Chapter](https://www.taylorfrancis.com/chapters/edit/10.1201/9780429470196-5/multiview-image-matching-3d-earth-surface-reconstruction-chuiqing-zeng-jinfei-wang)
+[<img src="images/Matlab_Logo_grey.png" width="22" />![](https://img.shields.io/badge/Matlab-grey)](#)  [![](https://img.shields.io/badge/OpenCV-grey?logo=OpenCV) [![](https://img.shields.io/badge/IDL-grey?)
+
+[Code in IDL / Matlab](materials/Image_matching.zip)  |   [Journal Paper](https://www.tandfonline.com/doi/abs/10.5589/m13-039)  |  [Book Chapter](https://www.taylorfrancis.com/chapters/edit/10.1201/9780429470196-5/multiview-image-matching-3d-earth-surface-reconstruction-chuiqing-zeng-jinfei-wang)
 
 
-#### D) Seamless image/video systhesis (2008 work)
-seamless synthesis is the process of generate a larger image / longer video based on small images/videos with textures, including single image texture synthesis (2-D), multi-image interactive synthesis(2-D) and video synthesis (3-D). <BR> The main idea was to minimize the energy function at the connection when synthesizing multiple images/frames together.
+#### D) Seamless image/video systhesis (2008)
+Seamless synthesis is the process of generating a larger image or longer video based on small images with textures or short videos, e.g. single-image texture synthesis (2D), multi-image interactive synthesis (2D), and video synthesis (3D). The main idea is to minimize the energy function at the connection when synthesizing multiple images or frames together.  
+
 <table border="0">
  <tr>
   <td width="400">
-     An example of single image texture synthesis to create a larger image  <BR> 
-    <img src="materials/single_image_syns.jpg" />
+    <img src="materials/single_image_syns.jpg" />  <BR> 
+    An example of single image texture synthesis to create a larger image  
   </td>
   <td width="400">
-     An example of multi-image interactive synthesis <BR>    
-     <img src="materials/river.gif"  />
+     <img src="materials/river.gif"  />  <BR> 
+     An example of multi-image interactive synthesis  
   </td> 
   <td width="400">
-     Another example of multi-image interactive synthesis <BR>    
-     <img src="materials/flowers.gif"  />
+     <img src="materials/flowers.gif"  />  <BR> 
+     Another example of multi-image interactive synthesis  
   </td>
  </tr>
 </table>   
@@ -166,24 +169,32 @@ seamless synthesis is the process of generate a larger image / longer video base
 ## Cloud computing
 <details open >  
 
-### High perofmrance computering cluster (HPC) 
-with the recent [HPC](https://www.canada.ca/en/shared-services/corporate/data-centre-consolidation/high-performance-computing.html) deployed in the Federal Government, I developed and maintain pipeline to process massive data (>100TB) satellite images in real-time. It feeds time-series data to the following Microsoft Azure webportal
- An illustration of HPC structure and major tools used for the data processing pipeline  
-<img src="images/HPC_infrastructure.png" height=300 />
+### High perofmrance computering (HPC) 
+Using the recent [HPC](https://www.canada.ca/en/shared-services/corporate/data-centre-consolidation/high-performance-computing.html) established in the Government of Canada, I developed and maintain pipeline to process >100TB satellite images using massive GPUs and CPUs, which feeds time-series data to the following Microsoft Azure webportal.
+ 
+<img src="images/HPC_infrastructure.png" height=300 />   <BR>
+The HPC structure and major tools used for the data processing pipeline   
+
+[![](https://img.shields.io/badge/Anaconda-grey?logo=anaconda) [![](https://img.shields.io/badge/Python-grey?logo=Python) [![](https://img.shields.io/badge/Ubuntu-grey?logo=Ubuntu) [![](https://img.shields.io/badge/Docker-grey?logo=Docker)   [![](https://img.shields.io/badge/Intel-grey?logo=Intel) [![](https://img.shields.io/badge/Nvidia-grey?logo=Nvidia) 
 
 ### Microsoft Azure 
 with an environment mornitoring webportal [EOLakewatch](https://eolakewatch-staging.azurewebsites.net/) deployed on Azure, I maintain the Blob storage/COG imagery and optimize the PostgreSQL database with billions of records.  
  
-<img src="images/EOLakeWatch_webapp.png" height=300 />
+<img src="images/EOLakeWatch_webapp.png" height=300 />  
+[![](https://img.shields.io/badge/Azure-grey?logo=microsoftazure) [![](https://img.shields.io/badge/PostgreSQL-grey?logo=PostgreSQL) [![](https://img.shields.io/badge/Python-grey?logo=Python) [![](https://img.shields.io/badge/Note.js-grey?logo=nodedotjs) 
  
 ### CREODIAS / Cloudferro 
 use CREODIAS Earth Observation (EO) data portal to access 20+ years time series Earth Observation data and direct process without download using Linux virtual machines (VM).  
  
-<img src="images/CREODIAS-graph.png" height=250 />
+<img src="images/CREODIAS-graph.png" height=250 />  
+
+[![](https://img.shields.io/badge/Cloudferro-grey)  [![](https://img.shields.io/badge/Jupyter-grey?logo=Jupyter) [![](https://img.shields.io/badge/Python-grey?logo=Python) [![](https://img.shields.io/badge/Ubuntu-grey?logo=Ubuntu)
  
 ### Google Cloud Platform (GCP) 
 collect various meteriological and climate data to study Algae growth in lakes using APIs for massive data download from [GEE](https://developers.google.com/earth-engine/datasets/catalog) and [CDS](https://cds.climate.copernicus.eu/cdsapp#!/search?type=dataset). run the processing with GCP virtual machine and manage data in bucket and postprocess to be ready for further machine learning models.   
 more details in above [AlgaeDriver](#AlgaeDriver)
+
+
 </details>  
 
 <br/>   
@@ -195,32 +206,33 @@ more details in above [AlgaeDriver](#AlgaeDriver)
 
 ## Image processing
 
-<details > 
+<details open> 
+
+### Water quality mapping from satellite imagery
+
 
 ### Image fusion  
- 
-Q: with two datasets: one covers spatial details but only have 6 bands/"colors", another measure ground points but have 100+ bands, how can we estimate a dataset with spatial details and 100+ bands at the same time?  
-A: use bayesian missing data impemutation approach
+
+Q: With two datasets: one covering spatial details but only having 6 bands(colors), and another measuring sparse points spatially but having >100 bands, how can we estimate a dataset with both rich spatial details and >100 bands? 
+A: Use a Bayesian missing data imputation approach to fuse the two dataset.
  
  <table border="0">
  <tr>
     <td width="500">
-      the illustration of fusion mutlspectral and spectrometer datasets <BR>    
-     <img src="images/Zeng_Ag_UAV_hyperdata_fusion.png"  />
+     <img src="images/Zeng_Ag_UAV_hyperdata_fusion.png"  /> <BR>
+     the illustration of mutlspectral and spectrometer datasets fusion
   </td> 
      <td width="300">
-      an example of the output hyperspectral dataset <BR>    
-     <img src="images/tomatofield_hyper_image_cube.png"  />
+     <img src="images/tomatofield_hyper_image_cube.png"  /> <BR>  
+     an example of the output hyperspectral dataset   
   </td> 
  </tr>
 </table>  
- 
-[See codes in Matlab (Generate_Hyperspectral_Image.m)](materials/ImageFusion_MSI.zip)  
- 
-<!-- ### Raster to Vector and topological correction
-[A Natural-Rule-Based-Connection (NRBC) Method for River Network Extraction from High-resolution Imagery](http://www.mdpi.com/2072-4292/7/10/14055/html)  
--->
 
+[<img src="images/Matlab_Logo_grey.png" width="22" />![](https://img.shields.io/badge/Matlab-grey)](#)  [![](https://img.shields.io/badge/Hyperspectral-grey)   
+ 
+[See codes in Matlab (Generate_Hyperspectral_Image.m)](materials/ImageFusion_MSI.zip)  | [View publication](https://www.mdpi.com/2072-4292/9/7/696)  
+ 
 </details>  
 
 <br/>   
