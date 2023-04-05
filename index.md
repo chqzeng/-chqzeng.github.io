@@ -43,8 +43,8 @@ Use continuous geographic, hydrological, climate, and meteorological datasets as
 Use Google Cloud Platform (GCP) to extract relative data from its [Earth Engine](https://developers.google.com/earth-engine/datasets) Dataset and run further NN models    
 <br>
 
-<img src="images/AlgaeDrivers.png" height="400" />   
-AlgaeDriver machine learning model input and output variables  <BR>
+<img src="images/AlgaeDrivers.png" height="400" />   <BR>
+AlgaeDriver machine learning model input and output variables  
 
 [View jupyter code partially on Github](materials/AlgaeDrive.ipynb)  
 
@@ -81,7 +81,7 @@ Exploit the unique attributes of water in optical and radar/SAR images by first 
   <td>  
      <img src="images/river_detection2011.png" height="300">
      Steps to detect the Bow River at Calgary, Aberta, CA.  <BR>
-     (a) input 2m WV-2 optical image, (b) RadarSat-2 SAR image, (c) object-based unsupervised classification (b) extracted water mask, (e) river channel detection after optical and SAR combined.  
+     (a) input 2m WV-2 optical image, (b) RadarSat-2 SAR image, (c) object-based unsupervised classification, (d) extracted water mask, (e) river channel detection after optical and SAR combined.  
     
   </td>
   <td>
@@ -91,39 +91,41 @@ Exploit the unique attributes of water in optical and radar/SAR images by first 
  </tr>
 </table>  
 
+[<img src="images/Matlab_Logo_grey.png" width="22" />![](https://img.shields.io/badge/Matlab-grey)](#)  [![](https://img.shields.io/badge/OpenCV-grey?logo=OpenCV)](#) [![](https://img.shields.io/badge/ArcGIS-grey)](#) [![](https://img.shields.io/badge/Erdas-grey)](#)  
+
 [View project code on Github](https://github.com/chqzeng/NRBC)
 
 
-#### B) Building detection from aerial photo and LiDAR point clouds
+#### B) Building detection from aerial photos and LiDAR point clouds
 Detect buildings under varied scenarios from high-resolution (<1m) satellite images or aerial photos.
 
 <table border="0">
  <tr>
-  <td>
-    <img src="materials/building_detection.gif" height='500'>  
+  <td width="400">
+    <img src="materials/building_detection.gif" >   <BR> 
     Urban building detection from aerial photos and LiDAR point clouds 
   </td>
-  <td>
-     <img src="materials/campus_3d_buildings.gif" />  
-     The reconstructed 3D buildings and trees   <BR> 
+  <td width="600">
+     <img src="materials/campus_3d_buildings.gif" />  <BR> 
+     The reconstructed 3D buildings and trees   
   </td>
  </tr>
 </table>  
 
 [Ph.D Dissertation](https://ir.lib.uwo.ca/etd/2076/): "Automated Building Information Extraction and Evaluation from High-resolution Remotely Sensed Data" 
 
-[<img src="images/Matlab_Logo_grey.png" width="22" />![](https://img.shields.io/badge/Matlab-grey)](#)  [![](https://img.shields.io/badge/OpenCV-grey?logo=OpenCV)](#) [![](https://img.shields.io/badge/3Dmodel-grey?logo=Sketchup)](#) 
+[<img src="images/Matlab_Logo_grey.png" width="22" />![](https://img.shields.io/badge/Matlab-grey)](#)  [![](https://img.shields.io/badge/OpenCV-grey?logo=OpenCV)](#) [![](https://img.shields.io/badge/C++-grey)](#) [![](https://img.shields.io/badge/3Dmodel-grey?logo=Sketchup)](#) 
 
 #### C) Esitmate image depth and 3D model from mutli-view imagery (2015 work)
 <table border="0">
  <tr>
-  <td>
-     Figure 1. An illustration of image matching using edges as constrains<BR>   
-    <img src="images/An example of the stereo image matching process.png" width="400" />
+  <td>  
+    <img src="images/An example of the stereo image matching process.png" width="400" />  <BR>  
+    An example of image matching using edges as constrains 
   </td>
-  <td>
-     Figure 2. How intensity and edge match can improve the stero matching reliability <BR>    
-     <img src="images/The matching rates for a sample building.png" width="400" />
+  <td>  
+     <img src="images/The matching rates for a sample building.png" width="400" /> <BR>
+      Combined intensity and edge matching improves the stero matching reliability 
   </td>
  </tr>
 </table>  
