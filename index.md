@@ -17,14 +17,15 @@ Satellite sensors have a liefspan and different configurations. How can we use m
 
 <table border="0">
  <tr>
-  <td>
-     Figure 1. Using nerual network to fill satellite observation gap in 2012-2015 (red dash line box)
-    <img src="images/MODISNN_illustration.png" width="2000">
+  <td>  
+    <img src="images/MODISNN_illustration.png" width="2000">  
+    Using nerual network to fill satellite observation gap in 2012-2015 (red dash line box)
   </td>
-  <td>
-     Figure 2. An example of NN model performance at image level <BR> 
+  <td>  
+     <img src="images/modisNN_rst.png?raw=true" width="2000"/>  
+     An example of NN model performance at image level <BR> 
      left 2 columns: reference image; right 2 columns: nerual network trained result
-    <img src="images/modisNN_rst.png?raw=true" width="2000"/>
+    
   </td>
  </tr>
 </table>
@@ -40,7 +41,8 @@ Satellite sensors have a liefspan and different configurations. How can we use m
 ### 2. AlgaeDriver: assess input features' importance to the output variable  
 Use continuous geographic, hydrological, climate, and meteorological datasets as inputs to train neural network(NN) and random forest(RF) models and determine the major environmentl drivers of algae growth in lakes. <BR>
 Use Google Cloud Platform (GCP) to extract relative data from its [Earth Engine](https://developers.google.com/earth-engine/datasets) Dataset and run further NN models    
-Figure 1. AlgaeDriver machine learning model input and output variables  <BR>  
+Figure 1. AlgaeDriver machine learning model input and output variables  <BR><BR>
+    
 <img src="images/AlgaeDrivers.png" height="400" />   
 
 [View jupyter code partially on Github](materials/AlgaeDrive.ipynb)  
@@ -69,19 +71,19 @@ Figure 1. AlgaeDriver machine learning model input and output variables  <BR>
 
 <details open >  
 
-### 1. Detect urban objects from high-resolution imagery (2014 work)  
+### 1. Detect urban objects from high-resolution imagery  
 
-#### A) River detection from optical and SAR imagery
-Integrated Optical and radar imagery are combined for unsuprevised image classification and then a decision tree to refine the result with unique attributes to sense water.
+#### A) Detect rivers from optical and SAR imagery
+Exploit the unique attributes of water in optical and radar/SAR images by first integrating both images for unsupervised classification, and then refining the results with a decision tree.  
 <table border="0">
  <tr>
   <td>
-     Figure 1. An illustration of detection of the Bow River at Calgary, Aberta, CA.  
-     (a) input optical (WV-2) image, (b) SAR (RadarSat-2) of the study site, (c) object-based unsupervised classification (b) extracted water mask, (e) optical and SAR combined river channel detection.  
+     Figure 1. Steps to detect the Bow River at Calgary, Aberta, CA.  <BR>
+     (a) input 2m WV-2 optical image, (b) RadarSat-2 SAR image, (c) object-based unsupervised classification (b) extracted water mask, (e) river channel detection after optical and SAR combined.  
     <img src="images/river_detection2011.png" height="300">
   </td>
   <td>
-     Figure 2. An illustration to connect river channel segments and build a topologically-correct river 
+     Figure 2. Connect the river channel segments to build a topologically correct river
      <img src="images/River_seg_connection.png" width="500" />
   </td>
  </tr>
@@ -90,13 +92,13 @@ Integrated Optical and radar imagery are combined for unsuprevised image classif
 [View project code on Github](https://github.com/chqzeng/NRBC)
 
 
-#### B) Building detection from aerial photo and LiDAR point clouds (2010 work)
-From a high resolution (<1m) satellite imagery or aerial photo, detect buildings of varied conditions.
+#### B) Building detection from aerial photo and LiDAR point clouds
+Detect buildings under varied scenarios from high-resolution (<1m) satellite images or aerial photos.
 
 <table border="0">
  <tr>
   <td>
-    Figure 1. An illustration of urban building detection from aerial photos and LiDAR point clouds  <BR> 
+    Figure 1. Urban building detection from aerial photos and LiDAR point clouds  <BR> 
     <img src="materials/building_detection.gif" height='500'>
   </td>
   <td>
