@@ -283,7 +283,7 @@ A: Use [nighttime light](https://ngdc.noaa.gov/eog/download.html) and [land use]
 
 [<img src="images/Matlab_Logo_grey.png" width="22" />![](https://img.shields.io/badge/Matlab-grey)](#) [![](https://img.shields.io/badge/ExcelVBA-grey?logo=microsoftexcel)](#)  [![](https://img.shields.io/badge/ArcGIS-grey)](#)  [![](https://img.shields.io/badge/SQL-grey?logo=microsoftsqlserver)](#)   
 
-[View partial codes](materials/Pop_spatialization.zip)  |  [View Publication](http://www.tandfonline.com/doi/abs/10.1080/01431161.2011.569581)
+[View partial codes](materials/Pop_spatialization.zip)  |  [View publication](http://www.tandfonline.com/doi/abs/10.1080/01431161.2011.569581)
 
 
 ### Vehicle-based POI collection system 
@@ -319,30 +319,33 @@ Develop a lightweight platform that can collect and update points of interest (P
 --- 
 <a name="Drone"/> 
 
-## Drone/UAV sensing development  
+## Drone/UAV sensing 
 
 <details open>  
 
 ### UAV sensing over land
-Raspebery PI as the control unit to connect multiple sensors on board the quad-rotatory drones
+Experiment Raspberry Pi as the control unit to connect multiple sensors on board the drones, and post-process multi-view images to generate rich 3D terrain and spectral details.
 
  <table border="0">
  <tr>
     <td width="600">
-      the illustration of the drone/UAV hardware setup <BR>    
-     <img src="images/illustration_drone_work.png"  />
+     <img src="images/illustration_drone_work.png"  /> <BR> 
+     The illustration of the drone/UAV hardware setup    
   </td> 
      
   <td width="300">
-     an example of multi-view drone sensing image matching to generate 3D surface<BR><BR> 
-    <img src="images/Image_Mosiac_photoscan_view.png" height="300"/>
+    <img src="images/Image_Mosiac_photoscan_view.png" height="300"/>   <BR>
+    An example of multi-view drone sensing image matching to generate 3D surface <BR> 
   </td>
  </tr>
-</table>
+</table>  
+
+[![](https://img.shields.io/badge/RaspberryPi-grey?logo=RaspberryPi)](#) [<img src="images/Matlab_Logo_grey.png" width="22" />![](https://img.shields.io/badge/Matlab-grey)](#)  [![](https://img.shields.io/badge/DJI-grey)](#) [![](https://img.shields.io/badge/PhotoScan-grey)](#)
+
 [Toolbox on Github](https://github.com/chqzeng/AWM2CSV)  
  
 ### UAV sensing over water  
-With the flexibility of drone platform, to measure and validate different water optical measurements.  
+Experiment and validate different water optical measurements using the flexible drone platform.  
  
 <table border="0">
  <tr>
@@ -358,6 +361,8 @@ With the flexibility of drone platform, to measure and validate different water 
      
  </tr>
 </table>  
+
+[![](https://img.shields.io/badge/DJIPhantom-grey)](#) [![](https://img.shields.io/badge/RaspberryPi-grey?logo=RaspberryPi)](#)
 
 [View publication](https://www.sciencedirect.com/science/article/abs/pii/S0924271617302666)
 
