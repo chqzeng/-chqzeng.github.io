@@ -130,7 +130,7 @@ Detect buildings under varied scenarios from high-resolution (<1m) satellite ima
  </tr>
 </table>  
 
-[<img src="images/Matlab_Logo_grey.png" width="22" />![](https://img.shields.io/badge/Matlab-grey)](#)  [![](https://img.shields.io/badge/OpenCV-grey?logo=OpenCV) [![](https://img.shields.io/badge/IDL-grey?)
+[<img src="images/Matlab_Logo_grey.png" width="22" />![](https://img.shields.io/badge/Matlab-grey)](#)   [![](https://img.shields.io/badge/IDL-grey?)
 
 [Code in IDL / Matlab](materials/Image_matching.zip)  |   [Journal Paper](https://www.tandfonline.com/doi/abs/10.5589/m13-039)  |  [Book Chapter](https://www.taylorfrancis.com/chapters/edit/10.1201/9780429470196-5/multiview-image-matching-3d-earth-surface-reconstruction-chuiqing-zeng-jinfei-wang)
 
@@ -155,6 +155,7 @@ Seamless synthesis is the process of generating a larger image or longer video b
  </tr>
 </table>   
 
+[![](https://img.shields.io/badge/C++-grey)](#)  
 [View C++ codes and files](materials/Image_syn_demo.zip)  
 
 </details>  
@@ -175,20 +176,21 @@ Using the recent [HPC](https://www.canada.ca/en/shared-services/corporate/data-c
 <img src="images/HPC_infrastructure.png" height=300 />   <BR>
 The HPC structure and major tools used for the data processing pipeline   
 
-[![](https://img.shields.io/badge/Anaconda-grey?logo=anaconda) [![](https://img.shields.io/badge/Python-grey?logo=Python) [![](https://img.shields.io/badge/Ubuntu-grey?logo=Ubuntu) [![](https://img.shields.io/badge/Docker-grey?logo=Docker)   [![](https://img.shields.io/badge/Intel-grey?logo=Intel) [![](https://img.shields.io/badge/Nvidia-grey?logo=Nvidia) 
+[![](https://img.shields.io/badge/Anaconda-grey?logo=anaconda)](#) [![](https://img.shields.io/badge/Python-grey?logo=Python)](#) [![](https://img.shields.io/badge/Ubuntu-grey?logo=Ubuntu)](#) [![](https://img.shields.io/badge/Docker-grey?logo=Docker)](#)   [![](https://img.shields.io/badge/Intel-grey?logo=Intel)](#) [![](https://img.shields.io/badge/Nvidia-grey?logo=Nvidia) ](#)
 
 ### Microsoft Azure 
 with an environment mornitoring webportal [EOLakewatch](https://eolakewatch-staging.azurewebsites.net/) deployed on Azure, I maintain the Blob storage/COG imagery and optimize the PostgreSQL database with billions of records.  
  
 <img src="images/EOLakeWatch_webapp.png" height=300 />  
-[![](https://img.shields.io/badge/Azure-grey?logo=microsoftazure) [![](https://img.shields.io/badge/PostgreSQL-grey?logo=PostgreSQL) [![](https://img.shields.io/badge/Python-grey?logo=Python) [![](https://img.shields.io/badge/Note.js-grey?logo=nodedotjs) 
+
+[![](https://img.shields.io/badge/Azure-grey?logo=microsoftazure)](#) [![](https://img.shields.io/badge/PostgreSQL-grey?logo=PostgreSQL)](#) [![](https://img.shields.io/badge/Python-grey?logo=Python)](#) [![](https://img.shields.io/badge/Node.js-grey?logo=nodedotjs) ](#)
  
 ### CREODIAS / Cloudferro 
 use CREODIAS Earth Observation (EO) data portal to access 20+ years time series Earth Observation data and direct process without download using Linux virtual machines (VM).  
  
 <img src="images/CREODIAS-graph.png" height=250 />  
 
-[![](https://img.shields.io/badge/Cloudferro-grey)  [![](https://img.shields.io/badge/Jupyter-grey?logo=Jupyter) [![](https://img.shields.io/badge/Python-grey?logo=Python) [![](https://img.shields.io/badge/Ubuntu-grey?logo=Ubuntu)
+[![](https://img.shields.io/badge/Cloudferro-grey)](#)  [![](https://img.shields.io/badge/Jupyter-grey?logo=Jupyter) ](#)[![](https://img.shields.io/badge/Python-grey?logo=Python)](#) [![](https://img.shields.io/badge/Ubuntu-grey?logo=Ubuntu)](#)
  
 ### Google Cloud Platform (GCP) 
 collect various meteriological and climate data to study Algae growth in lakes using APIs for massive data download from [GEE](https://developers.google.com/earth-engine/datasets/catalog) and [CDS](https://cds.climate.copernicus.eu/cdsapp#!/search?type=dataset). run the processing with GCP virtual machine and manage data in bucket and postprocess to be ready for further machine learning models.   
@@ -229,7 +231,7 @@ A: Use a Bayesian missing data imputation approach to fuse the two dataset.
  </tr>
 </table>  
 
-[<img src="images/Matlab_Logo_grey.png" width="22" />![](https://img.shields.io/badge/Matlab-grey)](#)  [![](https://img.shields.io/badge/Hyperspectral-grey)   
+[<img src="images/Matlab_Logo_grey.png" width="22" />![](https://img.shields.io/badge/Matlab-grey)](#)  [![](https://img.shields.io/badge/Hyperspectral-grey)](#)   
  
 [See codes in Matlab (Generate_Hyperspectral_Image.m)](materials/ImageFusion_MSI.zip)  | [View publication](https://www.mdpi.com/2072-4292/9/7/696)  
  
