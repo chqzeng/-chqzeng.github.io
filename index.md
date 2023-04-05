@@ -8,7 +8,7 @@
 
 <a name="MachineLearning"/>  
 
-## Machine learning
+## Machine Learning
 <details open >  
  
 ### 1. MODISNN: a dense neural network
@@ -18,11 +18,12 @@ Satellite sensors have a liefspan and different configurations. How can we use m
 <table border="0">
  <tr>
   <td>
-     Figure 1. The illustration of using nerual network to fill satellite observation gap in 2012-2015 (red)
+     Figure 1. Using nerual network to fill satellite observation gap in 2012-2015 (red dash line box)
     <img src="images/MODISNN_illustration.png" width="2000">
   </td>
   <td>
-     Figure 2. An example of NN model performance at image level (left 2 columns: reference; right 2 columns: nerual network training result)
+     Figure 2. An example of NN model performance at image level <BR> 
+     left 2 columns: reference image; right 2 columns: nerual network trained result
     <img src="images/modisNN_rst.png?raw=true" width="2000"/>
   </td>
  </tr>
@@ -37,11 +38,12 @@ Satellite sensors have a liefspan and different configurations. How can we use m
  <a name="AlgaeDriver"/>  
  
 ### 2. AlgaeDriver: assess input features' importance to the output variable  
-Use continuous geographic, hydrological, climate, and meteorological datasets as input to train neural network(NN) and random forest(RF) models, to determine the major environmentl drivers of algae growth in lakes.  
-Use Google Cloud Platform (GCP) to extract relative data from its [Earth Engine Dataset](https://developers.google.com/earth-engine/datasets) and run further NN models    
-Figure 1. The illustration of machine learning model input and output varialbes   
+Use continuous geographic, hydrological, climate, and meteorological datasets as inputs to train neural network(NN) and random forest(RF) models and determine the major environmentl drivers of algae growth in lakes. <BR>
+Use Google Cloud Platform (GCP) to extract relative data from its [Earth Engine](https://developers.google.com/earth-engine/datasets) Dataset and run further NN models    
+Figure 1. AlgaeDriver machine learning model input and output variables  <BR>  
 <img src="images/AlgaeDrivers.png" height="400" />   
-[View code partially on Github](materials/AlgaeDrive.ipynb)  
+
+[View jupyter code partially on Github](materials/AlgaeDrive.ipynb)  
 
 [![](https://img.shields.io/badge/Python-grey?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-grey?logo=Jupyter)](#) [![](https://img.shields.io/badge/Tensorflow-grey?logo=Tensorflow)](#) [![](https://img.shields.io/badge/GoogleCloud-grey?logo=GoogleCloud)](#) [![](https://img.shields.io/badge/GEE-grey?logo=googleearth)](#) 
 
@@ -49,12 +51,13 @@ Figure 1. The illustration of machine learning model input and output varialbes
 <details open >
 <summary> View Certificate </summary>   
 
-<img src="materials/Coursera_DL9CTNZK3T6P.png" height="200" />  [view on coursera.org](https://www.coursera.org/account/accomplishments/certificate/DL9CTNZK3T6P)  
+<img src="materials/Coursera_DL9CTNZK3T6P.png" height="250" />  [view on coursera.org](https://www.coursera.org/account/accomplishments/certificate/DL9CTNZK3T6P)  
 
 </details>
 
- </details>  
- </br>  
+</details>  
+
+</br>  
  
 [Back to Top](#page_top)
 
