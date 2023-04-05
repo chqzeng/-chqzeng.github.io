@@ -1,12 +1,12 @@
 <a name="page_top"/>  
 
 **Page Navigation** 
-- [![](https://img.shields.io/badge/ML  -grey?logo=tensorflow)](#) [1. Machine Learning](#MachineLearning) 
-- [![](https://img.shields.io/badge/CV  -grey?logo=opencv)](#) [2. Computer Vision](#ComputerVision)
-- [![](https://img.shields.io/badge/Cloud-grey?logo=googlecloud)](#) [3. Cloud Computing](#CloudComputing) 
-- [![](https://img.shields.io/badge/Image-grey?logo=atom)](#) [4. Image Processing](#ImageProcessing) 
-- [![](https://img.shields.io/badge/Geo-grey?logo=PyG)](#) [5. Geospatial Applications](#GeospatialApp)  
-- [![](https://img.shields.io/badge/Drone-grey?logo=Drone)](#) [6. Drone/UAV sensing](#Drone) 
+- [![](https://img.shields.io/badge/-grey?logo=tensorflow&logoWidth=20)](#) [1. Machine Learning](#MachineLearning) 
+- [![](https://img.shields.io/badge/-grey?logo=opencv&logoWidth=20)](#) [2. Computer Vision](#ComputerVision)
+- [![](https://img.shields.io/badge/-grey?logo=googlecloud&logoWidth=20)](#) [3. Cloud Computing](#CloudComputing) 
+- [![](https://img.shields.io/badge/-grey?logo=atom&logoWidth=20)](#) [4. Image Processing](#ImageProcessing) 
+- [![](https://img.shields.io/badge/-grey?logo=PyG&logoWidth=20)](#) [5. Geospatial Apps](#GeospatialApp)  
+- [![](https://img.shields.io/badge/-grey?logo=Drone&logoWidth=20)](#) [6. Drone/UAV sensing](#Drone) 
 
 <a name="MachineLearning"/>  
 
@@ -75,20 +75,15 @@ AlgaeDriver machine learning model input and output variables
 
 #### A) Detect rivers from optical and SAR imagery
 Exploit the unique attributes of water in optical and radar/SAR images by first integrating both images for unsupervised classification, and then refining the results with a decision tree.  
-<table border="0">
- <tr>
-  <td>  
-     <img src="images/river_detection2011.png" height="300">
-     Steps to detect the Bow River at Calgary, Aberta, CA.  <BR>
-     (a) input 2m WV-2 optical image, (b) RadarSat-2 SAR image, (c) object-based unsupervised classification, (d) extracted water mask, (e) river channel detection after optical and SAR combined.  
+ 
+<img src="images/river_detection2011.png" height="300">  
+ 
+Steps to detect the Bow River at Calgary, Aberta, CA.  <BR>
+(a) input 2m WV-2 optical image, (b) RadarSat-2 SAR image, (c) object-based unsupervised classification, (d) extracted water mask, (e) river channel detection after optical and SAR combined.  <BR>
     
-  </td>
-  <td>
-     <img src="images/River_seg_connection.png" width="500" />
-     Connect the river channel segments to build a topologically correct river
-  </td>
- </tr>
-</table>  
+<img src="images/River_seg_connection.png" width="500" />  
+ 
+Connect the river channel segments to build a topologically correct river  
 
 [<img src="images/Matlab_Logo_grey.png" width="22" />![](https://img.shields.io/badge/Matlab-grey)](#)  [![](https://img.shields.io/badge/OpenCV-grey?logo=OpenCV)](#) [![](https://img.shields.io/badge/ArcGIS-grey)](#) [![](https://img.shields.io/badge/eCognition-grey)](#)  
 
@@ -329,13 +324,13 @@ Experiment Raspberry Pi as the control unit to connect multiple sensors on board
 
  <table border="0">
  <tr>
-    <td width="600">
+    <td width="500">
      <img src="images/illustration_drone_work.png"  /> <BR> 
      The illustration of the drone/UAV hardware setup    
   </td> 
      
   <td width="300">
-    <img src="images/Image_Mosiac_photoscan_view.png" height="300"/>   <BR>
+    <img src="images/Image_Mosiac_photoscan_view.png" />   <BR>
     An example of multi-view drone sensing image matching to generate 3D surface <BR> 
   </td>
  </tr>
