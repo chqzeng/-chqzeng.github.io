@@ -1,8 +1,8 @@
 <a name="page_top"/>  
 
 **Page Navigation** 
-- [![](https://img.shields.io/badge/ML-grey?logo=tensorflow)](#) [1. Machine Learning](#MachineLearning) 
-- [![](https://img.shields.io/badge/CV-grey?logo=opencv)](#) [2. Computer Vision](#ComputerVision)
+- [![](https://img.shields.io/badge/ML  -grey?logo=tensorflow)](#) [1. Machine Learning](#MachineLearning) 
+- [![](https://img.shields.io/badge/CV  -grey?logo=opencv)](#) [2. Computer Vision](#ComputerVision)
 - [![](https://img.shields.io/badge/Cloud-grey?logo=googlecloud)](#) [3. Cloud Computing](#CloudComputing) 
 - [![](https://img.shields.io/badge/Image-grey?logo=atom)](#) [4. Image Processing](#ImageProcessing) 
 - [![](https://img.shields.io/badge/Geo-grey?logo=PyG)](#) [5. Geospatial Applications](#GeospatialApp)  
@@ -46,11 +46,12 @@ Use Google Cloud Platform (GCP) to extract relative data from its [Earth Engine]
 <br>
 
 <img src="images/AlgaeDrivers.png" height="400" />   <BR>
-AlgaeDriver machine learning model input and output variables  
+AlgaeDriver machine learning model input and output variables   
 
-[View jupyter code partially on Github](materials/AlgaeDrive.ipynb)  
+[![](https://img.shields.io/badge/Python-grey?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-grey?logo=Jupyter)](#) [![](https://img.shields.io/badge/Tensorflow-grey?logo=Tensorflow)](#) [![](https://img.shields.io/badge/GoogleCloud-grey?logo=GoogleCloud)](#) [![](https://img.shields.io/badge/GEE-grey?logo=googleearth)](#)   
 
-[![](https://img.shields.io/badge/Python-grey?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-grey?logo=Jupyter)](#) [![](https://img.shields.io/badge/Tensorflow-grey?logo=Tensorflow)](#) [![](https://img.shields.io/badge/GoogleCloud-grey?logo=GoogleCloud)](#) [![](https://img.shields.io/badge/GEE-grey?logo=googleearth)](#) 
+[View jupyter code partially on Github](materials/AlgaeDrive.ipynb) 
+
 
 ### 3. Coursera Course: "Machine Learning"
 
@@ -58,11 +59,7 @@ AlgaeDriver machine learning model input and output variables
 
 <img src="materials/Coursera_DL9CTNZK3T6P.png" height="250" />  [view on coursera.org](https://www.coursera.org/account/accomplishments/certificate/DL9CTNZK3T6P)  
 
-
-
-
-
-</br>  
+  
  
 [Back to Top](#page_top)
 
@@ -160,9 +157,6 @@ Seamless synthesis is the process of generating a larger image or longer video b
 [![](https://img.shields.io/badge/C++-grey)](#)  
 [View C++ codes and files](materials/Image_syn_demo.zip)  
 
-
-
-</br>  
 
 [Back to Top](#page_top) 
 
