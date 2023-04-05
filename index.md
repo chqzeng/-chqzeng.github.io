@@ -217,7 +217,8 @@ Apply statistical and machine learning models to over 20 years' worth of 100+Tb 
 
 <img src="images/Img_processing_workflow.png" height=400 /> 
 
-[![](https://img.shields.io/badge/Python-grey?logo=Python)](#) [![](https://img.shields.io/badge/QGIS-grey?logo=QGIS)](#) [![](https://img.shields.io/badge/ESAsnap-grey)](#) [![](https://img.shields.io/badge/GDAL-grey)](#) [![](https://img.shields.io/badge/XML-grey)](#) 
+
+[![](https://img.shields.io/badge/Linux-grey?logo=Linux)](#) [![](https://img.shields.io/badge/Python-grey?logo=Python)](#) [![](https://img.shields.io/badge/QGIS-grey?logo=QGIS)](#) [![](https://img.shields.io/badge/ESAsnap-grey)](#) [![](https://img.shields.io/badge/GDAL-grey)](#) [![](https://img.shields.io/badge/XML-grey)](#) 
 
 [View partial codes](https://github.com/chqzeng/OpenWL) | [View publications](https://www.sciencedirect.com/science/article/pii/S0380133022002660)  
 
