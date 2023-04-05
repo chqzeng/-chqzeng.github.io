@@ -130,7 +130,7 @@ Detect buildings under varied scenarios from high-resolution (<1m) satellite ima
  </tr>
 </table>  
 
-[<img src="images/Matlab_Logo_grey.png" width="22" />![](https://img.shields.io/badge/Matlab-grey)](#)   [![](https://img.shields.io/badge/IDL-grey?)
+[<img src="images/Matlab_Logo_grey.png" width="22" />![](https://img.shields.io/badge/Matlab-grey)](#)   [![](https://img.shields.io/badge/IDL-grey?)](#)
 
 [Code in IDL / Matlab](materials/Image_matching.zip)  |   [Journal Paper](https://www.tandfonline.com/doi/abs/10.5589/m13-039)  |  [Book Chapter](https://www.taylorfrancis.com/chapters/edit/10.1201/9780429470196-5/multiview-image-matching-3d-earth-surface-reconstruction-chuiqing-zeng-jinfei-wang)
 
@@ -176,7 +176,7 @@ Using the recent [HPC](https://www.canada.ca/en/shared-services/corporate/data-c
 <img src="images/HPC_infrastructure.png" height=300 />   <BR>
 The HPC structure and major tools used for the data processing pipeline   
 
-[![](https://img.shields.io/badge/Anaconda-grey?logo=anaconda)](#) [![](https://img.shields.io/badge/Python-grey?logo=Python)](#) [![](https://img.shields.io/badge/Ubuntu-grey?logo=Ubuntu)](#) [![](https://img.shields.io/badge/Docker-grey?logo=Docker)](#)   [![](https://img.shields.io/badge/Intel-grey?logo=Intel)](#) [![](https://img.shields.io/badge/Nvidia-grey?logo=Nvidia) ](#)
+[![](https://img.shields.io/badge/Bash-grey?logo=gnubash)](#) [![](https://img.shields.io/badge/Anaconda-grey?logo=anaconda)](#) [![](https://img.shields.io/badge/Python-grey?logo=Python)](#) [![](https://img.shields.io/badge/Ubuntu-grey?logo=Ubuntu)](#) [![](https://img.shields.io/badge/Docker-grey?logo=Docker)](#)   [![](https://img.shields.io/badge/Intel-grey?logo=Intel)](#) [![](https://img.shields.io/badge/Nvidia-grey?logo=Nvidia) ](#)
 
 ### Microsoft Azure 
 with an environment mornitoring webportal [EOLakewatch](https://eolakewatch-staging.azurewebsites.net/) deployed on Azure, I maintain the Blob storage/COG imagery and optimize the PostgreSQL database with billions of records.  
@@ -215,7 +215,7 @@ more details in above [AlgaeDriver](#AlgaeDriver)
 
 ### Image fusion  
 
-Q: With two datasets: one covering spatial details but only having 6 bands(colors), and another measuring sparse points spatially but having >100 bands, how can we estimate a dataset with both rich spatial details and >100 bands? 
+Q: With two datasets: one covering spatial details but only having 6 bands(colors), and another measuring sparse points spatially but having >100 bands, how can we estimate a dataset with both rich spatial details and >100 bands?  
 A: Use a Bayesian missing data imputation approach to fuse the two dataset.
  
  <table border="0">
@@ -224,7 +224,7 @@ A: Use a Bayesian missing data imputation approach to fuse the two dataset.
      <img src="images/Zeng_Ag_UAV_hyperdata_fusion.png"  /> <BR>
      the illustration of mutlspectral and spectrometer datasets fusion
   </td> 
-     <td width="300">
+     <td width="400">
      <img src="images/tomatofield_hyper_image_cube.png"  /> <BR>  
      an example of the output hyperspectral dataset   
   </td> 
@@ -247,31 +247,32 @@ A: Use a Bayesian missing data imputation approach to fuse the two dataset.
 ## Geospatial Application  
 <details open>  
  
-### populatoin spatialization
-Given an administrative boundary and its total population, how to determine the population spatial distribution within that admin boundary?
-[Population spatialization in china based on night-time imagery and land use data](http://www.tandfonline.com/doi/abs/10.1080/01431161.2011.569581)
-use [nighttime light](https://ngdc.noaa.gov/eog/download.html) and [land use](https://forobs.jrc.ec.europa.eu/products/glc2000/glc2000.php) dataset to determine the spatial distribution of population.
+### populatoin spatialization  
+Q: Given an administrative boundary and its total population, how can we determine the spatial distribution of population within that administrative boundary (e.g. in 1km grids)? 
+A: Use [nighttime light](https://ngdc.noaa.gov/eog/download.html) and [land use](https://forobs.jrc.ec.europa.eu/products/glc2000/glc2000.php) dataset to determine the spatial distribution of population.
  
 <table border="0">
  <tr>
   <td width="600">
-     input data 1: land use land cover <BR> 
-    <img src="images/landuse_glc2000.png" />
+    <img src="images/landuse_glc2000.png" /> <BR> 
+    input data 1: land use land cover 
   </td>
   <td width="600">
-     input data 2: nighttime light <BR>    
-     <img src="images/nightime_ligh_2006nov.png"  />
+     
+     <img src="images/nightime_ligh_2006nov.png"  />  <BR> 
+     input data 2: nighttime light
   </td> 
   </tr>
  
  <tr>
   <td width="600">
-     input data 3: population in administrative boundaries <BR>    
-     <img src="images/pop_grid_2008_census.png"  />
+     
+     <img src="images/pop_grid_2008_census.png"  />  <BR> 
+     input data 3: population in administrative boundaries 
   </td>
-   <td width="600">
-     output data: population in 1km grids <BR>    
-     <img src="images/pop_grid_2000_spatialized.png"  />
+   <td width="600">  
+     <img src="images/pop_grid_2000_spatialized.png"  />  <BR> 
+     output data: population in 1km grids 
   </td>
  </tr>
  
@@ -280,33 +281,34 @@ use [nighttime light](https://ngdc.noaa.gov/eog/download.html) and [land use](ht
 
 <br/>  
 
-[![](https://img.shields.io/badge/SQL-grey?logo=microsoftsqlserver)](#) [<img src="images/Matlab_Logo_grey.png" width="22" />![](https://img.shields.io/badge/Matlab-grey)](#) [![](https://img.shields.io/badge/ExcelVBA-grey?logo=microsoftexcel)](#)  [![](https://img.shields.io/badge/ArcGIS-grey)](#)    
+[<img src="images/Matlab_Logo_grey.png" width="22" />![](https://img.shields.io/badge/Matlab-grey)](#) [![](https://img.shields.io/badge/ExcelVBA-grey?logo=microsoftexcel)](#)  [![](https://img.shields.io/badge/ArcGIS-grey)](#)  [![](https://img.shields.io/badge/SQL-grey?logo=microsoftsqlserver)](#)   
 
-[view partial codes](materials/Pop_spatialization.zip)
+[View partial codes](materials/Pop_spatialization.zip)  |  [View Publication](http://www.tandfonline.com/doi/abs/10.1080/01431161.2011.569581)
 
 
 ### Vehicle-based POI collection system 
-develop a light platform that can collect and update points of interest (POIs) with vehicle top-mounted cameras and GPS-receiver, to update existing POI database and collect street-view map like Google Street View.
+Develop a lightweight platform that can collect and update points of interest (POIs), with cameras and GPS receivers mounted on vehicle top, to update an existing POI database and collect street-view maps similar to Google Street View.  
+
 <table border="0">
  <tr>
-    <td width="600">
-      the illustration of the survey platform <BR>    
-     <img src="images/survey_system_illustration.png"  />
+    <td width="600">  
+     <img src="images/survey_system_illustration.png"  />  <BR>  
+     the illustration of the survey platform 
   </td> 
      
   <td width="600">
-     the survey platform interface with loaded POIs <BR> 
-    <img src="images/Interface0.png" />
+    <img src="images/Interface0.png" />  <BR>  
+    the survey platform interface with loaded POIs 
   </td>
-  <td width="600">
-     image extracted from vehicle top-mounted camera videos <BR>    
-     <img src="images/Camera.png"  />
+  <td width="600"> 
+     <img src="images/Camera.png"  />  <BR>  
+     image extracted from captured videos 
   </td>
  </tr>
  
 </table>  
  
-[![](https://img.shields.io/badge/SQL-grey?logo=microsoftsqlserver)](#)  [![](https://img.shields.io/badge/CSharp-grey?logo=CSharp)](#) [![](https://img.shields.io/badge/VisualStudio-grey?logo=visualstudio)](#) [![](https://img.shields.io/badge/GPS-grey)](#)        
+  [![](https://img.shields.io/badge/VisualStudio-grey?logo=visualstudio)](#) [![](https://img.shields.io/badge/CSharp-grey?logo=CSharp)](#) [![](https://img.shields.io/badge/GPS-grey)](#) [![](https://img.shields.io/badge/SQL-grey?logo=microsoftsqlserver)](#)        
  
 [view partial codes](materials/Vehicle_based_POI_collection.zip)
 
@@ -355,7 +357,9 @@ With the flexibility of drone platform, to measure and validate different water 
   </td>
      
  </tr>
-</table> 
+</table>  
+
+[View publication](https://www.sciencedirect.com/science/article/abs/pii/S0924271617302666)
 
 </details>  
 
