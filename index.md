@@ -1,15 +1,17 @@
 <a name="page_top"/>  
 
 **Page Navigation** 
-|     |    |    |
-| --- | ---| ---|
-| [![](https://img.shields.io/badge/ML-grey?logo=tensorflow)](#) [1. Machine Learning](#MachineLearning) | [![](https://img.shields.io/badge/CV-grey?logo=opencv)](#) [2. Computer Vision](#ComputerVision)| [![](https://img.shields.io/badge/Cloud-grey?logo=googlecloud)](#) [3. Cloud Computing](#CloudComputing) 
-| [![](https://img.shields.io/badge/Image-grey?logo=atom)](#) [4. Image Processing](#ImageProcessing) | [![](https://img.shields.io/badge/Geo-grey?logo=PyG)](#) [5. Geospatial Applications](#GeospatialApp)  | [![](https://img.shields.io/badge/Drone-grey?logo=Drone)](#) [6. Drone/UAV sensing](#Drone) 
+- [![](https://img.shields.io/badge/ML-grey?logo=tensorflow)](#) [1. Machine Learning](#MachineLearning) 
+- [![](https://img.shields.io/badge/CV-grey?logo=opencv)](#) [2. Computer Vision](#ComputerVision)
+- [![](https://img.shields.io/badge/Cloud-grey?logo=googlecloud)](#) [3. Cloud Computing](#CloudComputing) 
+- [![](https://img.shields.io/badge/Image-grey?logo=atom)](#) [4. Image Processing](#ImageProcessing) 
+- [![](https://img.shields.io/badge/Geo-grey?logo=PyG)](#) [5. Geospatial Applications](#GeospatialApp)  
+- [![](https://img.shields.io/badge/Drone-grey?logo=Drone)](#) [6. Drone/UAV sensing](#Drone) 
 
 <a name="MachineLearning"/>  
 
 ## Machine Learning
-<details open >  
+
  
 ### 1. MODISNN: a dense neural network
 
@@ -51,14 +53,14 @@ AlgaeDriver machine learning model input and output variables
 [![](https://img.shields.io/badge/Python-grey?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-grey?logo=Jupyter)](#) [![](https://img.shields.io/badge/Tensorflow-grey?logo=Tensorflow)](#) [![](https://img.shields.io/badge/GoogleCloud-grey?logo=GoogleCloud)](#) [![](https://img.shields.io/badge/GEE-grey?logo=googleearth)](#) 
 
 ### 3. Coursera Course: "Machine Learning"
-<details open >
+
 <summary> View Certificate </summary>   
 
 <img src="materials/Coursera_DL9CTNZK3T6P.png" height="250" />  [view on coursera.org](https://www.coursera.org/account/accomplishments/certificate/DL9CTNZK3T6P)  
 
-</details>
 
-</details>  
+
+
 
 </br>  
  
@@ -70,7 +72,7 @@ AlgaeDriver machine learning model input and output variables
 
 ## Computer Vision
 
-<details open >  
+
 
 ### 1. Detect urban objects from high-resolution imagery  
 
@@ -158,7 +160,7 @@ Seamless synthesis is the process of generating a larger image or longer video b
 [![](https://img.shields.io/badge/C++-grey)](#)  
 [View C++ codes and files](materials/Image_syn_demo.zip)  
 
-</details>  
+
 
 </br>  
 
@@ -168,7 +170,7 @@ Seamless synthesis is the process of generating a larger image or longer video b
 <a name="CloudComputing"/>  
 
 ## Cloud computing
-<details open >  
+ 
 
 <a name="HPCsection"/> 
 
@@ -199,7 +201,6 @@ collect various meteriological and climate data to study Algae growth in lakes u
 more details in above [AlgaeDriver](#AlgaeDriver)
 
 
-</details>  
 
 <br/>   
 
@@ -210,7 +211,6 @@ more details in above [AlgaeDriver](#AlgaeDriver)
 
 ## Image processing
 
-<details open> 
 
 ### Water quality mapping from satellite imagery  
 Apply statistical and machine learning models to over 20 years' worth of 100+Tb satellite imagery using [HPC](#HPCsection), develop and maintain an image processing pipeline that generates both an archive of time-series daily lake statistics starting from 2002 and processes data in near real-time on a daily basis. The project is expanding to monitor all major lakes in Canada.  
@@ -245,7 +245,6 @@ A: Use a Bayesian missing data imputation approach to fuse the two dataset.
  
 [See codes in Matlab (Generate_Hyperspectral_Image.m)](materials/ImageFusion_MSI.zip)  | [View publication](https://www.mdpi.com/2072-4292/9/7/696)  
  
-</details>  
 
 <br/>   
 
@@ -255,7 +254,7 @@ A: Use a Bayesian missing data imputation approach to fuse the two dataset.
 <a name="GeospatialApp"/> 
 
 ## Geospatial Application  
-<details open>  
+ 
  
 ### populatoin spatialization  
 Q: Given an administrative boundary and its total population, how can we determine the spatial distribution of population within that administrative boundary (e.g. in 1km grids)? 
@@ -320,7 +319,7 @@ Develop a lightweight platform that can collect and update points of interest (P
  
 [view partial codes](materials/Vehicle_based_POI_collection.zip)
 
-</details>  
+
 
 [Back to Top](#page_top)  
 
@@ -329,7 +328,7 @@ Develop a lightweight platform that can collect and update points of interest (P
 
 ## Drone/UAV sensing 
 
-<details open>  
+ 
 
 ### UAV sensing over land
 Experiment Raspberry Pi as the control unit to connect multiple sensors on board the drones, and post-process multi-view images to generate rich 3D terrain and spectral details.
@@ -374,7 +373,7 @@ Experiment and validate different water optical measurements using the flexible 
 
 [View publication](https://www.sciencedirect.com/science/article/abs/pii/S0924271617302666)
 
-</details>  
+
 
 <br/>  
 
@@ -383,10 +382,10 @@ Experiment and validate different water optical measurements using the flexible 
 
 <!--  left over
 
-<details open>
+
 <summary>Click Image below to explore EOLakeWatch</summary>  
 [![EOLakeWatch](images/EOLakeWatch_webapp.png)](https://eolakewatch-staging.azurewebsites.net/webapp/)   
-</details>
+
 -->
 <!-- <iframe src="https://public.tableau.com/views/EOLakeWatchAttentionLacsOTEN/EOLakeWatch-AttentionLacsOT?:toolbar=n&amp;:display_count=y&amp;:origin=viz_share_link?:embed=y&amp;:display_count=yes&amp;:showVizHome=no" width="100%" height="600px"></iframe>
 -->
