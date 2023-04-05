@@ -170,6 +170,8 @@ Seamless synthesis is the process of generating a larger image or longer video b
 ## Cloud computing
 <details open >  
 
+<a name="HPCsection"/> 
+
 ### High perofmrance computering (HPC) 
 Using the recent [HPC](https://www.canada.ca/en/shared-services/corporate/data-centre-consolidation/high-performance-computing.html) established in the Government of Canada, I developed and maintain pipeline to process >100TB satellite images using massive GPUs and CPUs, which feeds time-series data to the following Microsoft Azure webportal.
  
@@ -210,7 +212,13 @@ more details in above [AlgaeDriver](#AlgaeDriver)
 
 <details open> 
 
-### Water quality mapping from satellite imagery
+### Water quality mapping from satellite imagery  
+Apply statistical and machine learning models to over 20 years' worth of 100+Tb satellite imagery using [HPC](#HPCsection), develop and maintain an image processing pipeline that generates both an archive of time-series daily lake statistics starting from 2002 and processes data in near real-time on a daily basis. The project is expanding to monitor all major lakes in Canada.  
+
+<img src="images/Img_processing_workflow.png" height=400 /> 
+
+
+[View partial codes](https://github.com/chqzeng/OpenWL) | [View publications] (https://www.sciencedirect.com/science/article/pii/S0380133022002660)  
 
 
 ### Image fusion  
@@ -258,15 +266,13 @@ A: Use [nighttime light](https://ngdc.noaa.gov/eog/download.html) and [land use]
     input data 1: land use land cover 
   </td>
   <td width="600">
-     
-     <img src="images/nightime_ligh_2006nov.png"  />  <BR> 
+     <img src="images/nightime_ligh_2006nov.png"/>  <BR> 
      input data 2: nighttime light
   </td> 
   </tr>
  
  <tr>
   <td width="600">
-     
      <img src="images/pop_grid_2008_census.png"  />  <BR> 
      input data 3: population in administrative boundaries 
   </td>
