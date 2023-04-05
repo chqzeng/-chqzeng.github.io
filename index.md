@@ -41,9 +41,10 @@ Satellite sensors have a liefspan and different configurations. How can we use m
 ### 2. AlgaeDriver: assess input features' importance to the output variable  
 Use continuous geographic, hydrological, climate, and meteorological datasets as inputs to train neural network(NN) and random forest(RF) models and determine the major environmentl drivers of algae growth in lakes. <BR>
 Use Google Cloud Platform (GCP) to extract relative data from its [Earth Engine](https://developers.google.com/earth-engine/datasets) Dataset and run further NN models    
-Figure 1. AlgaeDriver machine learning model input and output variables  <BR><BR>
-    
+<br>
+
 <img src="images/AlgaeDrivers.png" height="400" />   
+AlgaeDriver machine learning model input and output variables  <BR>
 
 [View jupyter code partially on Github](materials/AlgaeDrive.ipynb)  
 
@@ -77,14 +78,15 @@ Figure 1. AlgaeDriver machine learning model input and output variables  <BR><BR
 Exploit the unique attributes of water in optical and radar/SAR images by first integrating both images for unsupervised classification, and then refining the results with a decision tree.  
 <table border="0">
  <tr>
-  <td>
-     Figure 1. Steps to detect the Bow River at Calgary, Aberta, CA.  <BR>
+  <td>  
+     <img src="images/river_detection2011.png" height="300">
+     Steps to detect the Bow River at Calgary, Aberta, CA.  <BR>
      (a) input 2m WV-2 optical image, (b) RadarSat-2 SAR image, (c) object-based unsupervised classification (b) extracted water mask, (e) river channel detection after optical and SAR combined.  
-    <img src="images/river_detection2011.png" height="300">
+    
   </td>
   <td>
-     Figure 2. Connect the river channel segments to build a topologically correct river
      <img src="images/River_seg_connection.png" width="500" />
+     Connect the river channel segments to build a topologically correct river
   </td>
  </tr>
 </table>  
@@ -98,12 +100,12 @@ Detect buildings under varied scenarios from high-resolution (<1m) satellite ima
 <table border="0">
  <tr>
   <td>
-    Figure 1. Urban building detection from aerial photos and LiDAR point clouds  <BR> 
-    <img src="materials/building_detection.gif" height='500'>
+    <img src="materials/building_detection.gif" height='500'>  
+    Urban building detection from aerial photos and LiDAR point clouds 
   </td>
   <td>
-     Figure 2. The reconstructed 3D buildings and trees   <BR> 
-     <img src="materials/campus_3d_buildings.gif" />
+     <img src="materials/campus_3d_buildings.gif" />  
+     The reconstructed 3D buildings and trees   <BR> 
   </td>
  </tr>
 </table>  
