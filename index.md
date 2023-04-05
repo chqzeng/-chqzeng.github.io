@@ -1,12 +1,12 @@
 <a name="page_top"/>  
 
 **Page Navigation** 
-- [![](https://img.shields.io/badge/-grey?logo=tensorflow&logoWidth=20)](#) [1. Machine Learning](#MachineLearning) 
-- [![](https://img.shields.io/badge/-grey?logo=opencv&logoWidth=20)](#) [2. Computer Vision](#ComputerVision)
-- [![](https://img.shields.io/badge/-grey?logo=googlecloud&logoWidth=20)](#) [3. Cloud Computing](#CloudComputing) 
-- [![](https://img.shields.io/badge/-grey?logo=atom&logoWidth=20)](#) [4. Image Processing](#ImageProcessing) 
-- [![](https://img.shields.io/badge/-grey?logo=PyG&logoWidth=20)](#) [5. Geospatial Apps](#GeospatialApp)  
-- [![](https://img.shields.io/badge/-grey?logo=Drone&logoWidth=20)](#) [6. Drone/UAV sensing](#Drone) 
+- [![](https://img.shields.io/badge/-grey?logo=tensorflow&logoWidth=15)](#) [1. Machine Learning](#MachineLearning) 
+- [![](https://img.shields.io/badge/-grey?logo=opencv&logoWidth=15)](#) [2. Computer Vision](#ComputerVision)
+- [![](https://img.shields.io/badge/-grey?logo=googlecloud&logoWidth=15)](#) [3. Cloud Computing](#CloudComputing) 
+- [![](https://img.shields.io/badge/-grey?logo=atom&logoWidth=15)](#) [4. Image Processing](#ImageProcessing) 
+- [![](https://img.shields.io/badge/-grey?logo=PyG&logoWidth=15)](#) [5. Geospatial Apps](#GeospatialApp)  
+- [![](https://img.shields.io/badge/-grey?logo=Drone&logoWidth=15)](#) [6. Drone/UAV sensing](#Drone) 
 
 <a name="MachineLearning"/>  
 
@@ -20,11 +20,11 @@ Satellite sensors have a liefspan and different configurations. How can we use m
 <table border="0">
  <tr>
   <td>  
-    <img src="images/MODISNN_illustration.png" width="2000">  
+    <img src="images/MODISNN_illustration.png" width="500">  
     Using nerual network to fill satellite observation gap in 2012-2015 (red dash line box)
   </td>
   <td>  
-     <img src="images/modisNN_rst.png?raw=true" width="2000"/>  
+     <img src="images/modisNN_rst.png?raw=true" width="500"/>  
      An example of NN model performance at image level <BR> 
      left 2 columns: reference image; right 2 columns: nerual network trained result
     
@@ -43,9 +43,8 @@ Satellite sensors have a liefspan and different configurations. How can we use m
 ### 2. AlgaeDriver: assess input features' importance to the output variable  
 Use continuous geographic, hydrological, climate, and meteorological datasets as inputs to train neural network(NN) and random forest(RF) models and determine the major environmentl drivers of algae growth in lakes. <BR>
 Use Google Cloud Platform (GCP) to extract relative data from its [Earth Engine](https://developers.google.com/earth-engine/datasets) Dataset and run further NN models    
-<br>
 
-<img src="images/AlgaeDrivers.png" height="400" />   <BR>
+<img src="images/AlgaeDrivers.png" width="500" />   <BR>
 AlgaeDriver machine learning model input and output variables   
 
 [![](https://img.shields.io/badge/Python-grey?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-grey?logo=Jupyter)](#) [![](https://img.shields.io/badge/Tensorflow-grey?logo=Tensorflow)](#) [![](https://img.shields.io/badge/GoogleCloud-grey?logo=GoogleCloud)](#) [![](https://img.shields.io/badge/GEE-grey?logo=googleearth)](#)   
@@ -76,7 +75,7 @@ AlgaeDriver machine learning model input and output variables
 #### A) Detect rivers from optical and SAR imagery
 Exploit the unique attributes of water in optical and radar/SAR images by first integrating both images for unsupervised classification, and then refining the results with a decision tree.  
  
-<img src="images/river_detection2011.png" height="300">  
+<img src="images/river_detection2011.png" width="500">  
  
 Steps to detect the Bow River at Calgary, Aberta, CA.  <BR>
 (a) input 2m WV-2 optical image, (b) RadarSat-2 SAR image, (c) object-based unsupervised classification, (d) extracted water mask, (e) river channel detection after optical and SAR combined.  <BR>
@@ -166,7 +165,7 @@ Seamless synthesis is the process of generating a larger image or longer video b
 ### High perofmrance computering (HPC) 
 Using the recent [HPC](https://www.canada.ca/en/shared-services/corporate/data-centre-consolidation/high-performance-computing.html) established in the Government of Canada, I developed and maintain pipeline to process >100TB satellite images using massive GPUs and CPUs, which feeds time-series data to the following Microsoft Azure webportal.
  
-<img src="images/HPC_infrastructure.png" height=300 />   <BR>
+<img src="images/HPC_infrastructure.png" width="500" />   <BR>
 The HPC structure and major tools used for the data processing pipeline   
 
 [![](https://img.shields.io/badge/Bash-grey?logo=gnubash)](#) [![](https://img.shields.io/badge/Anaconda-grey?logo=anaconda)](#) [![](https://img.shields.io/badge/Python-grey?logo=Python)](#) [![](https://img.shields.io/badge/Ubuntu-grey?logo=Ubuntu)](#) [![](https://img.shields.io/badge/Docker-grey?logo=Docker)](#)   [![](https://img.shields.io/badge/Intel-grey?logo=Intel)](#) [![](https://img.shields.io/badge/Nvidia-grey?logo=Nvidia) ](#)
@@ -174,24 +173,21 @@ The HPC structure and major tools used for the data processing pipeline
 ### Microsoft Azure 
 with an environment mornitoring webportal [EOLakewatch](https://eolakewatch-staging.azurewebsites.net/) deployed on Azure, I maintain the Blob storage/COG imagery and optimize the PostgreSQL database with billions of records.  
  
-<img src="images/EOLakeWatch_webapp.png" height=300 />  
+<img src="images/EOLakeWatch_webapp.png" width="500" />  
 
 [![](https://img.shields.io/badge/Azure-grey?logo=microsoftazure)](#) [![](https://img.shields.io/badge/PostgreSQL-grey?logo=PostgreSQL)](#) [![](https://img.shields.io/badge/Python-grey?logo=Python)](#) [![](https://img.shields.io/badge/Node.js-grey?logo=nodedotjs) ](#)
  
 ### CREODIAS / Cloudferro 
 use CREODIAS Earth Observation (EO) data portal to access 20+ years time series Earth Observation data and direct process without download using Linux virtual machines (VM).  
  
-<img src="images/CREODIAS-graph.png" height=250 />  
+<img src="images/CREODIAS-graph.png" width="400" />  
 
 [![](https://img.shields.io/badge/Cloudferro-grey)](#)  [![](https://img.shields.io/badge/Jupyter-grey?logo=Jupyter) ](#)[![](https://img.shields.io/badge/Python-grey?logo=Python)](#) [![](https://img.shields.io/badge/Ubuntu-grey?logo=Ubuntu)](#)
  
 ### Google Cloud Platform (GCP) 
 collect various meteriological and climate data to study Algae growth in lakes using APIs for massive data download from [GEE](https://developers.google.com/earth-engine/datasets/catalog) and [CDS](https://cds.climate.copernicus.eu/cdsapp#!/search?type=dataset). run the processing with GCP virtual machine and manage data in bucket and postprocess to be ready for further machine learning models.   
-more details in above [AlgaeDriver](#AlgaeDriver)
+more details in above [AlgaeDriver](#AlgaeDriver)  
 
-
-
-<br/>   
 
 [Back to Top](#page_top)   
 
@@ -232,10 +228,8 @@ A: Use a Bayesian missing data imputation approach to fuse the two dataset.
 
 [<img src="images/Matlab_Logo_grey.png" width="22" />![](https://img.shields.io/badge/Matlab-grey)](#)  [![](https://img.shields.io/badge/Hyperspectral-grey)](#)   
  
-[See codes in Matlab (Generate_Hyperspectral_Image.m)](materials/ImageFusion_MSI.zip)  | [View publication](https://www.mdpi.com/2072-4292/9/7/696)  
+[See codes in Matlab (Generate_Hyperspectral_Image.m)](materials/ImageFusion_MSI.zip)  | [View publication](https://www.mdpi.com/2072-4292/9/7/696)    
  
-
-<br/>   
 
 [Back to Top](#page_top)  
 
@@ -273,9 +267,6 @@ A: Use [nighttime light](https://ngdc.noaa.gov/eog/download.html) and [land use]
  </tr>
  
 </table>   
- 
-
-<br/>  
 
 [<img src="images/Matlab_Logo_grey.png" width="22" />![](https://img.shields.io/badge/Matlab-grey)](#) [![](https://img.shields.io/badge/ExcelVBA-grey?logo=microsoftexcel)](#)  [![](https://img.shields.io/badge/ArcGIS-grey)](#)  [![](https://img.shields.io/badge/SQL-grey?logo=microsoftsqlserver)](#)   
 
@@ -362,9 +353,6 @@ Experiment and validate different water optical measurements using the flexible 
 
 [View publication](https://www.sciencedirect.com/science/article/abs/pii/S0924271617302666)
 
-
-
-<br/>  
 
 [Back to Top](#page_top)  
 
