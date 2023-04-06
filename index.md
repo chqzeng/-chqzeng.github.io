@@ -5,7 +5,7 @@
 - [![](https://img.shields.io/badge/-grey?logo=opencv&logoWidth=15)](#) [Computer Vision](#ComputerVision)
 - [![](https://img.shields.io/badge/-grey?logo=googlecloud&logoWidth=15)](#) [Cloud Computing](#CloudComputing) 
 - [![](https://img.shields.io/badge/-grey?logo=atom&logoWidth=15)](#) [Image Processing](#ImageProcessing) 
-- [![](https://img.shields.io/badge/-grey?logo=PyG&logoWidth=15)](#) [Geospatial Apps](#GeospatialApp)  
+- [![](https://img.shields.io/badge/-grey?logo=PyG&logoWidth=15)](#) [Geospatial Applications](#GeospatialApp)  
 - [![](https://img.shields.io/badge/-grey?logo=Drone&logoWidth=15)](#) [Drone/UAV Sensing](#Drone) 
 
 <a name="MachineLearning"/>  
@@ -83,6 +83,7 @@ The reconstructed 3D buildings and trees
  
 
 [Ph.D Dissertation](https://ir.lib.uwo.ca/etd/2076/): "Automated Building Information Extraction and Evaluation from High-resolution Remotely Sensed Data"  
+
 [<img src="images/Matlab_Logo_grey.png" width="22" />![](https://img.shields.io/badge/Matlab-grey)](#)  [![](https://img.shields.io/badge/OpenCV-grey?logo=OpenCV)](#) [![](https://img.shields.io/badge/C++-grey)](#) [![](https://img.shields.io/badge/eCognition-grey)](#) [![](https://img.shields.io/badge/3Dmodel-grey?logo=Sketchup)](#) 
 
 ### 3. Esitmate image depth and 3D model from mutli-view imagery (2015)
@@ -189,7 +190,7 @@ A: Use [nighttime light](https://ngdc.noaa.gov/eog/download.html) and [land use]
  
 <table border="0">
  <tr>
-  <td width="800">
+  <td width="750">
     <img src="images/landuse_glc2000.png" /> <BR>   
     Input data 1: land use land cover 
   </td>
@@ -219,7 +220,7 @@ The illustration of the survey platform
 <img src="images/Interface0.png"  width="600"/>    
 The survey platform interface with loaded POIs <BR>
 
-<img src="images/Camera.png"   width="600"/>    
+<img src="images/Camera.png"   width="400"/>    
 Image extracted from captured videos  
  
 [![](https://img.shields.io/badge/VisualStudio-grey?logo=visualstudio)](#) [![](https://img.shields.io/badge/CSharp-grey?logo=CSharp)](#) [![](https://img.shields.io/badge/GPS-grey)](#) [![](https://img.shields.io/badge/SQL-grey?logo=microsoftsqlserver)](#)        
@@ -238,7 +239,7 @@ Experiment Raspberry Pi as the control unit to connect multiple sensors on board
 <img src="images/illustration_drone_work.png"  />   
 The illustration of the drone/UAV hardware setup       
 
-<img src="images/Image_Mosiac_photoscan_view.png" width="300"/>   
+<img src="images/Image_Mosiac_photoscan_view.png" width="400"/>   
 An example of multi-view drone sensing image matching to generate 3D surface    
 
 [![](https://img.shields.io/badge/RaspberryPi-grey?logo=RaspberryPi)](#)  [<img src="images/Matlab_Logo_grey.png" width="22" />![](https://img.shields.io/badge/Matlab-grey)](#)  [![](https://img.shields.io/badge/DJI-grey)](#) [![](https://img.shields.io/badge/PhotoScan-grey)](#)   
@@ -269,4 +270,5 @@ An example of water spectra at different scenarios
 <!-- <iframe src="https://public.tableau.com/views/EOLakeWatchAttentionLacsOTEN/EOLakeWatch-AttentionLacsOT?:toolbar=n&amp;:display_count=y&amp;:origin=viz_share_link?:embed=y&amp;:display_count=yes&amp;:showVizHome=no" width="100%" height="600px"></iframe>
 -->
 <!-- <img src="images/EOLakeWatch_webapp.png?raw=true"/>  
-[Explore EOLakeWatch](https://eolakewatch-staging.azurewebsites.net/webapp/)   -->
+
+[Explore EOLakeWatch (under construction)](https://eolakewatch-staging.azurewebsites.net/webapp/)   -->
