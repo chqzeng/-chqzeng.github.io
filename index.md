@@ -52,7 +52,7 @@ AlgaeDriver machine learning model input and output variables
 
   
  
-[Back to Top](#page_top)
+[Back to Top](#)
 
 
 ---
@@ -71,7 +71,6 @@ Steps to detect the Bow River at Calgary, Aberta, CA.  <BR>
 (a) input 2m WV-2 optical image, (b) RadarSat-2 SAR image, (c) object-based unsupervised classification, (d) extracted water mask, (e) river channel detection after optical and SAR combined.  <BR>
     
 <img src="images/River_seg_connection.png" width="500" />  
- 
 Connect the river channel segments to build a topologically correct river  
 
 [<img src="images/Matlab_Logo_grey.png" width="22" />![](https://img.shields.io/badge/Matlab-grey)](#)  [![](https://img.shields.io/badge/OpenCV-grey?logo=OpenCV)](#) [![](https://img.shields.io/badge/ArcGIS-grey)](#) [![](https://img.shields.io/badge/eCognition-grey)](#)  
@@ -82,10 +81,10 @@ Connect the river channel segments to build a topologically correct river
 ### 2. Building detection from aerial photos and LiDAR point clouds (2012)
 Detect buildings under varied scenarios from high-resolution (<1m) satellite images or aerial photos.
 
-<img src="materials/building_detection.gif" height="400" >   <BR> 
-Urban building detection from aerial photos and LiDAR point clouds  <BR> <BR>  
+<img src="materials/building_detection.gif" height="400" >   
+Urban building detection from aerial photos and LiDAR point clouds  <BR> 
 
-<img src="materials/campus_3d_buildings.gif" height="400" />  <BR> 
+<img src="materials/campus_3d_buildings.gif" height="400" />  <BR>  
 The reconstructed 3D buildings and trees   
  
 
@@ -95,11 +94,13 @@ The reconstructed 3D buildings and trees
 
 ### 3. Esitmate image depth and 3D model from mutli-view imagery (2015)
  
-<img src="images/An example of the stereo image matching process.png" width="400" />  <BR>  
-An example of image matching using edges as constrains <BR><BR>  
+<img src="images/An example of the stereo image matching process.png" width="400" />  
+An example of image matching using edges as constrains  
+<BR>  
+ 
+<img src="images/The matching rates for a sample building.png" width="400" />   
+Combined intensity and edge matching improves the stero matching reliability  
 
-<img src="images/The matching rates for a sample building.png" width="400" /> <BR>
-Combined intensity and edge matching improves the stero matching reliability 
 [<img src="images/Matlab_Logo_grey.png" width="22" />![](https://img.shields.io/badge/Matlab-grey)](#)   [![](https://img.shields.io/badge/IDL-grey?)](#)
 
 [Code in IDL / Matlab](materials/Image_matching.zip)  |   [Journal Paper](https://www.tandfonline.com/doi/abs/10.5589/m13-039)  |  [Book Chapter](https://www.taylorfrancis.com/chapters/edit/10.1201/9780429470196-5/multiview-image-matching-3d-earth-surface-reconstruction-chuiqing-zeng-jinfei-wang)
@@ -115,14 +116,13 @@ An example of single image texture synthesis to create a larger image  <BR><BR>
 An example of multi-image interactive synthesis <BR><BR>  
 
 <img src="materials/flowers.gif"  />  <BR> 
-Another example of multi-image interactive synthesis  
+Another example of multi-image interactive synthesis   
   
-
-[![](https://img.shields.io/badge/C++-grey)](#)  
+[![](https://img.shields.io/badge/C++-grey)](#)  [![](https://img.shields.io/badge/OpenCV-grey?logo=OpenCV)](#) 
 [View C++ codes and files](materials/Image_syn_demo.zip)  
 
 
-[Back to Top](#page_top) 
+[Back to Top](#) 
 
 ---
 <a name="CloudComputing"/>  
@@ -159,7 +159,7 @@ collect various meteriological and climate data to study Algae growth in lakes u
 more details in above [AlgaeDriver](#AlgaeDriver)  
 
 
-[Back to Top](#page_top)   
+[Back to Top](#)   
 
 ---
 <a name="ImageProcessing"/> 
@@ -194,7 +194,7 @@ An example of the output hyperspectral dataset
 [See codes in Matlab](materials/ImageFusion_MSI.zip)  | [View publication](https://www.mdpi.com/2072-4292/9/7/696)    
  
 
-[Back to Top](#page_top)  
+[Back to Top](#)  
 
 ---
 <a name="GeospatialApp"/> 
@@ -234,14 +234,15 @@ output data: population in 1km grids
 ### Vehicle-based POI collection system 
 Develop a lightweight platform that can collect and update points of interest (POIs), with cameras and GPS receivers mounted on vehicle top, to update an existing POI database and collect street-view maps similar to Google Street View.  
 
-<img src="images/survey_system_illustration.png" width="600" />  <BR>  
-The illustration of the survey platform  <BR><BR>
+<img src="images/survey_system_illustration.png" width="600" />   
+The illustration of the survey platform   
+<BR>
 
-<img src="images/Interface0.png"  width="600"/>  <BR>  
+<img src="images/Interface0.png"  width="600"/>    
 The survey platform interface with loaded POIs <BR><BR>
 
-<img src="images/Camera.png"   width="600"/>  <BR>  
-Image extracted from captured videos 
+<img src="images/Camera.png"   width="600"/>    
+Image extracted from captured videos  
  
 [![](https://img.shields.io/badge/VisualStudio-grey?logo=visualstudio)](#) [![](https://img.shields.io/badge/CSharp-grey?logo=CSharp)](#) [![](https://img.shields.io/badge/GPS-grey)](#) [![](https://img.shields.io/badge/SQL-grey?logo=microsoftsqlserver)](#)        
  
@@ -260,26 +261,28 @@ Image extracted from captured videos
 ### UAV sensing over land
 Experiment Raspberry Pi as the control unit to connect multiple sensors on board the drones, and post-process multi-view images to generate rich 3D terrain and spectral details.
 
-<img src="images/illustration_drone_work.png"  /> <BR> 
-The illustration of the drone/UAV hardware setup    <BR> <BR>  
+<img src="images/illustration_drone_work.png"  />   
+The illustration of the drone/UAV hardware setup       
+<BR>
 
-<img src="images/Image_Mosiac_photoscan_view.png" height="300"/>   <BR> 
-An example of multi-view drone sensing image matching to generate 3D surface <BR>  
+<img src="images/Image_Mosiac_photoscan_view.png" height="300"/>   
+An example of multi-view drone sensing image matching to generate 3D surface    
 
-[![](https://img.shields.io/badge/RaspberryPi-grey?logo=RaspberryPi)](#) [<img src="images/Matlab_Logo_grey.png" width="22" />![](https://img.shields.io/badge/Matlab-grey)](#)  [![](https://img.shields.io/badge/DJI-grey)](#) [![](https://img.shields.io/badge/PhotoScan-grey)](#)
+[![](https://img.shields.io/badge/RaspberryPi-grey?logo=RaspberryPi)](#)  [<img src="images/Matlab_Logo_grey.png" width="22" />![](https://img.shields.io/badge/Matlab-grey)](#)  [![](https://img.shields.io/badge/DJI-grey)](#) [![](https://img.shields.io/badge/PhotoScan-grey)](#)
 
 [Toolbox on Github](https://github.com/chqzeng/AWM2CSV)  
  
 ### UAV sensing over water  
 Experiment and validate different water optical measurements using the flexible drone platform.  
  
-<img src="images/Drone_flight_illustration.png" width="600"/>   <BR> 
-An example of UAV flight planning over water<BR><BR>  
+<img src="images/Drone_flight_illustration.png" width="600"/>    
+An example of UAV flight planning over water  
+<BR>
 
-<img src="images/drone_water_views2.png" />  <BR>
+<img src="images/drone_water_views2.png" />   
 An example of water spectra at different scenarios   
 
-[![](https://img.shields.io/badge/DJIPhantom-grey)](#) [![](https://img.shields.io/badge/RaspberryPi-grey?logo=RaspberryPi)](#)
+[![](https://img.shields.io/badge/RaspberryPi-grey?logo=RaspberryPi)](#) [![](https://img.shields.io/badge/DJI-grey)](#)  [![](https://img.shields.io/badge/Phantom4-grey)](#) [![](https://img.shields.io/badge/OceanOptics-grey)](#) 
 
 [View publication](https://www.sciencedirect.com/science/article/abs/pii/S0924271617302666)
 
