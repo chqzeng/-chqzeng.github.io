@@ -24,7 +24,7 @@ Using nerual network to fill satellite observation gap in 2012-2015 (red dash li
 An example of NN model performance at image level <BR> 
 left 2 columns: reference image; right 2 columns: nerual network trained result  <BR>
 
-[![](https://img.shields.io/badge/Python-grey?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-grey?logo=Jupyter)](#) [![](https://img.shields.io/badge/Tensorflow-grey?logo=Tensorflow)](#) [![](https://img.shields.io/badge/Anaconda-grey?logo=Anaconda)](#) 
+[![](https://img.shields.io/badge/Python-grey?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-grey?logo=Jupyter)](#) [![](https://img.shields.io/badge/Tensorflow-grey?logo=Tensorflow)](#) [![](https://img.shields.io/badge/Anaconda-grey?logo=Anaconda)](#)    
 [View GitHub Project](https://github.com/chqzeng/MODISNN)  |  [View Publication](https://www.mdpi.com/2072-4292/13/17/3349#)  
 
 <!-- unused: https://pub.mdpi-res.com/remotesensing/remotesensing-13-03349/article_deploy/html/images/remotesensing-13-03349-ag.png?1630051208  the image from publication -->
@@ -44,8 +44,8 @@ AlgaeDriver machine learning model input and output variables
 
 ### 3. Coursera Course: "Machine Learning"
 
-This course provides a broad introduction to machine learning, data mining, and statistical pattern recognition, including supervised learning , unsupervised learning , best practices in machine learning and many case studies.  
-[view certficate on coursera.org](https://www.coursera.org/account/accomplishments/certificate/DL9CTNZK3T6P)  
+This course provides a broad introduction to machine learning, data mining, and statistical pattern recognition, including supervised learning , unsupervised learning, best practices in machine learning, and many case studies.  
+[View certficate on coursera.org](https://www.coursera.org/account/accomplishments/certificate/DL9CTNZK3T6P)  
 
  
 [Back to Top](#)
@@ -59,7 +59,7 @@ This course provides a broad introduction to machine learning, data mining, and 
 
 
 ### 1. Detect rivers from optical and SAR imagery
-Exploit the unique attributes of water in optical and radar/SAR images by first integrating both images for unsupervised classification, and then refining the results with a decision tree.  
+Rivers exhibit dynamic characteristics, manifesting as either gradual long-term channel transformations or abrupt short-term flooding events. Exploit the unique attributes of water in optical and radar/SAR images by first integrating both images for unsupervised classification, and then refining the results with a decision tree.  
  
 <img src="images/river_detection2011.png" width="500">  
 Steps to detect the Bow River at Calgary, Aberta, CA.  <BR>
@@ -69,22 +69,20 @@ Steps to detect the Bow River at Calgary, Aberta, CA.  <BR>
 Connect the river channel segments to build a topologically correct river  
 
 [<img src="images/Matlab_Logo_grey.png" width="22" />![](https://img.shields.io/badge/Matlab-grey)](#)  [![](https://img.shields.io/badge/OpenCV-grey?logo=OpenCV)](#) [![](https://img.shields.io/badge/ArcGIS-grey)](#) [![](https://img.shields.io/badge/eCognition-grey)](#)  
-
 [View project code on Github](https://github.com/chqzeng/NRBC)
 
 
 ### 2. Building detection from aerial photos and LiDAR point clouds (2012)
-Detect buildings under varied scenarios from high-resolution (<1m) satellite images or aerial photos.
+An essential component for urban planning and disaster preparation is accurate and up-to-date building information. This project detects buildings under varied scenarios from high-resolution (<1m) satellite images or aerial photos.
 
-<img src="materials/building_detection.gif" height="400" >   
+<img src="materials/building_detection.gif" width="400" >   
 Urban building detection from aerial photos and LiDAR point clouds  <BR> 
 
-<img src="materials/campus_3d_buildings.gif" height="400" />  
+<img src="materials/campus_3d_buildings.gif" width="400" />  
 The reconstructed 3D buildings and trees   
  
 
-[Ph.D Dissertation](https://ir.lib.uwo.ca/etd/2076/): "Automated Building Information Extraction and Evaluation from High-resolution Remotely Sensed Data" 
-
+[Ph.D Dissertation](https://ir.lib.uwo.ca/etd/2076/): "Automated Building Information Extraction and Evaluation from High-resolution Remotely Sensed Data"  
 [<img src="images/Matlab_Logo_grey.png" width="22" />![](https://img.shields.io/badge/Matlab-grey)](#)  [![](https://img.shields.io/badge/OpenCV-grey?logo=OpenCV)](#) [![](https://img.shields.io/badge/C++-grey)](#) [![](https://img.shields.io/badge/eCognition-grey)](#) [![](https://img.shields.io/badge/3Dmodel-grey?logo=Sketchup)](#) 
 
 ### 3. Esitmate image depth and 3D model from mutli-view imagery (2015)
@@ -95,8 +93,7 @@ An example of image matching using edges as constrains
 <img src="images/The matching rates for a sample building.png" width="400" />   
 Combined intensity and edge matching improves the stero matching reliability  
 
-[<img src="images/Matlab_Logo_grey.png" width="22" />![](https://img.shields.io/badge/Matlab-grey)](#)   [![](https://img.shields.io/badge/IDL-grey?)](#)
-
+[<img src="images/Matlab_Logo_grey.png" width="22" />![](https://img.shields.io/badge/Matlab-grey)](#)   [![](https://img.shields.io/badge/IDL-grey?)](#)  
 [Code in IDL / Matlab](materials/Image_matching.zip)  |   [Journal Paper](https://www.tandfonline.com/doi/abs/10.5589/m13-039)  |  [Book Chapter](https://www.taylorfrancis.com/chapters/edit/10.1201/9780429470196-5/multiview-image-matching-3d-earth-surface-reconstruction-chuiqing-zeng-jinfei-wang)
 
 
@@ -114,6 +111,7 @@ Another example of multi-image interactive synthesis
   
 [![](https://img.shields.io/badge/C++-grey)](#)  [![](https://img.shields.io/badge/CV-grey?logo=OpenCV)](#)  
 [View C++ codes and files](materials/Image_syn_demo.zip)  
+
 [Back to Top](#) 
 
 ---
@@ -134,47 +132,44 @@ The HPC structure and major tools used for the data processing pipeline
 
 ### Microsoft Azure 
 With an environment mornitoring webportal [EOLakewatch](https://eolakewatch-staging.azurewebsites.net/) deployed on Azure, I maintain the Blob storage/COG images and optimize the PostgreSQL database that has billions of records.  
+ 
+<img src="images/EOLakeWatch_webapp.png" width="500" />   
 [Explore EOLakewatch](https://eolakewatch-staging.azurewebsites.net/)  
-<img src="images/EOLakeWatch_webapp.png" width="500" />  
-
 [![](https://img.shields.io/badge/Azure-grey?logo=microsoftazure)](#) [![](https://img.shields.io/badge/PostgreSQL-grey?logo=PostgreSQL)](#) [![](https://img.shields.io/badge/Python-grey?logo=Python)](#) [![](https://img.shields.io/badge/Node.js-grey?logo=nodedotjs) ](#)
  
 ### CREODIAS / Cloudferro 
-use CREODIAS Earth Observation (EO) data portal to access 20+ years time series Earth Observation data and direct process without download using Linux virtual machines (VM).  
- 
+Use CREODIAS Earth Observation (EO) data portal to access 20+ years time series Earth Observation data and direct process without download using Linux virtual machines (VM).  
 <img src="images/CREODIAS-graph.png" width="400" />  
 [![](https://img.shields.io/badge/Cloudferro-grey)](#)  [![](https://img.shields.io/badge/Jupyter-grey?logo=Jupyter) ](#)[![](https://img.shields.io/badge/Python-grey?logo=Python)](#) [![](https://img.shields.io/badge/Ubuntu-grey?logo=Ubuntu)](#)
  
 ### Google Cloud Platform (GCP) 
-collect various meteriological and climate data to study Algae growth in lakes using APIs for massive data download from [GEE](https://developers.google.com/earth-engine/datasets/catalog) and [CDS](https://cds.climate.copernicus.eu/cdsapp#!/search?type=dataset). run the processing with GCP virtual machine and manage data in bucket and postprocess to be ready for further machine learning models.   
+Collect various meteriological and climate data to study Algae growth in lakes using APIs for massive data download from [GEE](https://developers.google.com/earth-engine/datasets/catalog) and [CDS](https://cds.climate.copernicus.eu/cdsapp#!/search?type=dataset). run the processing with GCP virtual machine and manage data in bucket and postprocess to be ready for further machine learning models.   
 
-more details in above [AlgaeDriver](#AlgaeDriver)  
+more details in the Section [AlgaeDriver](#AlgaeDriver)  
   
 [Back to Top](#)   
 
 ---
 <a name="ImageProcessing"/> 
 
-## Image processing
-
+## Image processing  
 
 ### Water quality mapping from satellite imagery  
 Apply statistical and machine learning models to over 20 years' worth of 100+Tb satellite imagery using [HPC](#HPCsection), develop and maintain an image processing pipeline that generates both an archive of time-series daily lake statistics starting from 2002 and processes data in near real-time on a daily basis. The project is expanding to monitor all major lakes in Canada.  
 
 <img src="images/Img_processing_workflow.png" />  <BR>
-The roadmap of satellite imagery processing
-[![](https://img.shields.io/badge/Linux-grey?logo=Linux)](#) [![](https://img.shields.io/badge/Python-grey?logo=Python)](#) [![](https://img.shields.io/badge/QGIS-grey?logo=QGIS)](#) [![](https://img.shields.io/badge/ESAsnap-grey)](#) [![](https://img.shields.io/badge/GDAL-grey)](#) [![](https://img.shields.io/badge/XML-grey)](#) 
+The roadmap of satellite imagery processing  
+[![](https://img.shields.io/badge/Linux-grey?logo=Linux)](#) [![](https://img.shields.io/badge/Python-grey?logo=Python)](#) [![](https://img.shields.io/badge/QGIS-grey?logo=QGIS)](#) [![](https://img.shields.io/badge/ESAsnap-grey)](#) [![](https://img.shields.io/badge/GDAL-grey)](#) [![](https://img.shields.io/badge/XML-grey)](#)   
 [View partial codes](https://github.com/chqzeng/OpenWL) | [View publications](https://www.sciencedirect.com/science/article/pii/S0380133022002660)  
 
 
 ### Image fusion  
-
 Q: With two datasets: one covering spatial details but only having 6 bands(colors), and another measuring sparse points spatially but having >100 bands, how can we estimate a dataset with both rich spatial details and >100 bands?  
 A: Use a Bayesian missing data imputation approach to fuse the two dataset.  
-<img src="images/Zeng_Ag_UAV_hyperdata_fusion.png"  /> <BR>
+<img src="images/Zeng_Ag_UAV_hyperdata_fusion.png"  />   
 The illustration of mutlspectral and spectrometer datasets fusion  
 
-<img src="images/tomatofield_hyper_image_cube.png"  /> 
+<img src="images/tomatofield_hyper_image_cube.png"  />   
 An example of the output hyperspectral dataset    
 
 [<img src="images/Matlab_Logo_grey.png" width="22" />![](https://img.shields.io/badge/Matlab-grey)](#)  [![](https://img.shields.io/badge/Hyperspectral-grey)](#)   
@@ -194,7 +189,7 @@ A: Use [nighttime light](https://ngdc.noaa.gov/eog/download.html) and [land use]
  
 <table border="0">
  <tr>
-  <td width="600">
+  <td width="800">
     <img src="images/landuse_glc2000.png" /> <BR>   
     Input data 1: land use land cover 
   </td>
@@ -228,7 +223,6 @@ The survey platform interface with loaded POIs <BR>
 Image extracted from captured videos  
  
 [![](https://img.shields.io/badge/VisualStudio-grey?logo=visualstudio)](#) [![](https://img.shields.io/badge/CSharp-grey?logo=CSharp)](#) [![](https://img.shields.io/badge/GPS-grey)](#) [![](https://img.shields.io/badge/SQL-grey?logo=microsoftsqlserver)](#)        
- 
 [view partial codes](materials/Vehicle_based_POI_collection.zip)  
 
 [Back to Top](#)  
@@ -244,10 +238,10 @@ Experiment Raspberry Pi as the control unit to connect multiple sensors on board
 <img src="images/illustration_drone_work.png"  />   
 The illustration of the drone/UAV hardware setup       
 
-<img src="images/Image_Mosiac_photoscan_view.png" height="300"/>   
+<img src="images/Image_Mosiac_photoscan_view.png" width="300"/>   
 An example of multi-view drone sensing image matching to generate 3D surface    
 
-[![](https://img.shields.io/badge/RaspberryPi-grey?logo=RaspberryPi)](#)  [<img src="images/Matlab_Logo_grey.png" width="22" />![](https://img.shields.io/badge/Matlab-grey)](#)  [![](https://img.shields.io/badge/DJI-grey)](#) [![](https://img.shields.io/badge/PhotoScan-grey)](#)
+[![](https://img.shields.io/badge/RaspberryPi-grey?logo=RaspberryPi)](#)  [<img src="images/Matlab_Logo_grey.png" width="22" />![](https://img.shields.io/badge/Matlab-grey)](#)  [![](https://img.shields.io/badge/DJI-grey)](#) [![](https://img.shields.io/badge/PhotoScan-grey)](#)   
 [Toolbox on Github](https://github.com/chqzeng/AWM2CSV)  
  
 ### UAV sensing over water  
@@ -259,9 +253,8 @@ An example of UAV flight planning over water
 <img src="images/drone_water_views2.png" />   
 An example of water spectra at different scenarios   
 
-[![](https://img.shields.io/badge/RaspberryPi-grey?logo=RaspberryPi)](#) [![](https://img.shields.io/badge/DJI-grey)](#)  [![](https://img.shields.io/badge/Phantom4-grey)](#) [![](https://img.shields.io/badge/OceanOptics-grey)](#) 
-[View publication](https://www.sciencedirect.com/science/article/abs/pii/S0924271617302666)
-
+[![](https://img.shields.io/badge/RaspberryPi-grey?logo=RaspberryPi)](#) [![](https://img.shields.io/badge/DJI-grey)](#)  [![](https://img.shields.io/badge/Phantom4-grey)](#) [![](https://img.shields.io/badge/OceanOptics-grey)](#)   
+[View publication](https://www.sciencedirect.com/science/article/abs/pii/S0924271617302666)  
 
 [Back to Top](#)  
 
