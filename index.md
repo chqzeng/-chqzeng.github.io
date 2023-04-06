@@ -1,12 +1,12 @@
 <a name="page_top"/>  
 
 **Page Navigation** 
-- [![](https://img.shields.io/badge/-grey?logo=tensorflow&logoWidth=15)](#) [1. Machine Learning](#MachineLearning) 
-- [![](https://img.shields.io/badge/-grey?logo=opencv&logoWidth=15)](#) [2. Computer Vision](#ComputerVision)
-- [![](https://img.shields.io/badge/-grey?logo=googlecloud&logoWidth=15)](#) [3. Cloud Computing](#CloudComputing) 
-- [![](https://img.shields.io/badge/-grey?logo=atom&logoWidth=15)](#) [4. Image Processing](#ImageProcessing) 
-- [![](https://img.shields.io/badge/-grey?logo=PyG&logoWidth=15)](#) [5. Geospatial Apps](#GeospatialApp)  
-- [![](https://img.shields.io/badge/-grey?logo=Drone&logoWidth=15)](#) [6. Drone/UAV sensing](#Drone) 
+- [![](https://img.shields.io/badge/-grey?logo=tensorflow&logoWidth=15)](#) [Machine Learning](#MachineLearning) 
+- [![](https://img.shields.io/badge/-grey?logo=opencv&logoWidth=15)](#) [Computer Vision](#ComputerVision)
+- [![](https://img.shields.io/badge/-grey?logo=googlecloud&logoWidth=15)](#) [Cloud Computing](#CloudComputing) 
+- [![](https://img.shields.io/badge/-grey?logo=atom&logoWidth=15)](#) [Image Processing](#ImageProcessing) 
+- [![](https://img.shields.io/badge/-grey?logo=PyG&logoWidth=15)](#) [Geospatial Apps](#GeospatialApp)  
+- [![](https://img.shields.io/badge/-grey?logo=Drone&logoWidth=15)](#) [Drone/UAV Sensing](#Drone) 
 
 <a name="MachineLearning"/>  
 
@@ -15,22 +15,14 @@
  
 ### 1. MODISNN: a dense neural network
 
-Satellite sensors have a liefspan and different configurations. How can we use machine learning to build a consistent product among multiple sensors and create a >20 years time-series dataset for climate change studies?
+Satellite sensors have a lifespan and different configurations. How can we use machine learning to build a consistent product among multiple sensors and create a >20 years time-series dataset for climate change studies?
+ 
+<img src="images/MODISNN_illustration.png?raw=true" width="500">  
+Using nerual network to fill satellite observation gap in 2012-2015 (red dash line box) <BR>
 
-<table border="0">
- <tr>
-  <td>  
-    <img src="images/MODISNN_illustration.png" width="500">  
-    Using nerual network to fill satellite observation gap in 2012-2015 (red dash line box)
-  </td>
-  <td>  
-     <img src="images/modisNN_rst.png?raw=true" width="500"/>  
-     An example of NN model performance at image level <BR> 
-     left 2 columns: reference image; right 2 columns: nerual network trained result
-    
-  </td>
- </tr>
-</table>
+<img src="images/modisNN_rst.png?raw=true" width="500"/>  
+An example of NN model performance at image level <BR> 
+left 2 columns: reference image; right 2 columns: nerual network trained result  <BR>
 
 [![](https://img.shields.io/badge/Python-grey?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-grey?logo=Jupyter)](#) [![](https://img.shields.io/badge/Tensorflow-grey?logo=Tensorflow)](#) [![](https://img.shields.io/badge/Anaconda-grey?logo=Anaconda)](#) 
 
@@ -41,8 +33,8 @@ Satellite sensors have a liefspan and different configurations. How can we use m
  <a name="AlgaeDriver"/>  
  
 ### 2. AlgaeDriver: assess input features' importance to the output variable  
-Use continuous geographic, hydrological, climate, and meteorological datasets as inputs to train neural network(NN) and random forest(RF) models and determine the major environmentl drivers of algae growth in lakes. <BR>
-Use Google Cloud Platform (GCP) to extract relative data from its [Earth Engine](https://developers.google.com/earth-engine/datasets) Dataset and run further NN models    
+Use continuous geographic, hydrological, climate, and meteorological datasets as inputs to train neural network(NN) and random forest(RF) models and determine the major environmental drivers of algae growth in lakes. <BR>
+Use Google Cloud Platform (GCP) to extract relative data from its [Earth Engine](https://developers.google.com/earth-engine/datasets) dataset and run further NN models    
 
 <img src="images/AlgaeDrivers.png" width="500" />   <BR>
 AlgaeDriver machine learning model input and output variables   
@@ -70,9 +62,7 @@ AlgaeDriver machine learning model input and output variables
 
 
 
-### 1. Detect urban objects from high-resolution imagery  
-
-#### A) Detect rivers from optical and SAR imagery
+### 1. Detect rivers from optical and SAR imagery
 Exploit the unique attributes of water in optical and radar/SAR images by first integrating both images for unsupervised classification, and then refining the results with a decision tree.  
  
 <img src="images/river_detection2011.png" width="500">  
@@ -89,64 +79,44 @@ Connect the river channel segments to build a topologically correct river
 [View project code on Github](https://github.com/chqzeng/NRBC)
 
 
-#### B) Building detection from aerial photos and LiDAR point clouds (2012)
+### 2. Building detection from aerial photos and LiDAR point clouds (2012)
 Detect buildings under varied scenarios from high-resolution (<1m) satellite images or aerial photos.
 
-<table border="0">
- <tr>
-  <td width="400">
-    <img src="materials/building_detection.gif" >   <BR> 
-    Urban building detection from aerial photos and LiDAR point clouds 
-  </td>
-  <td width="600">
-     <img src="materials/campus_3d_buildings.gif" />  <BR> 
-     The reconstructed 3D buildings and trees   
-  </td>
- </tr>
-</table>  
+<img src="materials/building_detection.gif" height="400" >   <BR> 
+Urban building detection from aerial photos and LiDAR point clouds  <BR> <BR>  
+
+<img src="materials/campus_3d_buildings.gif" height="400" />  <BR> 
+The reconstructed 3D buildings and trees   
+ 
 
 [Ph.D Dissertation](https://ir.lib.uwo.ca/etd/2076/): "Automated Building Information Extraction and Evaluation from High-resolution Remotely Sensed Data" 
 
 [<img src="images/Matlab_Logo_grey.png" width="22" />![](https://img.shields.io/badge/Matlab-grey)](#)  [![](https://img.shields.io/badge/OpenCV-grey?logo=OpenCV)](#) [![](https://img.shields.io/badge/C++-grey)](#) [![](https://img.shields.io/badge/eCognition-grey)](#) [![](https://img.shields.io/badge/3Dmodel-grey?logo=Sketchup)](#) 
 
-#### C) Esitmate image depth and 3D model from mutli-view imagery (2015)
-<table border="0">
- <tr>
-  <td>  
-    <img src="images/An example of the stereo image matching process.png" width="400" />  <BR>  
-    An example of image matching using edges as constrains 
-  </td>
-  <td>  
-     <img src="images/The matching rates for a sample building.png" width="400" /> <BR>
-      Combined intensity and edge matching improves the stero matching reliability 
-  </td>
- </tr>
-</table>  
+### 3. Esitmate image depth and 3D model from mutli-view imagery (2015)
+ 
+<img src="images/An example of the stereo image matching process.png" width="400" />  <BR>  
+An example of image matching using edges as constrains <BR><BR>  
 
+<img src="images/The matching rates for a sample building.png" width="400" /> <BR>
+Combined intensity and edge matching improves the stero matching reliability 
 [<img src="images/Matlab_Logo_grey.png" width="22" />![](https://img.shields.io/badge/Matlab-grey)](#)   [![](https://img.shields.io/badge/IDL-grey?)](#)
 
 [Code in IDL / Matlab](materials/Image_matching.zip)  |   [Journal Paper](https://www.tandfonline.com/doi/abs/10.5589/m13-039)  |  [Book Chapter](https://www.taylorfrancis.com/chapters/edit/10.1201/9780429470196-5/multiview-image-matching-3d-earth-surface-reconstruction-chuiqing-zeng-jinfei-wang)
 
 
-#### D) Seamless image/video systhesis (2008)
+### 4. Seamless image/video systhesis (2008)
 Seamless synthesis is the process of generating a larger image or longer video based on small images with textures or short videos, e.g. single-image texture synthesis (2D), multi-image interactive synthesis (2D), and video synthesis (3D). The main idea is to minimize the energy function at the connection when synthesizing multiple images or frames together.  
 
-<table border="0">
- <tr>
-  <td width="400">
-    <img src="materials/single_image_syns.jpg" />  <BR> 
-    An example of single image texture synthesis to create a larger image  
-  </td>
-  <td width="400">
-     <img src="materials/river.gif"  />  <BR> 
-     An example of multi-image interactive synthesis  
-  </td> 
-  <td width="400">
-     <img src="materials/flowers.gif"  />  <BR> 
-     Another example of multi-image interactive synthesis  
-  </td>
- </tr>
-</table>   
+<img src="materials/single_image_syns.jpg" />  <BR> 
+An example of single image texture synthesis to create a larger image  <BR><BR> 
+
+<img src="materials/river.gif"  />  <BR> 
+An example of multi-image interactive synthesis <BR><BR>  
+
+<img src="materials/flowers.gif"  />  <BR> 
+Another example of multi-image interactive synthesis  
+  
 
 [![](https://img.shields.io/badge/C++-grey)](#)  
 [View C++ codes and files](materials/Image_syn_demo.zip)  
@@ -163,7 +133,7 @@ Seamless synthesis is the process of generating a larger image or longer video b
 <a name="HPCsection"/> 
 
 ### High perofmrance computering (HPC) 
-Using the recent [HPC](https://www.canada.ca/en/shared-services/corporate/data-centre-consolidation/high-performance-computing.html) established in the Government of Canada, I developed and maintain pipeline to process >100TB satellite images using massive GPUs and CPUs, which feeds time-series data to the following Microsoft Azure webportal.
+Using the recent [HPC](https://www.canada.ca/en/shared-services/corporate/data-centre-consolidation/high-performance-computing.html) established in the Government of Canada, I developed and maintain pipeline to process >100TB satellite images using massive GPUs and CPUs, which feeds time-series data to the Microsoft Azure webportal in the next section.
  
 <img src="images/HPC_infrastructure.png" width="500" />   <BR>
 The HPC structure and major tools used for the data processing pipeline   
@@ -171,7 +141,7 @@ The HPC structure and major tools used for the data processing pipeline
 [![](https://img.shields.io/badge/Bash-grey?logo=gnubash)](#) [![](https://img.shields.io/badge/Anaconda-grey?logo=anaconda)](#) [![](https://img.shields.io/badge/Python-grey?logo=Python)](#) [![](https://img.shields.io/badge/Ubuntu-grey?logo=Ubuntu)](#) [![](https://img.shields.io/badge/Docker-grey?logo=Docker)](#)   [![](https://img.shields.io/badge/Intel-grey?logo=Intel)](#) [![](https://img.shields.io/badge/Nvidia-grey?logo=Nvidia) ](#)
 
 ### Microsoft Azure 
-with an environment mornitoring webportal [EOLakewatch](https://eolakewatch-staging.azurewebsites.net/) deployed on Azure, I maintain the Blob storage/COG imagery and optimize the PostgreSQL database with billions of records.  
+With an environment mornitoring webportal [EOLakewatch](https://eolakewatch-staging.azurewebsites.net/) deployed on Azure, I maintain the Blob storage/COG images and optimize the PostgreSQL database that has billions of records.  
  
 <img src="images/EOLakeWatch_webapp.png" width="500" />  
 
@@ -200,8 +170,8 @@ more details in above [AlgaeDriver](#AlgaeDriver)
 ### Water quality mapping from satellite imagery  
 Apply statistical and machine learning models to over 20 years' worth of 100+Tb satellite imagery using [HPC](#HPCsection), develop and maintain an image processing pipeline that generates both an archive of time-series daily lake statistics starting from 2002 and processes data in near real-time on a daily basis. The project is expanding to monitor all major lakes in Canada.  
 
-<img src="images/Img_processing_workflow.png" height=400 /> 
-
+<img src="images/Img_processing_workflow.png" />  <BR>
+The roadmap of satellite imagery processing
 
 [![](https://img.shields.io/badge/Linux-grey?logo=Linux)](#) [![](https://img.shields.io/badge/Python-grey?logo=Python)](#) [![](https://img.shields.io/badge/QGIS-grey?logo=QGIS)](#) [![](https://img.shields.io/badge/ESAsnap-grey)](#) [![](https://img.shields.io/badge/GDAL-grey)](#) [![](https://img.shields.io/badge/XML-grey)](#) 
 
@@ -213,22 +183,15 @@ Apply statistical and machine learning models to over 20 years' worth of 100+Tb 
 Q: With two datasets: one covering spatial details but only having 6 bands(colors), and another measuring sparse points spatially but having >100 bands, how can we estimate a dataset with both rich spatial details and >100 bands?  
 A: Use a Bayesian missing data imputation approach to fuse the two dataset.
  
- <table border="0">
- <tr>
-    <td width="500">
-     <img src="images/Zeng_Ag_UAV_hyperdata_fusion.png"  /> <BR>
-     the illustration of mutlspectral and spectrometer datasets fusion
-  </td> 
-     <td width="400">
-     <img src="images/tomatofield_hyper_image_cube.png"  /> <BR>  
-     an example of the output hyperspectral dataset   
-  </td> 
- </tr>
-</table>  
+<img src="images/Zeng_Ag_UAV_hyperdata_fusion.png"  /> <BR>
+The illustration of mutlspectral and spectrometer datasets fusion <BR><BR>
+
+<img src="images/tomatofield_hyper_image_cube.png"  /> <BR>  
+An example of the output hyperspectral dataset    
 
 [<img src="images/Matlab_Logo_grey.png" width="22" />![](https://img.shields.io/badge/Matlab-grey)](#)  [![](https://img.shields.io/badge/Hyperspectral-grey)](#)   
  
-[See codes in Matlab (Generate_Hyperspectral_Image.m)](materials/ImageFusion_MSI.zip)  | [View publication](https://www.mdpi.com/2072-4292/9/7/696)    
+[See codes in Matlab](materials/ImageFusion_MSI.zip)  | [View publication](https://www.mdpi.com/2072-4292/9/7/696)    
  
 
 [Back to Top](#page_top)  
@@ -247,26 +210,21 @@ A: Use [nighttime light](https://ngdc.noaa.gov/eog/download.html) and [land use]
  <tr>
   <td width="600">
     <img src="images/landuse_glc2000.png" /> <BR> 
-    input data 1: land use land cover 
+    Input data 1: land use land cover 
   </td>
   <td width="600">
      <img src="images/nightime_ligh_2006nov.png"/>  <BR> 
-     input data 2: nighttime light
+     Input data 2: nighttime light
   </td> 
   </tr>
- 
- <tr>
-  <td width="600">
-     <img src="images/pop_grid_2008_census.png"  />  <BR> 
-     input data 3: population in administrative boundaries 
-  </td>
-   <td width="600">  
-     <img src="images/pop_grid_2000_spatialized.png"  />  <BR> 
-     output data: population in 1km grids 
-  </td>
- </tr>
- 
 </table>   
+
+
+<img src="images/pop_grid_2008_census.png"  width="800" />  <BR> 
+Input data 3: population in administrative boundaries  <BR><BR>
+
+<img src="images/pop_grid_2000_spatialized.png" width="800"  />  <BR> 
+output data: population in 1km grids 
 
 [<img src="images/Matlab_Logo_grey.png" width="22" />![](https://img.shields.io/badge/Matlab-grey)](#) [![](https://img.shields.io/badge/ExcelVBA-grey?logo=microsoftexcel)](#)  [![](https://img.shields.io/badge/ArcGIS-grey)](#)  [![](https://img.shields.io/badge/SQL-grey?logo=microsoftsqlserver)](#)   
 
@@ -276,56 +234,37 @@ A: Use [nighttime light](https://ngdc.noaa.gov/eog/download.html) and [land use]
 ### Vehicle-based POI collection system 
 Develop a lightweight platform that can collect and update points of interest (POIs), with cameras and GPS receivers mounted on vehicle top, to update an existing POI database and collect street-view maps similar to Google Street View.  
 
-<table border="0">
- <tr>
-    <td width="600">  
-     <img src="images/survey_system_illustration.png"  />  <BR>  
-     the illustration of the survey platform 
-  </td> 
-     
-  <td width="600">
-    <img src="images/Interface0.png" />  <BR>  
-    the survey platform interface with loaded POIs 
-  </td>
-  <td width="600"> 
-     <img src="images/Camera.png"  />  <BR>  
-     image extracted from captured videos 
-  </td>
- </tr>
+<img src="images/survey_system_illustration.png" width="600" />  <BR>  
+The illustration of the survey platform  <BR><BR>
+
+<img src="images/Interface0.png"  width="600"/>  <BR>  
+The survey platform interface with loaded POIs <BR><BR>
+
+<img src="images/Camera.png"   width="600"/>  <BR>  
+Image extracted from captured videos 
  
-</table>  
- 
-  [![](https://img.shields.io/badge/VisualStudio-grey?logo=visualstudio)](#) [![](https://img.shields.io/badge/CSharp-grey?logo=CSharp)](#) [![](https://img.shields.io/badge/GPS-grey)](#) [![](https://img.shields.io/badge/SQL-grey?logo=microsoftsqlserver)](#)        
+[![](https://img.shields.io/badge/VisualStudio-grey?logo=visualstudio)](#) [![](https://img.shields.io/badge/CSharp-grey?logo=CSharp)](#) [![](https://img.shields.io/badge/GPS-grey)](#) [![](https://img.shields.io/badge/SQL-grey?logo=microsoftsqlserver)](#)        
  
 [view partial codes](materials/Vehicle_based_POI_collection.zip)
 
 
 
-[Back to Top](#page_top)  
+[Back to Top](#)  
 
 --- 
 <a name="Drone"/> 
 
-## Drone/UAV sensing 
+## Drone/UAV Sensing 
 
- 
 
 ### UAV sensing over land
 Experiment Raspberry Pi as the control unit to connect multiple sensors on board the drones, and post-process multi-view images to generate rich 3D terrain and spectral details.
 
- <table border="0">
- <tr>
-    <td width="500">
-     <img src="images/illustration_drone_work.png"  /> <BR> 
-     The illustration of the drone/UAV hardware setup    
-  </td> 
-     
-  <td width="300">
-    <img src="images/Image_Mosiac_photoscan_view.png" />   <BR>
-    An example of multi-view drone sensing image matching to generate 3D surface <BR> 
-  </td>
- </tr>
-</table>  
+<img src="images/illustration_drone_work.png"  /> <BR> 
+The illustration of the drone/UAV hardware setup    <BR> <BR>  
+
+<img src="images/Image_Mosiac_photoscan_view.png" height="300"/>   <BR> 
+An example of multi-view drone sensing image matching to generate 3D surface <BR>  
 
 [![](https://img.shields.io/badge/RaspberryPi-grey?logo=RaspberryPi)](#) [<img src="images/Matlab_Logo_grey.png" width="22" />![](https://img.shields.io/badge/Matlab-grey)](#)  [![](https://img.shields.io/badge/DJI-grey)](#) [![](https://img.shields.io/badge/PhotoScan-grey)](#)
 
@@ -334,27 +273,18 @@ Experiment Raspberry Pi as the control unit to connect multiple sensors on board
 ### UAV sensing over water  
 Experiment and validate different water optical measurements using the flexible drone platform.  
  
-<table border="0">
- <tr>
-  <td width="600">
-     an example of UAV flight planning over water<BR> 
-    <img src="images/Drone_flight_illustration.png" />
-  </td>
-   
- <td width="600">
-     an example of water spectra at different scenarios<BR> 
-    <img src="images/drone_water_views2.png" />
-  </td>
-     
- </tr>
-</table>  
+<img src="images/Drone_flight_illustration.png" width="600"/>   <BR> 
+An example of UAV flight planning over water<BR><BR>  
+
+<img src="images/drone_water_views2.png" />  <BR>
+An example of water spectra at different scenarios   
 
 [![](https://img.shields.io/badge/DJIPhantom-grey)](#) [![](https://img.shields.io/badge/RaspberryPi-grey?logo=RaspberryPi)](#)
 
 [View publication](https://www.sciencedirect.com/science/article/abs/pii/S0924271617302666)
 
 
-[Back to Top](#page_top)  
+[Back to Top](#)  
 
 
 <!--  left over
