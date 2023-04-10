@@ -39,7 +39,7 @@ Use Google Cloud Platform (GCP) to extract relative data from its [Earth Engine]
 AlgaeDriver machine learning model input and output variables   
 
 [![](https://img.shields.io/badge/Python-grey?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-grey?logo=Jupyter)](#) [![](https://img.shields.io/badge/Tensorflow-grey?logo=Tensorflow)](#) [![](https://img.shields.io/badge/GoogleCloud-grey?logo=GoogleCloud)](#) [![](https://img.shields.io/badge/GEE-grey?logo=googleearth)](#)   
-[View jupyter code partially on Github](materials/AlgaeDrive.ipynb) 
+[View jupyter code partially on Github](materials/AlgaeDrive.ipynb){:target="_blank"}
 
 
 ### 3. Coursera Course: "Machine Learning"
