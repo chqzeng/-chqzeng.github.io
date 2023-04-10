@@ -1,14 +1,14 @@
 <a name="page_top"/>  
 
 **Page Navigation** 
-- [![](https://img.shields.io/badge/-grey?logo=tensorflow&logoWidth=15)](#) [Machine Learning](#MachineLearning) 
-- [![](https://img.shields.io/badge/-grey?logo=opencv&logoWidth=15)](#) [Computer Vision](#ComputerVision)
-- [![](https://img.shields.io/badge/-grey?logo=googlecloud&logoWidth=15)](#) [Cloud Computing](#CloudComputing) 
-- [![](https://img.shields.io/badge/-grey?logo=atom&logoWidth=15)](#) [Image Processing](#ImageProcessing) 
-- [![](https://img.shields.io/badge/-grey?logo=PyG&logoWidth=15)](#) [Geospatial Applications](#GeospatialApp)  
-- [![](https://img.shields.io/badge/-grey?logo=Drone&logoWidth=15)](#) [Drone/UAV Sensing](#Drone) 
+- [![](https://img.shields.io/badge/-grey?logo=tensorflow&logoWidth=15)](#) [Machine Learning](#ML) 
+- [![](https://img.shields.io/badge/-grey?logo=opencv&logoWidth=15)](#) [Computer Vision](#CV)
+- [![](https://img.shields.io/badge/-grey?logo=googlecloud&logoWidth=15)](#) [Cloud Computing](#CLD) 
+- [![](https://img.shields.io/badge/-grey?logo=atom&logoWidth=15)](#) [Image Processing](#IMG) 
+- [![](https://img.shields.io/badge/-grey?logo=PyG&logoWidth=15)](#) [Geospatial Applications](#GEO)  
+- [![](https://img.shields.io/badge/-grey?logo=Drone&logoWidth=15)](#) [Drone/UAV Sensing](#UAV) 
 
-<a name="MachineLearning"/>  
+<a name="ML"/>  
 
 ## Machine Learning
 
@@ -52,7 +52,7 @@ This course provides a broad introduction to machine learning, data mining, and 
 
 
 ---
-<a name="ComputerVision"/>  
+<a name="CV"/>  
 
 ## Computer Vision
 
@@ -116,7 +116,7 @@ Another example of multi-image interactive synthesis
 [Back to Top](#) 
 
 ---
-<a name="CloudComputing"/>  
+<a name="CLD"/>  
 
 ## Cloud computing
  
@@ -151,7 +151,7 @@ more details in the Section [AlgaeDriver](#AlgaeDriver)
 [Back to Top](#)   
 
 ---
-<a name="ImageProcessing"/> 
+<a name="IMG"/> 
 
 ## Image processing  
 
@@ -179,7 +179,7 @@ An example of the output hyperspectral dataset
 [Back to Top](#)  
 
 ---
-<a name="GeospatialApp"/> 
+<a name="GEO"/> 
 
 ## Geospatial Application  
  
@@ -229,7 +229,7 @@ Image extracted from captured videos
 [Back to Top](#)  
 
 --- 
-<a name="Drone"/> 
+<a name="UAV"/> 
 
 ## Drone/UAV Sensing 
 
