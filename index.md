@@ -41,7 +41,7 @@ AlgaeDriver machine learning model input and output variables
 [![](https://img.shields.io/badge/Python-grey?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-grey?logo=Jupyter)](#) [![](https://img.shields.io/badge/Tensorflow-grey?logo=Tensorflow)](#) [![](https://img.shields.io/badge/GoogleCloud-grey?logo=GoogleCloud)](#) [![](https://img.shields.io/badge/GEE-grey?logo=googleearth)](#)   
 [View jupyter code partially on Github](https://github.com/chqzeng/chqzeng.github.io/blob/main/materials/AlgaeDrive.ipynb)  
 [View jupyter code partially on Github](materials/AlgaeDrive.ipynb){:target="_blank" rel="noopener"}
-<a href="#" onclick='window.open("https://github.com/chqzeng/materials/AlgaeDrive.ipynb");return false;'></a>
+<a href="test" onclick='window.open("https://github.com/chqzeng/materials/AlgaeDrive.ipynb");return false;'></a>
 
 ### 3. Coursera Course: "Machine Learning"
 
