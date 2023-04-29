@@ -57,7 +57,7 @@ This course provides a broad introduction to machine learning, data mining, and 
 
 
 
-### 1. Detect rivers from optical and SAR imagery
+### 1. Detect rivers from optical and SAR imagery(2015)  
 Rivers exhibit dynamic characteristics, manifesting as either gradual long-term channel transformations or abrupt short-term flooding events. Exploit the unique attributes of water in optical and radar/SAR images by first integrating both images for unsupervised classification, and then refining the results with a decision tree.  
  
 <img src="images/river_detection2011.png" width="500">  
@@ -85,7 +85,7 @@ The reconstructed 3D buildings and trees
 
 [<img src="images/Matlab_Logo_grey.png" width="22" />![](https://img.shields.io/badge/Matlab-grey)](#)  [![](https://img.shields.io/badge/OpenCV-grey?logo=OpenCV)](#) [![](https://img.shields.io/badge/C++-grey)](#) [![](https://img.shields.io/badge/eCognition-grey)](#) [![](https://img.shields.io/badge/3Dmodel-grey?logo=Sketchup)](#) 
 
-### 3. Esitmate image depth and 3D model from mutli-view imagery (2015)
+### 3. Esitmate image depth and 3D model from mutli-view imagery (2015)  
  
 <img src="images/An example of the stereo image matching process.png" width="400" />  
 An example of image matching using edges as constrains   
@@ -97,7 +97,7 @@ Combined intensity and edge matching improves the stero matching reliability
 [Code in IDL / Matlab](materials/Image_matching.zip)  |   [Journal Paper](https://www.tandfonline.com/doi/abs/10.5589/m13-039)  |  [Book Chapter](https://www.taylorfrancis.com/chapters/edit/10.1201/9780429470196-5/multiview-image-matching-3d-earth-surface-reconstruction-chuiqing-zeng-jinfei-wang)
 
 
-### 4. Seamless image/video systhesis (2008)
+### 4. Seamless image/video systhesis(2008)  
 Seamless synthesis is the process of generating a larger image or longer video based on small images with textures or short videos, e.g. single-image texture synthesis (2D), multi-image interactive synthesis (2D), and video synthesis (3D). The main idea is to minimize the energy function at the connection when synthesizing multiple images or frames together.  
 
 <img src="materials/single_image_syns.jpg" />  <BR> 
@@ -163,7 +163,7 @@ The roadmap of satellite imagery processing
 [View partial codes](https://github.com/chqzeng/OpenWL) | [View publications](https://www.sciencedirect.com/science/article/pii/S0380133022002660)  
 
 
-### Image fusion  
+### Image fusion(2015)  
 Q: With two datasets: one covering spatial details but only having 6 bands(colors), and another measuring sparse points spatially but having >100 bands, how can we estimate a dataset with both rich spatial details and >100 bands?  
 A: Use a Bayesian missing data imputation approach to fuse the two dataset.  
 <img src="images/Zeng_Ag_UAV_hyperdata_fusion.png"  />   
@@ -183,7 +183,7 @@ An example of the output hyperspectral dataset
 ## Geospatial Application  
  
  
-### populatoin spatialization  
+### populatoin spatialization(2008)  
 Q: Given an administrative boundary and its total population, how can we determine the spatial distribution of population within that administrative boundary (e.g. in 1km grids)? 
 A: Use [nighttime light](https://ngdc.noaa.gov/eog/download.html) and [land use](https://forobs.jrc.ec.europa.eu/products/glc2000/glc2000.php) dataset to determine the spatial distribution of population.
  
@@ -210,7 +210,7 @@ Output data: population in 1km grids
 [View partial codes](materials/Pop_spatialization.zip)  |  [View publication](http://www.tandfonline.com/doi/abs/10.1080/01431161.2011.569581)
 
 
-### Vehicle-based POI collection system 
+### Vehicle-based POI collection system(2010)  
 Develop a lightweight platform that can collect and update points of interest (POIs), with cameras and GPS receivers mounted on vehicle top, to update an existing POI database and collect street-view maps similar to Google Street View.  
 
 <img src="images/survey_system_illustration.png" width="400" />   
@@ -233,7 +233,7 @@ Image extracted from captured videos
 ## Drone/UAV Sensing 
 
 
-### UAV sensing over land
+### UAV sensing over land(2015)  
 Experiment Raspberry Pi as the control unit to connect multiple sensors on board the drones, and post-process multi-view images to generate rich 3D terrain and spectral details.
 <img src="images/illustration_drone_work.png"  />   
 The illustration of the drone/UAV hardware setup       
@@ -244,7 +244,7 @@ An example of multi-view drone sensing image matching to generate 3D surface
 [![](https://img.shields.io/badge/RaspberryPi-grey?logo=RaspberryPi)](#)  [<img src="images/Matlab_Logo_grey.png" width="22" />![](https://img.shields.io/badge/Matlab-grey)](#)  [![](https://img.shields.io/badge/DJI-grey)](#) [![](https://img.shields.io/badge/PhotoScan-grey)](#)   
 [Toolbox on Github](https://github.com/chqzeng/AWM2CSV)  
  
-### UAV sensing over water  
+### UAV sensing over water(2016) 
 Experiment and validate different water optical measurements using the flexible drone platform.  
  
 <img src="images/Drone_flight_illustration.png" width="600"/>    
